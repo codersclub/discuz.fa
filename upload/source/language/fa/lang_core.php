@@ -50,7 +50,7 @@ $lang = array
 	'seccode_image_tips'		=> 'Enter the characters from the picture below<br />',//'输入下图中的字符<br />',
 	'seccode_image_ani_tips'	=> 'Enter the following characters from the animated picture in the largest<br />',//'请输入下面动画图片中的字符<br />',
 	'seccode_sound_tips'		=> 'Enter the characters that you hear<br />',//'输入你听到的字符<br />',
-	'secqaa_tips'			=> 'Enter the answer to the following question<br />',//'输入下面问题图中的答案<br />',
+	'secqaa_tips'			=> 'Enter the answer to the following question<br />',//'输入下面问题的答案<br />',
 
 	'fullblankspace'		=> '&nbsp;',//'　',
 

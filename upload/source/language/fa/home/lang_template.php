@@ -400,7 +400,7 @@ $lang = array (
 	'recyclebin'		=> 'سطل آشغال',//'回收站',
 	'taobao'		=> 'Taobao',//'阿里旺旺',
 	'del_favorite'		=> 'حذف علاقه مندی های علامتگذاری شده',//'删除选中收藏',
-/*3.1*/	'collection_favorite'	=> 'Add to Favorites',//'添加到淘帖',	
+	'collection_favorite'	=> 'Add to Favorites',//'添加到淘帖',
 	'del_select_favorite_confirm'	=> 'از حذف مطمئنید؟',//'确定要删除选中的收藏吗？',
 	'favorite_album'	=> 'آلبوم ها',//'相册',
 	'favorite_all'		=> 'کلیه علاقه مندی ها',//'全部收藏',
@@ -1538,12 +1538,12 @@ $lang = array (
 	'video_certification_audit'		=> 'Video certification audit',//'视频认证审核',
 	'connect_fill_profile_to_view'		=> '<a href="member.php?mod=connect" target="_blank">Provide account information</a> <a href="member.php?mod=connect&ac=bind" target="_blank">Bind existing account</a>',//'<a href="member.php?mod=connect" target="_blank">完善帐号信息</a> <a href="member.php?mod=connect&ac=bind" target="_blank">绑定已有帐号</a>',
 	'connect_fill_profile_to_comment'	=> 'You need to <a href="member.php?mod=connect" class="xi2">Provide account information</a> or <a href="member.php?mod=connect&ac=bind" class="xi2">Bind existing account</a> before you can continue',//'您需要<a href="member.php?mod=connect" class="xi2">完善帐号信息</a> 或 <a href="member.php?mod=connect&ac=bind" class="xi2">绑定已有帐号</a> 后才可以留言',
-/*!*/	'save_to_album'				=> 'ذخیره در آلبوم',//'保存到相册',
-/*!*/	'usergroup_expired'			=> 'Your current user group has expired, Please choose the renew for continue or switch to other user group',//'您当前的用户组已经到期，请选择继续续费还是要切换到其他用户组',
-/*3.1*/	'freeze_pw_tips'	=> 'Your current account have been frozen because of security risks, Please change your password to remove the freeze status',//'您当前的帐号存在安全隐患已经被冻结，请修改密码解除冻结状态',
-/*3.1*/	'freeze_email_tips'	=> 'Your current account have been frozen because of mot logged in for a long time. You must verify your E-mail for remove the freeze status <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">Send the Re-verification message</a>',//'您当前的帐号已经太长时间未登录网站已经被冻结，必须验证邮箱后才能解除冻结状态 <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">重新接收验证邮件</a>',
-/*3.1*/	'freeze_reason'		=> 'Freeze reason',//'申诉理由',
-/*3.1*/	'freeze_reason_comment' => 'If you are unable to verify the E-mail, Please fill in the complaint reason',//'如果您无法通过邮箱验证，请填写申诉理由',
+	'save_to_album'				=> 'ذخیره در آلبوم',//'保存到相册',
+	'usergroup_expired'			=> 'Your current user group has expired, Please choose the renew for continue or switch to other user group',//'您当前的用户组已经到期，请选择继续续费还是要切换到其他用户组',
+	'freeze_pw_tips'	=> 'Your current account have been frozen because of security risks, Please change your password to remove the freeze status',//'您当前的帐号存在安全隐患已经被冻结，请修改密码解除冻结状态',
+	'freeze_email_tips'	=> 'Your current account have been frozen because of mot logged in for a long time. You must verify your E-mail for remove the freeze status <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">Send the Re-verification message</a>',//'您当前的帐号已经太长时间未登录网站已经被冻结，必须验证邮箱后才能解除冻结状态 <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">重新接收验证邮件</a>',
+	'freeze_reason'		=> 'Freeze reason',//'申诉理由',
+	'freeze_reason_comment' => 'If you are unable to verify the E-mail, Please fill in the complaint reason',//'如果您无法通过邮箱验证，请填写申诉理由',
 
 //---------------------------------------------------------------
 // Added by Valery Votintsev

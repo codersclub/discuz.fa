@@ -88,7 +88,7 @@ $lang = array(
 	'blockclass_forum_forum'			=> 'انجمن',//'版块模块',
 	'blockclass_forum_field_title'			=> 'اسم',//'版块名称',
 	'blockclass_forum_field_url'			=> 'لینک',//'版块介绍',
-    'blockclass_forum_field_summary'		=> 'خلاصه',//'版块介绍',
+	'blockclass_forum_field_summary'		=> 'خلاصه',//'版块介绍',
 	'blockclass_forum_field_icon'			=> 'آیکون',//'版块图标',
 	'blockclass_forum_field_posts'			=> 'ارسال ها',//'版块帖子数',
 	'blockclass_forum_field_threads'		=> 'موضوعات',//'版块话题数',
@@ -218,7 +218,6 @@ $lang = array(
 	'blockclass_member_field_graduateschool'	=> 'فارغ التحصبل از مدرسه',//'毕业学校',
 	'blockclass_member_field_education'		=> 'تحصیلات',//'学历',
 	'blockclass_member_field_occupation'		=> 'شغل',//'职业',
-
 	'blockclass_member_field_company'		=> 'شرکت',//'公司',
 	'blockclass_member_field_position'		=> 'سمت',//'职位',
 	'blockclass_member_field_revenue'		=> 'حقوق',//'年收入',

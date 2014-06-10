@@ -182,7 +182,7 @@ $lang = array
 	'week_5'	=> 'جمعه',//'星期五',
 	'week_6'	=> 'شنبه',//'星期六',
 
-/*!*/	'y_m_d'		=> 'Y-m-d',//'Y年m月d日',
+	'y_m_d'		=> 'Y-m-d',//'Y年m月d日',
 
 	'notice_actor'		=> ',و غیره. مجموع: $actorcount مردم',//'等 $actorcount 人',
 
@@ -326,13 +326,13 @@ $lang = array
 	'plugin_memo'		=> 'به روز رسانی در دسترس است: <span class="xi1">{number}</span>',//'您有 <span class="xi1">{number}</span> 款应用有可用更新',
 	'plugin_link'		=> 'بروز رسانی',//'现在更新',
 
-/*3.1*/	'seccode'		=> 'Verification code',//'验证码',
-/*3.1*/	'seccode_update'	=> 'Renew',//'换一个',
-/*3.1*/	'seccode_player'	=> '<span style="padding:2px"><img border="0" style="vertical-align:middle" src="static/image/common/seccodeplayer.gif" /> <a href="javascript:;" onclick="window.document.seccodeplayer_{idhash}.SetVariable(\'isPlay\', 1)">Play the verification code</a></span>',//'<span style="padding:2px"><img border="0" style="vertical-align:middle" src="static/image/common/seccodeplayer.gif" /> <a href="javascript:;" onclick="window.document.seccodeplayer_{idhash}.SetVariable(\'isPlay\', 1)">播放验证码</a></span>',
-/*3.1*/	'secqaa'		=> 'Secure Answer',//'验证问答',
+	'seccode'		=> 'Verification code',//'验证码',
+	'seccode_update'	=> 'Renew',//'换一个',
+	'seccode_player'	=> '<span style="padding:2px"><img border="0" style="vertical-align:middle" src="static/image/common/seccodeplayer.gif" /> <a href="javascript:;" onclick="window.document.seccodeplayer_{idhash}.SetVariable(\'isPlay\', 1)">Play the verification code</a></span>',//'<span style="padding:2px"><img border="0" style="vertical-align:middle" src="static/image/common/seccodeplayer.gif" /> <a href="javascript:;" onclick="window.document.seccodeplayer_{idhash}.SetVariable(\'isPlay\', 1)">播放验证码</a></span>',
+	'secqaa'		=> 'Secure Answer',//'验证问答',
 
-/*3.1*/	'mobileoem_creditrule'	=> 'Mobile Forum Registration',//'掌上论坛签到',
-	
+	'mobileoem_creditrule'	=> 'Mobile Forum Registration',//'掌上论坛签到',
+
 // Added by Valery Votintsev, codersclub.org
 	'poll_reply_no_perms'	=> 'شما نمیتوانید در نظر سنجی پاسخ دهید',//'您不能对自己的回帖进行投票',
 	'poll_replyed_already'	=> 'شما به این نظر سنجی پاسخ داده اید',//'您已经对此回帖投过票了',

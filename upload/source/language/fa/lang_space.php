@@ -133,7 +133,7 @@ $lang = array(
 	'album_li'		=> '<li style="width:70px"><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname}, Updated {date}><img src="{src}" alt="{albumname}" width="70" height="70" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname]}">{albumname}</a></p><span>Photos:({picnum})</span> <span>Updated {date}</span></li>',//'<li><div class="c"><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank"><img src="{src}" alt="{albumname}" width="120" /></a></div><p><a href="home.php?mod=space&uid={uid}&do=album&id={albumid}" target="_blank" title="{albumname]}">{albumname}</a></p><span>图片数:({picnum})</span><span>更新 {date}</span></li>',
 	'doing_li'		=> '<li>{message}</li><br />{date} {from} Replies ({replynum})',//'<li>{message}</li><br />{date} {from} 回复({replynum})',
 	'visitor_anonymity'	=> '<div class="avatar48"><img src="image/magic/hidden.gif" alt="Anonymous"></div><p>Anonymous</p>',//'<div class="avatar48"><img src="image/magic/hidden.gif" alt="匿名"></div><p>匿名</p>',
-/*!*/	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="Remove the visit"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',//'<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="删除访问足迹"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
+	'visitor_list'		=> '<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="Remove the visit"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',//'<a href="home.php?mod=space&uid={uid}" target="_blank" class="avt"><em class="{class}"></em><em class="{self}" onclick="javascript:removeVisitor(event, {cuid});" title="删除访问足迹"></em>{avatar}</a><p><a href="home.php?mod=space&uid={uid}" title="{username}">{username}</a></p>',
 	'wall_form'		=> '<div class="space_wall_post">
 					<form action="home.php?mod=spacecp&ac=comment" id="quickcommentform_{uid}" name="quickcommentform_{uid}" method="post" autocomplete="off" onsubmit="ajaxpost(\'quickcommentform_{uid}\', \'return_commentwall_{uid}\');doane(event);">
 					'.($_G['uid'] ? '<span id="message_face" onclick="showFace(this.id, \'comment_message\');return false;" class="cur1"><img src="static/image/common/facelist.gif" alt="facelist" class="mbn vm" /></span>
@@ -253,7 +253,7 @@ $lang = array(
 	'viewthread_userinfo_sharings'	=> 'اشتراک گذاری ها',//'分享',
 	'viewthread_userinfo_friends'	=> 'دوستان',//'好友',
 	'viewthread_userinfo_digest'	=> 'بحث',//'精华',
-/*!*/	'viewthread_userinfo_digestposts'	=> 'یحث',//'精华',
+	'viewthread_userinfo_digestposts'	=> 'یحث',//'精华',
 	'viewthread_userinfo_credits'	=> 'امتیازات',//'积分',
 	'viewthread_userinfo_readperm'	=> 'دسترسی خواندن',//'阅读权限',
 	'viewthread_userinfo_regtime'	=> 'زمان عضویت',//'注册时间',
@@ -261,10 +261,10 @@ $lang = array(
 	'viewthread_userinfo_oltime'	=> 'Online time',//'在线时间',
 	'viewthread_userinfo_sellercredit'	=> 'Seller rating',//'卖家信用',
 	'viewthread_userinfo_buyercredit'	=> 'Buyer rating',//'买家信用',
-/*!*/	'viewthread_userinfo_follower'		=> 'Followers',//'听众',
-/*!*/	'viewthread_userinfo_following'		=> 'Listenings',//'收听',
-/*!*/	'viewthread_userinfo_feeds'		=> 'Feeds',//'广播',
-/*!*/	'viewthread_userinfo_privacy'		=> 'Privacy',//'保密',
+	'viewthread_userinfo_follower'		=> 'Followers',//'听众',
+	'viewthread_userinfo_following'		=> 'Listenings',//'收听',
+	'viewthread_userinfo_feeds'		=> 'Feeds',//'广播',
+	'viewthread_userinfo_privacy'		=> 'Privacy',//'保密',
 	'follow_view_follow'			=> 'I follow',//'我关注的',
 	'follow_view_special'			=> 'Special attention',//'特别关注',
 	'follow_view_other'			=> 'Following Hall',//'广播大厅',

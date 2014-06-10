@@ -66,7 +66,7 @@ $lang = array (
 	'article_validate_category'	=> 'لطفا دسته بندی وبلاگ را انتخاب کنید.',//'请选择系统分类',
 	'article_validate_has_added'	=> 'مقاله اضافه شده است.',//'该文章已经添加过了',
 	'article_validate_noexist'	=> 'مقاله مورد نظر یافت نشد.',//'没有找到指定的文章',
-/*!*/	'article_html_existed'		=> 'Static HTML file name exists',//'HTML静态文件名重名',
+	'article_html_existed'		=> 'Static HTML file name exists',//'HTML静态文件名重名',
 	'article_validate_title'	=> 'طول عنوان موضوع باید بین 1 تا 80 کاراکتر باشد.',//'标题长度(1~80字符)不符合要求',
 	'grab'				=> 'Grab',//'获取',
 	'ignore'			=> 'نادیده گرفتن',//'忽略',
@@ -311,10 +311,10 @@ $lang = array (
 	'view_publisher'		=> 'مشاهده نویسنده',//'发布者',
 	'view_related'			=> 'Related readings',//'相关阅读',
 	'view_views'			=> 'نمایش ها',//'查看',
-/*!*/	'pre_article'			=> 'قبلی:',//'上一篇：',
-/*!*/	'next_article'			=> 'بعدی:',//'下一篇：',
-/*!*/	'display_order'			=> 'Display order',//'显示位置',
-/*!*/	'filename'			=> 'نام فایل',//'文件名',
+	'pre_article'			=> 'قبلی:',//'上一篇：',
+	'next_article'			=> 'بعدی:',//'下一篇：',
+	'display_order'			=> 'Display order',//'显示位置',
+	'filename'			=> 'نام فایل',//'文件名',
 
 // Added by Valery Votintsev
 	'select_all'	=> 'انتخاب همه',//'全选',

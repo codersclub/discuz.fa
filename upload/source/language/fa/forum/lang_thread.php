@@ -13,13 +13,13 @@ if(!defined('IN_DISCUZ')) {
 }
 
 $lang = array (
-	  'forum_archive' => 'آرشیو',//'存档',
-/*!*/	  'source' => 'متن',//'来源',
+	'forum_archive' => 'آرشیو',//'存档',
+	'source' => 'متن',//'来源',
 
-/*!*/	  't_question' => '?',
-/*!*/	  't_comma' => ',',
-/*!*/	  't_exclamatory' => '!',
-/*!*/	  't_period' => '.',
-/*!*/	  't_suspension' => '...',
+	't_question' => '?',
+	't_comma' => ',',
+	't_exclamatory' => '!',
+	't_period' => '.',
+	't_suspension' => '...',
 
 );

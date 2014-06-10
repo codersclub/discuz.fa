@@ -32,7 +32,7 @@ $lang = array
 	'header_bbs'		=> 'مشاهده سایت',//'站点首页',
 	'header_portal'		=> 'سردر',//'门户',
 	'header_group'		=> 'گروه ها',//'群组',
-/*3.1*/	'header_safe'		=> 'ضد اسپم',//'防灌水',
+	'header_safe'		=> 'ضد اسپم',//'防灌水',
 	'header_founder'	=> 'مدیران',//'站长',
 	'header_cloudaddons'	=> 'Application Center',//'应用中心',
 
@@ -64,14 +64,14 @@ $lang = array
 	'menu_setting_ranklist'		=> 'لیست رتبه',//'排行榜设置',
 	'menu_setting_mobile'		=> 'موبایل',//'手机访问设置',
 	'menu_setting_tag'		=> 'برچسب ها',//'标签管理',
-/*!*/	'menu_setting_antitheft'	=> 'Anti-capture settings',//'防采集设置',
+	'menu_setting_antitheft'	=> 'Anti-capture settings',//'防采集设置',
 
 	'menu_forums'			=> 'انجمن ها',//'版块管理',
 	'menu_forums_merge'		=> 'ادغام انجمن ها',//'版块合并',
 	'menu_forums_threadtypes'	=> 'نوع تاپیک ها',//'主题分类',
 	'menu_forums_infotypes'		=> 'نوع انجمن ها',//'分类信息',//vot: !!! May be 'Sort IDs',//'Category(ies)',/
 	'menu_forums_infooption'	=> 'نوع تنظیمات',//'分类信息选项',
-/*!*/	'menu_grid'			=> 'Home 4-frame',//'首页四格',
+	'menu_grid'			=> 'Home 4-frame',//'首页四格',
 
 	'menu_members_add'		=> 'ساختن کاربر',//'添加用户',
 	'menu_members_edit'		=> 'ویرایش کاربر',//'用户管理',
@@ -115,7 +115,7 @@ $lang = array
 	'menu_postcomment'		=> 'مدیریت نظرات پست ها',//'帖子点评管理',
 	'menu_maint_doing'		=> 'مدیریت فعالیت ها',//'记录管理',
 	'menu_maint_blog'		=> 'مدیریت وبلاگ ها',//'日志管理',
-/*!*/	'menu_maint_blog_recycle_bin'	=> 'سطل آشغال وبلاگ ها',//'日志回收站',
+	'menu_maint_blog_recycle_bin'	=> 'سطل آشغال وبلاگ ها',//'日志回收站',
 	'menu_maint_feed'		=> 'مدیریت فیدها',//'动态管理',
 	'menu_maint_album'		=> 'مدیریت آلبوم ها',//'相册管理',
 	'menu_maint_pic'		=> 'مدیریت تصاویر',//'图片管理',
@@ -134,8 +134,8 @@ $lang = array
 
 	'menu_patch'			=> 'بخش امنیت',//'安全中心',
 	'menu_upgrade'			=> 'آپگرید آنلاین',//'在线升级',
-/*!*/	'menu_optimizer'		=> 'بهینه سازی',//'优化大师',
-/*3.1*/	'menu_security'			=> 'Security master',//'安全大师',
+	'menu_optimizer'		=> 'بهینه سازی',//'优化大师',
+	'menu_security'			=> 'Security master',//'安全大师',
 
 	'menu_addons'			=> 'Application Center',//'应用中心',
 	'menu_plugins'			=> 'پلاگینها',//'插件',
@@ -189,7 +189,7 @@ $lang = array
 	'menu_portalpermission'		=> 'دسترسی های سردر',//'权限列表',
 	'menu_blockxml'			=> 'Third-party blocks',//'第三方模块',
 	'menu_topic'			=> 'مدیریت موضوعات',//'专题管理',
-/*!*/	'menu_html'			=> 'مدیریت HTML',//'HTML管理',
+	'menu_html'			=> 'مدیریت HTML',//'HTML管理',
 	'menu_diytemplate'		=> 'مدیریت DIY',//'DIY页面管理',
 
 	'menu_group_setting'		=> 'تنظیمات گروه',//'群组设置',
@@ -199,15 +199,15 @@ $lang = array
 	'menu_group_level'		=> 'سطج گروه ها',//'群组等级',
 	'menu_group_mod'		=> 'مدیریت گروه',//'审核群组',
 
-/*3.1*/	'menu_safe_setting'		=> 'تنظیمات اصلی',//'基本设置',
-/*3.1*/	'menu_safe_security'		=> 'Waterproof wall',//'防水墙',
-/*3.1*/	'menu_safe_seccheck'		=> 'Authentication Settings',//'验证设置',
-/*3.1*/	'menu_safe_accountguard'	=> 'Account bodyguard',//'帐号保镖',	
-	
+	'menu_safe_setting'		=> 'تنظیمات اصلی',//'基本设置',
+	'menu_safe_security'		=> 'Waterproof wall',//'防水墙',
+	'menu_safe_seccheck'		=> 'Authentication Settings',//'验证设置',
+	'menu_safe_accountguard'	=> 'Account bodyguard',//'帐号保镖',
+
 	'menu_setting_manyou'		=> 'Manyou settings',//'Manyou 设置',
 	'menu_setting_qqconnect'	=> 'QQ binding settings',//'QQ 绑定设置',
 
-/*3.1*/	'menu_cloud_doctor'		=> 'Diagnostic Tools',//'诊断工具',	
+	'menu_cloud_doctor'		=> 'Diagnostic Tools',//'诊断工具',
 
 	'admincp_title'			=> $_G['setting']['bbname'].' پنل مدیریت ',//$_G['setting']['bbname'].' 管理中心',
 

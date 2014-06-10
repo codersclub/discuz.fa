@@ -1308,10 +1308,10 @@ $lang = array (
 	'hide_preview'			=> 'Hide Preview',//'隐藏预览',
 	'collapse_preview'		=> 'Collapse Preview',//'收起预览',
 	'hot_thread'			=> 'موضوعات داغ',//'热帖',
-/*3.1*/  'hidden'			=> 'مخفی',//'隐藏',
-/*3.1*/  'hiderecover_tips'		=> 'Click to recover the thread hidden status',//'点击恢复主题隐藏状态',
-/*3.1*/  'hiderecover'			=> 'Restore hidden',//'恢复隐藏',
-/*3.1*/  'content_actions'		=> 'More Actions',//'更多操作',	
+	'hidden'			=> 'مخفی',//'隐藏',
+	'hiderecover_tips'		=> 'Click to recover the thread hidden status',//'点击恢复主题隐藏状态',
+	'hiderecover'			=> 'Restore hidden',//'恢复隐藏',
+	'content_actions'		=> 'More Actions',//'更多操作',
 
 // Added by Valery Votintsev
 	'view_thread_textmode'		=> 'حالت متنی',//'文字模式',

@@ -242,7 +242,7 @@ $lang = array(
 	'init_link'		=> 'Discuz! Official forum',//'Discuz! 官方论坛',
 	'init_link_note'	=> 'To provide the latest Discuz! Product news, software downloads and technical exchanges',//'提供最新 Discuz! 产品新闻、软件下载与技术交流',
 
-	'init_promotion_task'	=> 'Website promotion task',//'网站推广站推任务',
+	'init_promotion_task'	=> 'Website promotion task',//'网站推广任务',
 	'init_gift_task'	=> 'Init Gift Task',//'红包类任务',
 	'init_avatar_task'	=> 'Avatar Task',//'头像类任务',
 
@@ -363,7 +363,7 @@ $lang = array(
 //vot	'install_region_data'		=> 'Install regional data',//'Install regional data',
 	'php_version_too_low'		=> 'ورژن PHP شما پایین است',
 	'php_version_too_low_comment'	=> 'For normal functioning Discuz! requires for more new version of PHP',
-	'mbstring'		=> 'MBstring Library',//'MBstring 库',
+	'mbstring'			=> 'MBstring Library',//'MBstring 库',
 	'ext_info'			=> 'Additionally you can install many interesting and usefull plugins and templates from the Cloud Application Center:',//'另外，你可以从云计算应用中心的许多有趣的和有用的插件和模板安装：',//'另外，你可以從雲計算應用中心的許多有趣的和有用的插件和模板安裝：',
 //---------------------------------------------------------------
 

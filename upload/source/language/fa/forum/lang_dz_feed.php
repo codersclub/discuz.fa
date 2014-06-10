@@ -36,7 +36,7 @@ $lang = array
 
 	'feed_post_rate_title'		=> '{actor} post in <em>{thread}</em> was rated more than {count}',//'{actor} 在 {thread} 的回复评分超过了{count}',
 
-	'feed_post_magic_title'		=> '{actor} reply in <em>{thread}</em> was used {magiccard} by {operater}',//'{actor} 在 {thread} 的回复被主 {operater} 使用了 {magiccard}',
+	'feed_post_magic_title'		=> '{actor} reply in <em>{thread}</em> was used {magiccard} by {operater}',//'{actor} 在 {thread} 的回复被 {operater} 使用了 {magiccard}',
 
 	'feed_user_profile_title'	=> '{actor} پروفایل شخصی به روزرسانی شد',//'{actor} 更新了自己的个人资料',
 
