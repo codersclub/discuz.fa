@@ -1712,7 +1712,7 @@ $lang = array (
       62 => 'Whether to allow edit products',//'设置是否允许编辑管理范围内商品主题的商品',
       63 => 'admingroup_edit_usertag',
       64 => 'Allow users to add tags',//'允许添加用户标签',
-      65 => 'Set whether to allow users to edit/manageme thread tags',//'设置是否允许编辑管理范围内主题的用户标签',
+      65 => 'Set whether to allow users to edit/manage thread tags',//'设置是否允许编辑管理范围内主题的用户标签',
     ),
   ),
   149 =>
