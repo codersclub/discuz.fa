@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_update.php by Valery Votintsev at sources.ru
+ *      $Id: lang_update.php by Valery Votintsev at codersclub.org
  */
 
 $lang = array(
@@ -171,5 +171,28 @@ $lang = array(
 	'qq_onlne_status'	=> 'Set QQ online status',//'设置QQ在线状态',
 	'open_soso'		=> '<br><br>Tips:<br>In order to reduce the forum loading, this upgrade will help you to use our website Geo-location search service.<br>You can go to',//'<br><br>友情提示：<br>为更好的降低论坛搜索时的数据压力，本次升级已经帮本站开通纵横搜索服务。<br>你可以在',
 	'open_soso_link'	=> 'AdminCP -&gt; Cloud platform -&gt; Geo-location search Management',//'站点后台-&gt;云平台-&gt;纵横搜索 进行管理',
+	'parameter_invalid'	=> 'Invalid parameter',//'请求的参数不正确',
+	'update_sql'		=> '<br><br><b>The following is a database upgrade statement being executed:</b><br>',//'<br><br><b>以下是正在执行的数据库升级语句:</b><br>',
+	'builtin'			=> 'Built-in',//'内置',
+	'birthdist'			=> 'Birth District',//'出生县',
+	'birthdist_info			=> 'Birth District/County',//'出生行政区/县',
+	'birthcommunity'		=> 'Birth Community',//'出生小区',
+	'birthcommunity_info'		=> '',//'',
+	'birthcity'			=> 'Birth City',//'出生地',
+	'residecity'			=> 'Reside City',//'居住地',
+	'birthday'			=> 'Birthday',//'出生日期',
+	'idcardtype'			=> 'Document type',//'证件类型',
+	'alipay'			=> 'AliPay',//'支付宝',
+	'taobao'			=> 'TaoBao',//'阿里旺旺',
+	'basic_info'			=> 'Basic info',//'基本资料',
+	'education_info'		=> 'Education info',//'教育情况',
+	'work_info'			=> 'Work info',//'工作情况',
+	'personal_info'			=> 'Personal Info',//'个人信息',
+	'reglinkname'			=> 'Registration',//'注册',
+//SPOILER TAG by jaideejung007
+//	'spoiler'		=> 'Spoiler',//'สปอยล์',
+//	'spoiler_hide'		=> '[Spoil] click to hide the text',//'[Spoil] คลิกเพื่อซ่อนข้อความ',
+//	'spoiler_show'		=> '[Spoil] Click to see hidden text',//'[Spoil] คลิกเพื่อดูข้อความที่ซ่อนไว้',
+//	'spoiler_placeholder'	=> 'Enter the text you want to hide in spoiler',//'กรอกข้อความที่คุณต้องการสปอยล์',
 
 );
