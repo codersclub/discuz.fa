@@ -1,13 +1,13 @@
-Persian Language Pack
-for Discuz! ML (c) 2008-2099 Codersclub.org
+Discuz! ML (c) 2008-2099 Codersclub.org
 
 MultiLingual version by Valery Votintsev, codersclub.org
 
-Persian language by discuz.ir
+Persian/Farsi Language Pack by discuz.ir
 
-Code		= 'en';
+Code		= 'fa';
 English title	= 'Persian';
-UTF8 title	= 'Persian';
+UTF8 title	= 'Farsi';
 18x12 Icon	= 'fa.gif';
 Direction	= 'rtl';
 Encoding	= 'UTF-8';
+ISO Code	= 'fa-IR';
