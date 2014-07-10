@@ -497,5 +497,9 @@ $lang = array (
 	'e_map_insert'	=> 'وارد کردن نقشه گوگل',//'插入google地图',
 	'e_map_address'	=> 'برای جستجو آدرس را وارد کنید: ',//'地址： ',
 
+	'processed_in'			=> 'Processed in',
+	'seconds'			=> 'sec.',//'second(s)',
+	'queries'			=> 'queries',
+
 );
 
