@@ -1326,5 +1326,6 @@ $lang = array (
 	'disable_smilies'		=> 'غیر فعال سازی شکلک',//'禁用 表情',
 	'disable_discuzcode'		=> 'غیر فعال سازی BB-Code',//'禁用 编辑器代码',
 	'modmenu'			=> 'منوی موضوع :',//'审核中',
+	'upload_time'			=> 'Upload Time',//'上传日期',
 );
 
