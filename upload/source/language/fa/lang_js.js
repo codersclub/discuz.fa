@@ -400,6 +400,10 @@ var lng = {
 	'pocket_forum_ios'	: 'اگر آی فون استفاده می شود، اسکن thw QR کد را می توان به طور مستقیم به گوشی دانلود کند',//'iPhone版本，扫描二维码可以直接下载到手机',
 	'pocket_forum_ios_alt'	: 'مناسب برای تلفن همراه اپل',//'适用于苹果手机',
 	'quick_reply_here'	: '#پاسخ سریع در اینجا#', //'#在这里快速回复#',
+	'set_cover'		: 'Set as cover',//'设为封面',
+	'source'		: 'Source',//'出处',
+	'view_all'		: 'View All',//'查看所有',
+	'index'			: 'Thread Index',//'目录',
 	
 //--------------------------------
 //static/js/handlers.js
