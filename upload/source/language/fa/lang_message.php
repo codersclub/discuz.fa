@@ -216,7 +216,7 @@ $lang = array (
 	'article_category_empty'	=> 'دسته بندی مقاله نمیتواند خالی باشد.',//'栏目不能为空',
 	'article_edit_nopermission'	=> 'شما اجازه مدیریت این مقاله را ندارید.',//'你没有权限进行当前文章操作',
 	'post_message_toolong'		=> 'متاسفانه پست شما بیش  {maxpostsize} بایت است.',//'对不起，您的帖子超过 {maxpostsize} 个字符的限制，请返回修改。',
-	'no_privilege_newbiespan'	=> 'You are in the aprobation period, and need to wait {newbiespan} hours before perform this operation',//'您目前处于见习期间，需要等待 {newbiespan}小时后才能进行本操作',
+	'no_privilege_newbiespan'	=> 'You are in the aprobation period, and need to wait {newbiespan} minutes before perform this operation',//'抱歉，您目前处于见习期间，需要等待 {newbiespan} 分钟后才能进行本操作',
 	'no_privilege_avatar'		=> 'شما باید قبل از انجام این عملیات آواتار خود را انتخاب کنید,<br /><a href="home.php?mod=spacecp&ac=avatar">برای انتخاب و ایجاد آواتار اینجا کلیک کنید</a>',//'抱歉，您需要设置自己的头像后才能进行本操作，<a href="home.php?mod=spacecp&ac=avatar">点击这里设置</a>',
 	'no_privilege_email'		=> 'شما قبل از انجام این عملیات باید ایمیل خود را تایید کنید<br /><a href="home.php?mod=spacecp&ac=profile&op=password">برای تایید ایمیل اینجا کلیک کنید</a>',//'您需要验证激活自己的邮箱后才能进行本操作，<a href="home.php?mod=spacecp&ac=profile&op=password">点这里激活邮箱</a>',
 	'no_privilege_friendnum'	=> 'You have to add (friendnum) friends before perform this operation,<br /><a href="home.php?mod=spacecp&ac=friend&op=find">Click here to add friends</a>',//'您需要添加 {friendnum}个好友之后，才能进行本操作，<a href="home.php?mod=spacecp&ac=friend&op=find">点这里添加好友</a>',
