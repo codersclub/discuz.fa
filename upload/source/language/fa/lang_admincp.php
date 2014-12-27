@@ -17,6 +17,7 @@ $lang = array
 (
 
 	'subscribe_comsenz_email'	=> 'Fill in your e-mail address for subscribe to Discuz! official product development security alerts and official news.',//'填写您的邮件地址，订阅 Discuz! 官方产品动态、安全提醒、官方新闻',
+	'scan_discuz_qrcode'	=> '<img src="source/plugin/wechat/image/discuz_qr.jpg" align="left" width="80" /><br />Scan the Discuz! Official micro-channel<br /><br />Get Official News',//'<img src="source/plugin/wechat/image/discuz_qr.jpg" align="left" width="80" /><br />扫描关注Discuz!官方微信<br /><br />获取官方最新动态',
 	'reglinkname_default'	=> 'عضویت',//'注册',
 	'yes'			=> 'بله',//'是',
 	'no'			=> 'خیر',//'否',

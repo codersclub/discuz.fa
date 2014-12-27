@@ -44,7 +44,7 @@ you need to read the following content.</p>
 </p>
 برای بازیابی پسورد بر روی لینک زیر کلیک کنید توجه داشته باشید که لینک زیر تنها سه روز کار میکند<br />
 
-<a href="{siteurl}member.php?mod=getpasswd&amp;uid={uid}&amp;id={idstring}" target="_blank">{siteurl}member.php?mod=getpasswd&amp;uid={uid}&amp;id={idstring}</a>
+<a href="{siteurl}member.php?mod=getpasswd&amp;uid={uid}&amp;id={idstring}&amp;sign={sign}" target="_blank">{siteurl}member.php?mod=getpasswd&amp;uid={uid}&amp;id={idstring}&amp;sign={sign}</a>
 <br />
 (اگر لینک بالا کار نکرد لطفا لینک را به صورت دستی در آدرس بار مرورگر وارد کنید.)</p>
 
