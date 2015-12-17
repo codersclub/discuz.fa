@@ -114,7 +114,7 @@ var lng = {
 	'int_qq_test'		: 'تست رابط QQ  اینترنت',//'QQ互联接口测试',
 	'server_busy'		: 'این سرویس مشغول است.لطفا بعد تلاش کنید',//'服务器繁忙，请稍后再试',
 	'tested_ok'		: 'تست با موفقیت ، زمان استفاده: ',//'测试成功，耗时 ',
-	'seconds'		: ' ثانیه.',//' 秒',
+//	'seconds'		: ' ثانیه.',//' 秒',
 
 //---------------------------
 //static/image/admincp/cloud/qqgroup.js
@@ -321,6 +321,12 @@ var lng = {
 	'del_thread_sure'	: 'آیا شما مطمئن هستید به حذف این موضوع از موضوعات تازه ؟',//'您确认要把此主题从热点主题中移除么？',
 	'there_are'		: 'وجود دارد',//'有',
 	'new_reply_exists'	: 'پاسخ به موضوع های جدیدی وجود دارد . برای مشاهده کلیک کنید',//'有新回复的主题，点击查看',
+	'finished'		: 'Finished',//'已结束',
+	'days_num'		: ' days',//'天',
+	'hours_num'		: ' hours',//'小时',
+	'minutes_num'		: ' minutes',//'分',
+	'seconds'		: ' ثانیه.',//' 秒',
+
 //--------------------------------
 //static/js/forum_google.js
 
@@ -344,6 +350,7 @@ var lng = {
 	'can_not_save_attach'	: 'نمیتواند پیوست را ذخیره کند',//'附件文件无法保存',
 	'invalid_file'		: ' فایل با خطا آپلود شد',//'没有合法的文件被上传',
 	'illegal_operation'	: 'عملیات همراه با خطا',//'非法操作',
+	'today_upload_large'	: 'Today you can not upload so much attachments',//'今日您已无法上传那么大的附件',
 	'enter_content'		: 'عنوان یا محتوا وارد کنید',//'请完成标题或内容栏',
 	'select_category'	: 'انتخاب بخش مربوطه برای موضوع',//'请选择主题对应的分类',
 	'select_category_info'	: 'انتخاب بخش مربوطه برای اطلاعات موضوع',//'请选择主题对应的分类信息',
@@ -366,6 +373,11 @@ var lng = {
 	'images'		: 'تصاویر',//'图片',
 	'attachments'		: 'پیوست ها',//'附件',
 //	'upload_failed'		: 'آپلود ناموفق',//'上传失败',
+	'remote_attach_loaded'	: 'Remote attachment download is completed!',//'远程附件下载完成!'
+	'select_all'		: 'Select All',//'全选',
+	'unused'		: 'Unused',//'未使用的',
+	'award_more_total'	: 'Reply Reward Points total is too large',//'回帖奖励积分总额过大',
+	'return'		: 'Return',//'返还',
 
 	'attach_big'		: 'اندازه فایل پیوست بیش از حد مجاز',//'服务器限制择图无法上传择图那么大的附件',
 	'attach_group_big'	: 'مجموع سایز پیوست گروه کاربری شما بیش از حد مجاز است',//'用户组限制无法上传那么大传更的附件',
@@ -404,7 +416,7 @@ var lng = {
 	'source'		: 'Source',//'出处',
 	'view_all'		: 'View All',//'查看所有',
 	'index'			: 'Thread Index',//'目录',
-	
+
 //--------------------------------
 //static/js/handlers.js
 	'file_selected_exceed'	: 'شما فایل های زیادی را انتخاب کردید.',//'您选择的文件个数超过限制。',
@@ -637,6 +649,7 @@ var lng = {
 	'username_invalid'	: 'نام کاربری حاوی نویسه های نامعتبر است',//'用户名包含敏感字符',
 	'username_short'	: 'نام کاربری کوتاه تر از 2 حرف است',//'用户名小于 3 个字符',
 	'username_long'		: 'نام کاربری بیشتر از 15 حرف است',//'用户名超过 15 个字符',
+	'username_long_64'	: 'User name is longer than 64 bytes',//'用户名超过 64 个字符',
 	'passwords_not_equal'	: 'دو کلمه عبور با یکدیگر مطابقت ندارد',//'两次输入的密码不一致',
 	'email_invalid'		: 'ایمیل حاوی نویسه های نامعتبر است',//'Email 包含敏感字符',
 	'invite_code_invalid'	: 'کد دعوت نامه حاوی نویسه های نامعتبر است',//'邀请码包含敏感字符',
