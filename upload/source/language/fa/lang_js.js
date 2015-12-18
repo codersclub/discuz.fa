@@ -373,7 +373,7 @@ var lng = {
 	'images'		: 'تصاویر',//'图片',
 	'attachments'		: 'پیوست ها',//'附件',
 //	'upload_failed'		: 'آپلود ناموفق',//'上传失败',
-	'remote_attach_loaded'	: 'Remote attachment download is completed!',//'远程附件下载完成!'
+	'remote_attach_loaded'	: 'Remote attachment download is completed!',//'远程附件下载完成!',
 	'select_all'		: 'Select All',//'全选',
 	'unused'		: 'Unused',//'未使用的',
 	'award_more_total'	: 'Reply Reward Points total is too large',//'回帖奖励积分总额过大',
@@ -707,6 +707,7 @@ var lng = {
 
 	'file_not_supported'	: 'با عرض پوزش، این نوع فایل پشتیبانی نشده است',//'对不起，不支持上传此类文件',
 	'wait_upload'		: 'صبر برای آپلود ...',//'等待上传...',
+	'upload_selectfile'	: 'مرور کردن',//'浏览',
 
 //-------------------------------------
 //source/function/function_admincp.php
