@@ -810,8 +810,6 @@ $lang = array
 	'setting_access_register_connect'			=> 'فعال سازی اکانت QQ',//'开放QQ注册',
 	'setting_access_register_send_register_url'		=> 'ارسال لینک ثبت نام توسط ایمیل',//'通过邮件发送注册链接',
 	'setting_access_register_send_register_url_comment'	=> 'If turned on, the system will send a registration address to the user mailbox. When a user come to this address, the registration is confirmed. It is also recommended to enable registration in UCenter only by a mailbox.<br/>Note: Only the <a href="?action=setting&operation=mail">Webmaster - Mail settings</a> Complete the mail settings, Ensure that mail can be sent successfully this feature can be turned on ',//'开启后系统会发一条注册的地址到用户的邮箱，从该地址链接过来的允许注册，同时建议UCenter中开启一个邮箱只允许注册一个帐户<br/>注意：只有在<a href="?action=setting&operation=mail">站长 - 邮件设置</a>中完成邮件设置，确保邮件能发送成功下可以开启该功能 ',
-/*3.1*/	'setting_access_register_forge_email'		=> 'Cancel require for registered mail',//'取消注册邮箱必填',
-/*3.1*/	'setting_access_register_forge_email_comment'	=> 'When turn on, if users does not fill out the registration mailbox, a random e-mail address will generated automatically.',//'开启后如果用户不填写注册邮箱，将自动生成一个随机邮箱地址',
 
 
 	'setting_access_register_invite_buy'			=> 'Enable to buy an invitation code',//'允许充值购买邀请码',
