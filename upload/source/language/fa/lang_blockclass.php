@@ -459,6 +459,8 @@ $lang = array(
 	'blockclass_other_stat_shares_title'	=> 'عنوان اشتراک گذاری ها',//'分享显示名',
 
 	'blockclass_field_id'			=> 'ID فیلد',//'数据ID',
+
+// Added by Valery Votintsev
+	'blockclass_member_field_realname'	=> 'اسم واقعی',//'Real Name',//'姓名',
+
 );
-
-
