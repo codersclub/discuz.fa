@@ -7113,9 +7113,10 @@ RepeatLimit 32
 	'setting_language_title'		=> 'عنوان(انگلیسی)',
 	'setting_language_dir'			=> 'Direction',
 	'setting_language_actions'		=> 'Actions',
-//	'setting_language_...'			=> 'Language Settings ....',
-//	...
+
 	'nav_language'				=> 'زبان ها',
+
+	'delete_install_index'			=> 'Please delete install/index.php via FTP!',
 );
 
 //------------------------------------------------------
