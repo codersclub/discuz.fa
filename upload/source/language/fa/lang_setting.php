@@ -56,6 +56,7 @@ $lang = array (
 	'nav_sethomepage'	=> '<img src="static/image/common/home.gif" title="قرار دادن به عنوان صفحه خانگی">',//'设为首页',
 	'nav_setfavorite'	=> '<img src="static/image/common/fav.gif" title="افزودن به علاقه مندی ها">',//'收藏本收藏站',
 	'nav_uchome'		=> 'UCHome',//'',
+	'nav_darkroom'		=> 'دیوار ننگ',//'小黑屋',
 
 	'idcardtype_choice'	=> 'ID\nPassport\nDriving license',//'身份证\n护照\n驾驶证',
 	'education_choice'	=> 'Doctor\nMaster\nBachelor\nSpecialist\nSchool\nPrimary School\nOther',//'博士\n硕士\n本科\n专科\n中学\n小学\n其它',
