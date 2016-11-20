@@ -83,7 +83,7 @@ $lang = array (
 	'portal_manage'			=> 'مدیریت پرتال',//'门户管理',
 	'remind'			=> 'یادآوری',//'提醒',
 	'setup'				=> 'تنظیمات',//'设置',
-	'freeze'			=> 'Frozen',//'已冻结',	
+	'freeze'			=> 'Frozen',//'已冻结',
 	'switch_narrow'			=> 'نمای باریک',//'切换到窄版',
 	'switch_wide'			=> 'نمای وسیع',//'切换到宽版',
 	'switch_blind'			=> 'فعال کردن دسترسی کمکی',//'开启辅助访问',
@@ -491,6 +491,8 @@ $lang = array (
 	'register'	=> 'عضویت',//'注册',
 
 	'or'		=> 'یا',//'或者',
+
+	'upload_selectfile'		=> 'Browse',//'浏览',
 
 // Google Maps
 	'e_map'		=> 'نقشه',//'地图',
