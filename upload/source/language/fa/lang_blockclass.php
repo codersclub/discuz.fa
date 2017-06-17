@@ -66,6 +66,7 @@ $lang = array(
 	'blockclass_thread_field_sorturl'		=> 'لینک دسته بندی',//'分类信息URL',
 	'blockclass_thread_field_posts'			=> 'ارسال ها',//'总发帖数',
 	'blockclass_thread_field_todayposts'		=> 'ارسال های امروز',//'今日发帖数',
+	'blockclass_thread_field_lastposter'            => 'زمان آخرین',//'最后回复作者',
 	'blockclass_thread_field_lastpost'		=> 'آخرین ارسال',//'最后回复时间',
 	'blockclass_thread_field_dateline'		=> 'تاریخ ارسال',//'发帖时间',
 	'blockclass_thread_field_replies'		=> 'پاسخ ها',//'回复数',
