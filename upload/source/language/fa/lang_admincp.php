@@ -6858,7 +6858,7 @@ $lang = array
 	'postsplit_move_threads_per_time_1000'	=> '1000 (recommended for dedicated servers, can improve processing speed)',//'1000 (推荐独立服务器用户使用，可提高处理速度)',
 	'postsplit_manage_submit'		=> 'Confirm the table operation',//'确认分表',
 
-	'optimizer_security_tips'			=> '<li>Physical examination can help you to discover the site problems and eliminate security risks.</li><li>Set of safety testing</li><li>Testing for the engine new versions and security patches.</li><li>Installed plugins safety and update detection.</li>',//'<li>体检可以帮助您发现网站问题，消除安全风险</li><li>设置项安全检测</li><li>产品新版本及安全补丁检测</li><li>安装插件安全及更新检测</li>',
+	'optimizer_security_tips'			=> '<li>Physical examination can help you to discover the site problems and eliminate security risks.</li><li>Set of safety testing</li><li>Installed plugins safety and update detection.</li>',//'<li>体检可以帮助您发现网站问题，消除安全风险</li><li>设置项安全检测</li><li>安装插件安全及更新检测</li>',
 	'optimizer_check_unit_optimizer_plugin'		=> 'Check if the plugin have a new update',//'检测应用是否有新的更新',
 	'optimizer_check_unit_optimizer_upgrade'	=> 'Check if a new product version is released',//'查看是否有新的产品版本',
 	'optimizer_check_unit_optimizer_patch'		=> 'Check if a new vulnerability patch is released',//'检测产品是有有漏洞补丁发布',
