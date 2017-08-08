@@ -6253,7 +6253,7 @@ $lang = array
 	'adv_edit_endtime_comment'	=> 'Set the advertising end time, the format is yyyy-mm-dd. Leave blank for no limit',//'设置广告广告结束的时间，格式 yyyy-mm-dd，留空为不限制结束时间',
 	'adv_edit_style_code'			=> 'کد HTML',//'HTML 代码',
 	'adv_edit_style_code_html'		=> 'کد HTML را وارد کنید',//'广告 HTML 代码',
-	'adv_edit_style_code_html_comment'	=> 'Please enter the required HTML code to display the advertisement<br /><a href="http://union.discuz.qq.com/?ADTAG=CP.DISCUZ. ADSET.TIP2" target="_blank">Discuz ! Alliance</a> algorithm precision, into a high proportion, to bring you more benefits, click to view details.',//'请直接输入需要展现的广告的 HTML 代码<br /><a href="http://union.discuz.qq.com/?ADTAG=CP.DISCUZ. ADSET.TIP2" target="_blank">Discuz!联盟</a>算法精准，分成比例高，给您带来更多收益，点击查看详情。',
+	'adv_edit_style_code_html_comment'	=> 'Please enter the required HTML code to display the advertisement',//'请直接输入需要展现的广告的 HTML 代码',
 	'adv_edit_style_text'			=> 'Textual ads',//'文字广告',
 	'adv_edit_style_text_title'		=> 'نوشته(الزامی)',//'文字内容(必填)',
 	'adv_edit_style_text_title_comment'	=> 'Please enter the Ad text to display',//'请输入文字广告的显示内容',
