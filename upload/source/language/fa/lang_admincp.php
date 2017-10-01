@@ -2581,6 +2581,8 @@ $lang = array
 	'setting_mobile_status_tips'	=> '<li>Convenient way to view mobile pages, This feature is used only within the Forum.</li><li>The mobile version page supports only mobile browser with WAP2.0 (XHTML mode) or higher.</li><li>Mobile View image thumbnails width is 200 pixels or less.</li>',//'<li>提供方便手机方式浏览的页面，此功能仅限论坛范围内。</li><li>本手机功能页仅支持WAP2.0(XHTML方式)以上的手机浏览器进行访问。</li><li>手机浏览图片宽度为200像素以内缩略图。</li>',
 	'setting_mobile_allowmobile'	=> 'Enable Mobile',//'开启手机版',
 	'setting_mobile_allowmobile_comment'	=> 'If this function is turn on, Mobile phone users accessed the standard forum, Will be automatically redirected to the mobile version interface.<br />Please enter the domain configuration for access by mobile phone: <a href="?action=domain&operation=app">Global -> Domain settings -> Application Domain</a><br />In the bottom of the navigation settings, go to: <a href="?action=nav&operation=footernav">Interface -> Navigation settings -> Bottom navigation</a>',//'开启本功能，用户使用手机访问论坛时，将自动跳转到手机版界面<br />手机访问域名配置请进入: <a href="?action=domain&operation=app">全局 - 域名设置 - 应用域名</a><br />底部导航设置请进入：<a href="?action=nav&operation=footernav">界面 - 导航设置 - 底部导航</a>',
+	'setting_mobile_allowmnew'         => 'Enable new touch screen template',//'启用新触屏版',
+	'setting_mobile_allowmnew_comment' => 'Use the new touch screen version. The new touch screen URL is &quot;' . $_G['siteurl'] . 'm/&quot;',//'使用新触屏版，新触屏版的 URL 为“' . $_G['siteurl'] . 'm/”',
 	'setting_mobile_mobileforward'		=> 'Enable the auto redirection for phone browser',//'开启手机浏览器自动跳转',
 	'setting_mobile_mobileforward_comment'	=> 'After the user opens a page by the phone browser to visit the forum, the user will be automatically redirected to the forum home page',//'开启后用户使用手机浏览器访问社区论坛功能页以外页面时自动跳转到论坛首页进行访问',
 	'setting_mobile_preview'		=> 'Enable the Mobile Preview in standard computer access',//'开启电脑访问手机版预览功能',
@@ -2670,9 +2672,9 @@ $lang = array
 	'setting_ec_goodstrade'			=> 'Product-related settings',//'商品相关设置',
 	'setting_ec_ratio'			=> 'Cash/points exchange ratio',//'现金/积分兑换比率',
 	'setting_ec_ratio_comment'		=> 'Set an exchange ratio between the real money cash (in USD) and intenal points. For example, if is set to 10, 1 USD can be exchanged to 10 points. This feature is required to enable sale operations with points, and an access to the related external paymet system (i.e. Alipay). Set to 0 for prohibit the use of cash and a conversion to points.',//'设置真实货币现金(以人民币元为单位)与站点交易积分间的兑换比率，例如设置为 10，则 1 元人民币可以兑换 10 个单位的交易积分。本功能需开启交易积分，并成功进行财付通、支付宝收款账号的相关设置后方可使用，如果禁止使用现金与交易积分的兑换功能，请设置为 0',
-	'setting_ec_mincredits'			=> 'Minimal amount of points for single purchase',//'单次购买最小积分数额',
+	'setting_ec_mincredits'			=> 'Minimal amount of credits for single purchase',//'单次购买最小积分数额',
 	'setting_ec_mincredits_comment'		=> 'Set the user minimal summ to pay in points for buy the smallest transaction. Set to 0 for no limit.',//'设置用户一次支付所购买的交易积分的最小数额，单位为交易积分的单位，0 为不限制',
-	'setting_ec_maxcredits'			=> 'Maximal amount of points to single purchase',//'单次购买最大积分数额',
+	'setting_ec_maxcredits'			=> 'Maximal amount of credits to single purchase',//'单次购买最大积分数额',
 	'setting_ec_maxcredits_comment'		=> 'Set the user maximum summ to pay in points for a single transaction. Set to 0 for no limit.',//'设置用户一次支付所购买的交易积分的最大数额，单位为交易积分的单位，0 为不限制',
 	'setting_ec_maxcreditspermonth'		=> 'Largest amount of points to buy per month',//'每月购买最大积分数额',
 	'setting_ec_maxcreditspermonth_comment'	=> 'Set a maximum summ the user can spent to pay per each month. Set to 0 for no limit.',//'设置用户每月能够通过在线支付方式购买的交易积分的最大数额，单位为交易积分的单位，0 为不限制',
@@ -2743,7 +2745,7 @@ $lang = array
 	'forums_edit_basic_scheme'		=> 'Site Scheme Settings',//'站点设置方案',
 	'forums_edit_basic_scheme_comment'	=> 'If you select this sections of the program, the following basic settings (except Forum), the other to set the selected program will prevail',//'如果选择了版块设置方案，下面除版块基本设置外，其他设置将以所选方案为准',
 	'forums_edit_basic_display'		=> 'Display Forum',//'显示版块',
-	'forums_edit_basic_display_comment'	=> 'Select "Do not show" for the Forum will be temporarily hidden, but the Forum content will remain, and users can still directly access the Forum by URL with a fid. Selected "Show" section will not appear in the drop-down list, but will still appear in the appropriate Forum page or under.',//'选择“不显示”将暂时将版块隐藏不显示，但版块内容仍将保留，且用户仍可通过直接提供带有 fid 的 URL 访问到此版块',
+	'forums_edit_basic_display_comment'	=> 'Select "Do not show" for the Forum will be temporarily hidden, but the Forum content will remain, and users can still directly access the Forum by URL with a fid. If selected "Show", then forum will not appear in the drop-down list, but will still appear in the appropriate Forum page or under.',//'选择“不显示”将暂时将版块隐藏不显示，但版块内容仍将保留，且用户仍可通过直接提供带有 fid 的 URL 访问到此版块',
 	'forums_edit_basic_shownav'		=> 'Show in navigation',//'在导航显示',
 	'forums_edit_basic_shownav_comment'	=> 'Choose whether to display in the main navigation',//'选择是否在主导航中显示',
 	'forums_edit_basic_up'			=> 'Parent forum',//'上级版块',
@@ -2776,12 +2778,12 @@ $lang = array
 	'forums_edit_extend_style_comment'		=> 'Enter the style used by visitors in this Forum',//'访问者进入本版块所使用的风格方案',
 	'forums_edit_extend_domain'			=> 'Parked domain',//'绑定域名',
 	'forums_edit_extend_domain_comment'		=> 'Forum sub-domain will be effective only after you have set the root domain name. <a href="'.ADMINSCRIPT.'?action=domain&operation=root"><strong>Set the root domain name</strong></a>',//'根域名设置完后，此处域名绑定才能生效，<a href="'.ADMINSCRIPT.'?action=domain&operation=root"><strong>设置根域名</strong></a>',
-	'forums_edit_extend_forum_horizontal'		=> 'Show sub-forums horizontally',//'论坛首页下级子版块横排',
-	'forums_edit_extend_forum_horizontal_comment'	=> 'If set, the sub-forums will be shown in a single line horizontally. If set to 0, sub-forums will be arranged as ususal.',//'设置进入论坛首页时下级子版块横排时每行版块数量，如果设置为 0，则按正常方式排列',
-	'forums_edit_extend_sub_horizontal'		=> 'Show sub-Forums horizontally',//'论坛版块下级子版块横排',
-	'forums_edit_extend_sub_horizontal_comment'	=> 'If set, the sub-Forums will be shown in horizontal line, if set to 0, arranged according to the normal way.',//'设置进入论坛版块时下级子版块横排时每行版块数量，如果设置为 0，则按正常方式排列',
-	'forums_edit_extend_cat_sub_horizontal'		=> 'Category sub-forums horizontally',//'分区下级子版块横排',
-	'forums_edit_extend_cat_sub_horizontal_comment'	=> 'If set, the sub-Forums will be shown in a single line horizontally. If set to 0, it will be arranged as usual.',//'设置进入分区时，下级子版块横排时每行版块数量，如果设置为 0，则按正常方式排列',
+	'forums_edit_extend_forum_horizontal'		=> 'Show forums horizontally',//'论坛首页下级子版块横排',
+	'forums_edit_extend_forum_horizontal_comment'	=> 'Set this value to a number of forums you want to be displayed horizontally per line at the forum home. I.e. If you have 9 forum in a category and set the value to 3, then your forums will be shown in 3 rows by 3 forums per row. If set to 0, forums will be shown vertically.',//'设置进入论坛首页时下级子版块横排时每行版块数量，如果设置为 0，则按正常方式排列',
+	'forums_edit_extend_sub_horizontal'		=> 'Show sub-Forums horizontally at the forum page',//'论坛版块下级子版块横排',
+	'forums_edit_extend_sub_horizontal_comment'	=> 'Set this value to a number of subforums you want to be displayed horizontally per line at the forum page. I.e. If you have 9 subforums and set the value to 3, then your subforums will be shown in 3 rows by 3 forums per row. If set to 0, subforums will be shown vertically.',//'设置进入论坛版块时下级子版块横排时每行版块数量，如果设置为 0，则按正常方式排列',
+	'forums_edit_extend_cat_sub_horizontal'		=> 'Show forums horizontally at the category page',//'分区下级子版块横排',
+	'forums_edit_extend_cat_sub_horizontal_comment'	=> 'Set this value to a number of forums you want to be displayed horizontally per line at the category page. I.e. If you have 9 forums and set the value to 3, then your forums will be shown in 3 rows by 3 forums per row. If set to 0, forums will be shown vertically.',//'设置进入分区时，下级子版块横排时每行版块数量，如果设置为 0，则按正常方式排列',
 	'forums_edit_extend_subforumsindex'		=> 'Show sub-Forums in the Forum Home',//'本版块在首页显示下级子版块',
 	'forums_edit_extend_subforumsindex_comment'	=> 'Forum Home at the bottom of the list shows the forum name and the lower sub-Forum links (if present). Note: This feature does not consider the child forums permissions for a visitor. Select "Default" to use global settings.',//'首页版块列表中在版块简介下方显示下级子版块名字和链接(如果存在的话)。注意: 本功能不考虑子版块特殊浏览权限的情况，只要存在即会被显示出来。选择“默认”，将使用全局设置',
 	'forums_edit_extend_simple'			=> 'Show only lower-level sub-Forums',//'只显示下级子版块',
@@ -2914,8 +2916,8 @@ $lang = array
 	'forums_edit_attachtype'		=> 'Attach type',//'附件类型',
 	'forums_edit_attachtype_tips'		=> '<li>This feature can limit the maximum size of a particular type of attachments in this forum. When set here value is less than a user group the maximum size allowed, The attachment size limit of the specified type will be set to this limit.</li><li>You can overall disable some type attachments to be uploaded by setting the maximum size of certain types to 0.</li><li>Leave empty for use the global settings for attachment type size.</li>',//'<li>本功能可限定本版块某特定类型附件的最大尺寸，当这里设定的尺寸小于用户组允许的最大尺寸时，指定类型的附件尺寸限制将按本设定为准。</li><li>你可以设置某类附件最大尺寸为 0 以整体禁止这类附件被上传。</li><li>此处设置留空则使用全局的“附件类型尺寸”设置。</li>',
 
-	'forums_edit_credits'			=> 'Points strategy',//'积分策略',
-	'forums_edit_credits_policy'		=> 'Extended points change strategy',//'扩展积分增减策略',
+	'forums_edit_credits'			=> 'Credits strategy',//'积分策略',
+	'forums_edit_credits_policy'		=> 'Extended credits change strategy',//'扩展积分增减策略',
 	'forums_edit_credits_comment'		=> 'Points changes permitted in a range from -99 to +99. Figures in parentheses means the global settings value. <a href="home.php?mod=spacecp&ac=credit&op=usergroup&ptype=1&fid={fid}" target="_blank">View an explanation of points change strategy</a>',//'各项积分增减允许的范围为 -99～+99。括号中数字为全局积分策略中设定的值。<a href="home.php?mod=spacecp&ac=credit&op=usergroup&ptype=1&fid={fid}" target="_blank">查看本版积分策略说明</a>',
 
 	'forums_edit_threadtypes'		=> 'Thread types',//'主题分类',
@@ -3350,7 +3352,7 @@ $lang = array
 	'styles_default1'		=> 'Standard Mobile Edition (WAP)',//'手机标准版',
 	'styles_default2'		=> 'Mobile touch screen version',//'手机触屏版',
 	'styles_default3'		=> 'Mobile minimalistic version',//'手机极简版',
-	
+
 	'styles_import'			=> 'Import Interface style',//'导入界面方案',
 	'styles_import_ignore_version'	=> 'Enable to import styles of other Discuz! versions (this can produce an error!)',//'允许导入不同版本 Discuz! 的界面(易产生错误!!)',
 	'styles_import_version_invalid'	=> 'Version numbers does not match, Current version: {cur_version}, System version: {set_version}',//'版本号不匹配，当前版本：{cur_version}，系统版本：{set_version}',
@@ -4002,7 +4004,7 @@ $lang = array
 	'founder_patchstatus_error4'	=> 'FTP mode can not be used, Make sure the FTP account information is correct',//'ftp方式无法使用，请确认ftp账号等相关信息填写正确',
 	'founder_patchstatus_error5'	=> 'Copy files problem. Make sure the source code directories, subdirectories and files are readable and writable, or files may be locked. Please close the site after the operation',//'复制文件出现问题，请确认源代码文件目录及子目录可读可写，或文件可能被锁，请关闭站点后进行操作',
 	'founder_patchstatus_error6'	=> 'Fix the vulnerability have problems, or rollback have problems. As soon as possible restore files, the file backup can be found in the same directory',//'修复漏洞出现问题，回退时出现问题，请尽快恢复文件，文件备份可在同级目录找到',
-	'founder_patch_tips'		=> '<li>Bug fix status description：</li>
+	'founder_patch_tips'		=> '<li>Bug fix status description:</li>
 					<li>
 						<em class="fixed">&nbsp;2</em> The file is possibe modified, did not find the vulnerability<br />
 						<em class="fixed">&nbsp;1</em> Fixed<br />
@@ -4466,7 +4468,7 @@ $lang = array
 	'threads_delete_no_update_member'	=> 'Do not reduce the users post count and points when delete posts',//'删帖不减用户发帖数和积分',
 	'threads_delete_attach'		=> 'Delete thread attachments',//'删除主题中的附件',
 	'threads_stick'			=> 'Bulk Stick',//'批量置顶',
-	'threads_add_digest'		=> 'Bule digest',//'批量设置精华',
+	'threads_add_digest'		=> 'Bulk digest',//'批量设置精华',
 	'threads_open_close'		=> 'Bulk open/close',//'批量打开关闭',
 	'threads_move_forum'		=> 'Bulk move to Forum',//'批量移动到版块',
 	'threads_move_type'		=> 'Bulk move to category',//'批量移动到主题分类',
@@ -4572,7 +4574,7 @@ $lang = array
 	'doing_search'				=> 'Search doings by criteria',//'搜索符合条件的记录',
 	'doing_search_detail'			=> 'Show detailed doing list',//'显示详细记录列表',
 	'doing_search_time'			=> 'Post Time range',//'发表时间范围',
-	'doing_search_time_comment'		=> 'Format is yyyy-mm-dd',//'格式 yyyy-mm-dd',
+	'doing_search_time_comment'		=> 'Format: yyyy-mm-dd',//'格式 yyyy-mm-dd',
 	'doing_search_user'			=> 'Doing author name',//'发表记录用户名',
 	'doing_search_user_comment'		=> 'Separate multiple user names by a comma ","',//'多用户名中间请用半角逗号 "," 隔开',
 	'doing_search_ip'			=> 'Published doing IP ',//'发表记录 IP ',
@@ -4831,8 +4833,8 @@ $lang = array
 	'moderate_m_home'			=> 'مدیریت سایر',//'家园审核项目',
 	'moderate_m_portal'			=> 'مدیریت سردر',//'门户审核项目',
 	'moderate'				=> 'مدیریت کاربران',//'审核',
-/*3.2.1*/	'moderate_members'			=> 'مدیریت کاربران جدید',//'审核用户',
-/*3.2.1*/	'moderate_members_tips'			=> '<li>This feature take effect only if the global "Verify New Registration" is set to "Manual verify" or when open the account bodyguard only valid.</li>',//'<li>本功能仅在“新用户注册验证”中设置为“人工审核”时或者开启帐号保镖时才有效</li>',
+	'moderate_members'			=> 'مدیریت کاربران جدید',//'审核用户',
+	'moderate_members_tips'			=> '<li>This feature take effect only if the global "Verify New Registration" is set to "Manual verify" or when open the account bodyguard only valid.</li>',//'<li>本功能仅在“新用户注册验证”中设置为“人工审核”时或者开启帐号保镖时才有效</li>',
 	'moderate_members_email'		=> 'Notify user by Email about Moderation',//'发 Email 通知被审核用户',
 	'moderate_members_submit_times'		=> 'Submitted Times',//'提交次数',
 	'moderate_members_submit_time'		=> 'Last Submitted',//'上次提交',
@@ -5386,7 +5388,7 @@ $lang = array
 	'card_make_price'		=> 'Actual price',//'实际面值',
 	'card_make_price_unit'		=> 'USD',//'元',
 	'card_make_price_comment'	=> 'Units (USD), The actual price printed on the card used. Inform the user of the nominal value used to measure the cost of the card',//'单位(元)，实际面值常用在卡片印刷，用作告知用户面值以衡量卡密价值',
-	'card_make_extcredits'		=> 'The amount and type of points',//'积分数额及类型',
+	'card_make_extcredits'		=> 'The amount and type of credits',//'积分数额及类型',
 	'card_make_extcredits_comment'	=> 'Set the amount of rechargeable prepaid card secret for this generation and type of points obtained',//'设置本次生成充值卡密可充得的积分数额与类型',
 	'card_make_num'			=> 'Generate the number of sheets',//'生成张数',
 	'card_make_num_comment'		=> 'Set the number of resulting sheets of card secret',//'设置本次生成的卡密张数',
@@ -5409,7 +5411,7 @@ $lang = array
 	'card_log_del_info'		=> 'Remove info',//'删除详细',
 	'card_log_cron_info'		=> 'Cron info',//'清除详细',
 	'card_log_description'		=> 'Operation Notes',//'操作备注',
-	'card_log_extcredits'		=> 'Points',//'积分',
+	'card_log_extcredits'		=> 'Credits',//'积分',
 	'card_log_make_num'		=> 'Number generated',//'生成数量',
 	'card_log_num'			=> 'Number of operations',//'操作数量',
 	'succeed_num'			=> 'Success number',//'成功数',
@@ -5425,7 +5427,7 @@ $lang = array
 	'between'			=> 'between',//'介于',
 	'card_search_perpage'		=> 'Items per page',//'每页显示数',
 	'card_used_dateline'		=> 'Recharge time',//'充值时间',
-	'card_extcredits'		=> 'Points type',//'积分类型',
+	'card_extcredits'		=> 'Credits type',//'积分类型',
 	'card_extcreditsval'		=> 'The amount of Points',//'积分数额',
 	'card_export'			=> 'Export recharge card secret',//'导出充值卡密',
 	'card_export_title'		=> 'Export the current filter out all the cards secret',//'导出当前筛选出的所有卡密',
@@ -5544,8 +5546,8 @@ $lang = array
 	'tasks_add_reward'		=> 'Task reward',//'任务奖励',
 	'tasks_add_reward_comment'	=> 'Award types are: Points, Magic, Decorations and special user groups. For type of Magic and Decorations it is required to enable the corresponding functions',//'奖励的类型有：积分、道具、勋章及特殊用户组，其中，道具和勋章需要开启相应功能',
 
-	'tasks_add_extcredit'		=> 'Extended Points',//'积分种类',
-	'tasks_add_credits'		=> 'Points Amount',//'积分数量',
+	'tasks_add_extcredit'		=> 'Extended Credits',//'积分种类',
+	'tasks_add_credits'		=> 'Credits Amount',//'积分数量',
 	'tasks_add_magicname'		=> 'Magic identifier',//'道具种类',
 	'tasks_add_magicnum'		=> 'Number of magic',//'道具数量',
 	'tasks_add_medalname'		=> 'Medal name',//'勋章种类',
@@ -5718,12 +5720,12 @@ $lang = array
 	'project_option_forum_allowpaytoauthor'	=> 'Show "Buy with Alipay" button',//'显示“用支付宝求购”按钮',
 	'project_option_forum_alloweditpost'	=> 'اجازه ویرایش پست ها',//'允许编辑帖子',
 	'project_option_forum_simple'		=> 'Show only lower-level display settings such as sub-Forum',//'只显示下级子版块等显示方式设置',
-	'project_option_forum_creditspolicy'	=> 'Forum points Strategy',//'版块积分策略',
-	'project_option_forum_postcredits'	=> 'Posts points strategy',//'发表主题积分策略',
-	'project_option_forum_replycredit'	=> 'Reply points strategy',//'发表回复积分策略',
-	'project_option_forum_getattachcredits'		=> 'Download attachment points strategy',//'下载附件积分策略',
-	'project_option_forum_postattachcredits'	=> 'Upload attachment points strategy',//'上传附件积分策略',
-	'project_option_forum_digestcredits'		=> 'Digest points strategy',//'精华积分策略',
+	'project_option_forum_creditspolicy'	=> 'Forum credits Strategy',//'版块积分策略',
+	'project_option_forum_postcredits'	=> 'Posts credits strategy',//'发表主题积分策略',
+	'project_option_forum_replycredit'	=> 'Reply credits strategy',//'发表回复积分策略',
+	'project_option_forum_getattachcredits'		=> 'Download attachment credits strategy',//'下载附件积分策略',
+	'project_option_forum_postattachcredits'	=> 'Upload attachment credits strategy',//'上传附件积分策略',
+	'project_option_forum_digestcredits'		=> 'Digest credits strategy',//'精华积分策略',
 	'project_option_forum_attachextensions'		=> 'Enabled attachment type',//'允许附件类型',
 	'project_option_forum_viewperm'			=> 'Browse Forum Permissions',//'浏览版块权限',
 	'project_option_forum_postperm'			=> 'دسترسی ایجاد موضوع',//'发主题帖权限',
@@ -6800,14 +6802,14 @@ $lang = array
 	'group_level_creditsrange'	=> 'Points range',//'积分介于',
 	'group_level_add'		=> 'Add group level',//'增加群组等级',
 	'group_level_tips'		=> '<li>Do not add a lot of Group levels.</li><li>When a group is allowed to post but the user has no enough points, such user will see a caution, possible because of the group main brush points.</li><li>Default level icon size is 25 X 25 pixels.</li>',//'<li>群组等级不宜设置过多。</li><li>当允许群组内发帖等操作影响用户积分时应谨慎，用户有可能通过群组刷积分。</li><li>默认等级图标大小是25 X 25像素。</li>',
-	'group_level_credits'		=> 'Points related',//'积分相关',
-	'group_level_credits_post'	=> 'Points for a post',//'发帖加积分',
-	'group_level_credits_reply'	=> 'Points for a reply',//'回复加积分',
-	'group_level_credits_digest'	=> 'Points for a digest',//'加精华增加积分',
-	'group_level_credits_upload'	=> 'Points for upload attachment',//'上传附件加积分',
-	'group_level_credits_download'	=> 'Points for download attachment',//'下载附件扣积分',
-	'group_level_credits_trade'	=> 'Points for a sale',//'成功交易加积分',
-	'group_level_credits_poll'	=> 'Points for a poll',//'参与投票加积分',
+	'group_level_credits'		=> 'Credits related',//'积分相关',
+	'group_level_credits_post'	=> 'Credits for a post',//'发帖加积分',
+	'group_level_credits_reply'	=> 'Credits for a reply',//'回复加积分',
+	'group_level_credits_digest'	=> 'Credits for a digest',//'加精华增加积分',
+	'group_level_credits_upload'	=> 'Credits for upload attachment',//'上传附件加积分',
+	'group_level_credits_download'	=> 'Credits for download attachment',//'下载附件扣积分',
+	'group_level_credits_trade'	=> 'Credits for a sale',//'成功交易加积分',
+	'group_level_credits_poll'	=> 'Credits for a poll',//'参与投票加积分',
 	'group_level_posts'		=> 'Post permissions',//'帖子相关',
 	'group_level_special'		=> 'Special features',//'特殊功能',
 	'group_level_special_allowchangename'	=> 'Allow to founder to change a group name',//'允许创始人改群组名',
@@ -7114,17 +7116,17 @@ RepeatLimit 32
 	'setting_language'			=> 'تنظیمات زبان',
 	'setting_language_tips'			=> '<li>اضافه/ویرایش بسته های زبان</li>',
 	'setting_language_available'		=> 'فعال کردن',
-	'setting_language_id'			=> 'Id',
-	'setting_language_order'		=> 'Order',
+	'setting_language_id'		=> 'Id',
+	'setting_language_order'	=> 'Order',
 	'setting_language_flag'			=> 'پرچم',
 	'setting_language_name'			=> 'نام',
 	'setting_language_title'		=> 'عنوان(انگلیسی)',
-	'setting_language_dir'			=> 'Direction',
-	'setting_language_actions'		=> 'Actions',
+	'setting_language_dir'		=> 'Direction',
+	'setting_language_actions'	=> 'Actions',
 
 	'nav_language'				=> 'زبان ها',
 
-	'delete_install_index'			=> 'Please delete install/index.php via FTP!',
+	'delete_install_index'		=> 'Please delete install/index.php via FTP!',
 );
 
 //------------------------------------------------------
@@ -7135,7 +7137,11 @@ if(file_exists($adminextendfile = DISCUZ_ROOT.'./data/sysdata/cache_adminextend.
 	@include $adminextendfile;
 	foreach($adminextend as $extend) {
 		$extend_lang = array();
+/*vot*/ if(defined('DISCUZ_ML_REVISION')) {
 /*vot*/		@include DISCUZ_ROOT.'./source/language/fa/lang_admincp_'.$extend;
+/*vot*/ } else {
+		@include DISCUZ_ROOT.'./source/language/lang_admincp_'.$extend;
+/*vot*/ }
 		$lang = array_merge($lang, $extend_lang);
 	}
 }
