@@ -459,6 +459,7 @@ $lang = array (
   'm_my_r'          => 'My replies',//'我的回复',
   'm_stickt'        => 'Sticked threads',//'置顶帖',
   'm_share'         => 'If you like this thread, please click on the icon in the upper right corner to share',//'如果喜欢这个话题，请点击右上角图标分享',
+  'm_logout'        => 'خروج از سیستم',//'退出登录',
 
 //---------------------------
 // Added by Valery Votintsev
