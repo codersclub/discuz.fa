@@ -954,6 +954,7 @@ $lang = array (
 	'setting_avatar_message'	=> 'The default avatar will be used if you did not upload your own one. You can upload a yourself photo as your personal avatar.',//'如果您还没有设置自己的头像，系统会显示为默认头像，您需要自己上传一张新照片来作为自己的个人头像 ',
 	'setting_my_new_avatar'		=> 'آپلود آواتار جدید',//'设置我的新头像',
 	'setting_my_new_avatar_message'	=> 'Please select an image from your computer to be used as your avatar.<br />You may as well take a photo of yourself with your webcam.<br />You may need to refresh the page (F5 key) for changes to take effect after you finished setting up your new avatar.',//'请选择一个新照片进行上传编辑。<br />头像保存后，您可能需要刷新一下本页面(按F5键)，才能查看最新的头像效果 ',
+    'setting_my_new_avatar_old'     => 'If you can not upload your avatar, please click here to switch to the Flash mode',//'如无法正常上传头像，请点此处切换为 Flash 方式上传',
 	'auto_keyword'			=> 'Automatically obtain',//'自动获取',
 	'cancel_stick_blog'		=> 'Unstick blog',//'取消置顶日志',
 	'change_default_settings'	=> 'تغییر تنظیمات اولیه',//'更改默认配置',
