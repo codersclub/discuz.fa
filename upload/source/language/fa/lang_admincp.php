@@ -2613,7 +2613,7 @@ $lang = array
 	'unwind'				=> 'Expand',//'展开',
 
 	'setting_antitheft'		=> 'Anti-grab settings',//'防采集设置',
-	'setting_antitheft_tips'	=> '<li>Anti-grab function does not affect normal users to browse content.</li><li>It prevents the site thread, article or bloc content be illegally collected.</li><li><font style="color:red">If IP exists in both Black and White lists, the Whitelist have a larger priority.</font></li><li>After enabling the anti-capture function, the Posts Preview feature will not be available.</li>',//'<li>防采集功能不影响正常用户浏览检验。</li><li>可防止本站主题、文章和日志被非法采集。</li><li><font style="color:red">当IP同时存在于黑/白名单时，白名单优先。</font></li><li>开启防采集功能后帖子列表页面的帖子预览功能将不可使用。</li>',
+	'setting_antitheft_tips'	=> '<li>Anti-grab function does not affect normal users to browse content.</li><li>It prevents the site thread, article or block content be illegally collected.</li><li><font style="color:red">If IP exists in both Black and White lists, the Whitelist have a larger priority.</font></li><li>After enabling the anti-capture function, the Posts Preview feature will not be available.</li>',//'<li>防采集功能不影响正常用户浏览检验。</li><li>可防止本站主题、文章和日志被非法采集。</li><li><font style="color:red">当IP同时存在于黑/白名单时，白名单优先。</font></li><li>开启防采集功能后帖子列表页面的帖子预览功能将不可使用。</li>',
 	'setting_antitheft_status'	=> 'Anti-grab global settings',//'防采集全局设置',
 	'setting_antitheft_allow'	=> 'Whether to open the anti-grab function',//'是否开启防采集',
 	'setting_antitheft_black'	=> 'Blacklist Anti-grab filtering IP',//'黑名单防采集过滤IP',
