@@ -726,6 +726,12 @@ var lng = {
 	'map_center_changed'	: 'مرکز نقشه تغییر کرده است!',//'地图中心已经改变！',
 	'map_wrong_address'	: 'آدرس اشتباه است! آدرس فعلی یافت نشد',//' 地址错误，未找到当前地址',
 
+//---------------------------
+//upload/static/js/avatar.js
+	'avatar_upload_ok'	: 'Uploaded successfully!',//'上传成功!',
+	'avatar_3_sizes'	: 'These are three sizes of your avatar',//'以上是您头像的三种尺寸',
+	'avatar_upload_failed'	: 'Upload failed',//'上传失败',
+
 //-------------------------------------
 //	''	: '',//'',
 
