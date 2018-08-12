@@ -38,7 +38,7 @@ $lang = array (
 	'disagree'			=> 'مخالفم',//'不同意',
 	'index_activation'		=> 'حساب شما باید فعال شود',//'您的帐号需要帐激活',
 	'invite_code'			=> 'کد دعوت نامه',//'邀请码',
-	'login_inactive'		=> 'Give up invitation, <a href="member.php?mod={$_G[setting][regname]}">عضویت</a>',//'放弃激活，现在<a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
+	'login_inactive'		=> 'Give up invitation, <a href="member.php?mod={$_G[setting][regname]}">Register</a>',//'放弃激活，现在<a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
 	'login_now'			=> 'حساب کاربری دارید؟<br>لطفا وارد شوید',//'已有帐号？现在登录',
 	'password_confirm'		=> 'تکرار رمز عبور',//'确认密码',
 	'register_buyinvitecode'	=> 'کد دعوتی ندارید؟اینجا کلیک کنید',//'还没有邀请码？点击此处获取',
@@ -52,5 +52,7 @@ $lang = array (
 	'register_username_tips'	=> 'طول نام کاربری باید بین 3 تا 15 باشد',//'用户名由 3 到 15 个字符组成',
 	'register_validate_email_tips'	=> 'Registration need to verify your mailbox, be sure to fill in correct E-Mail! Please check your email after submission.<br />You may need to wait a few minutes to receive e-mail inbox. If there is no new message, please check the Spam folder.',//'注册需要验证邮箱，请务必填写正确的邮箱，提交后请及时查收邮件。<br />您可能需要等待几分钟才能收到邮件，如果收件箱没有，请检查一下垃圾邮件箱。',
 	'rulemessage'			=> 'قوانین عضویت',//'网站服务条款',
+// Added by Valery Votintsev, discuz.ml
+	'agree_with'			=> 'I agree with the ',//'同意',
 );
 
