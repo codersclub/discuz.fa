@@ -23,7 +23,7 @@ $lang = array (
 	'blogcategory_move_category_failed'	=> 'Unable to move the blog to specified category',//'无法移动日志到指定分类',
 	'blogcategory_delete_succeed'		=> 'Blog category removed successfully.',//'删除日志分类成功。',
 	'filecheck_nofound_md5file'		=> 'Checked file does not exist, can not do this.',//'不存在校验文件，无法进行此操作。',
-	'cloudaddons_download_error'		=> 'Data download error',//'数据下载错误',
+	'cloudaddons_download_error'		=> 'Data download error ({ErrorCode}), <a href="https://www.dismall.com/thread-101-1-1.html" target="_blank">Click to view common problem solutions</a>',
 	'cloudaddons_downloading'		=> 'Application {addonid} downloading, please wait...',//'应用 {addonid} 下载中，请稍候 ......',
 	'collection_admin_updated'		=> 'Collection managed successfully',//'专辑管理操作成功',
 	'counter_member_succeed'		=> 'User post counter was rebuilt.',//'用户发帖数重建完成。',
@@ -401,8 +401,8 @@ $lang = array (
 	'plugins_import_version_invalid'	=> 'This plug-in version ({set_version}) and current Discuz! version {cur_version} are incompatible, please return.',//'本插件适用于 Discuz! {cur_version} 与当前版本({set_version})不一致，请返回。',
 	'plugins_import_succeed'		=> 'Plug-in data imported successfully!<br />In order to properly use this plug-in, you may also need to upload or modify the appropriate file or template, please see the installation instructions for this plug-in',//'插件数据成功导入！<br />为了正常使用此插件，您可能还需要上传或修改相应的文件或模板，详情请查看本插件的安装说明',
 	'plugins_config_upgrade_confirm'	=> 'Are you shure you want to upgrade the plugin {pluginname} from version {version} to {toversion} ?',//'你确定要把 {pluginname} {version} 插件更新到 {toversion} 吗？',
-	'plugins_config_upgrade_missed'		=> 'This plug-in have been updated to the latest version.</h4><br /><a href="https://addon.dismall.com?view=plugins" class="lightlink">Click here to go to the application center</a><br /><br /><h4>',//'此插件已更新到最新版本</h4><br /><a href="http://addon.discuz.com?view=plugins" class="lightlink">点击这里进入应用中心</a><br /><br /><h4>',
-	'plugins_config_upgrade_new'		=> 'This plug-in have been updated to the latest version.<br />But there is a new version of this plug-in {newver} in the application center, Do you need to upgrade?</h4><br /><a href="https://addon.dismall.com?@{addonid}" class="lightlink">Upgrade this plugin</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">Not upgraded yet</a><h4>',//'此插件已更新到最新版本<br />但是发现此插件在应用中心存在新版本 {newver}，是否需要升级？</h4><br /><a href="http://addon.discuz.com?@{addonid}" class="lightlink">升级此插件</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">暂不升级</a><h4>',
+	'plugins_config_upgrade_missed'		=> 'This plug-in have been updated to the latest version.</h4><br /><a href="https://addon.dismall.com?view=plugins" class="lightlink">Click here to go to the application center</a><br /><br /><h4>',//'此插件已更新到最新版本</h4><br /><a href="http://addon.dismall.com?view=plugins" class="lightlink">点击这里进入应用中心</a><br /><br /><h4>',
+	'plugins_config_upgrade_new'		=> 'This plug-in have been updated to the latest version.<br />But there is a new version of this plug-in {newver} in the application center, Do you need to upgrade?</h4><br /><a href="https://addon.dismall.com?@{addonid}" class="lightlink">Upgrade this plugin</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">Not upgraded yet</a><h4>',//'此插件已更新到最新版本<br />但是发现此插件在应用中心存在新版本 {newver}，是否需要升级？</h4><br /><a href="http://addon.dismall.com?@{addonid}" class="lightlink">升级此插件</a> &nbsp;&nbsp; <a href="{ADMINSCRIPT}?action=plugins" class="lightlink">暂不升级</a><h4>',
 	'plugins_upgrade_var_invalid'		=> 'Plug-in hook name is illegal, can not be upgraded.',//'插件的嵌入点名称不合法，无法更新',
 	'plugins_setting_succeed'		=> 'Plug-in settings successfully updated.',//'插件参数设置成功更新。',
 	'plugins_setting_module_nonexistence'	=> 'Specified plug-in module file ({modfile}) does not exist or have a syntax error, check for the plugin was fully uploaded.',//'指定的插件管理模块文件({modfile})不存在或存在语法错误，请检查是否已将插件完整上传。',
@@ -630,6 +630,7 @@ $lang = array (
 
 	'cloudaddons_check_url_fopen_error'	=> 'Your server can not access the Application Center, This will cause the application can not be installed. Please contact your service provider or site technical staff, Ensure that your server can normal access to addon.dismall.com',//'您的服务器无法访问应用中心，这将会导致应用无法安装。请联系您的服务商或者网站技术人员，确保您的服务器能够正常访问 addon.dismall.com',
 	'cloudaddons_check_gzuncompress_error'	=> 'Your server does not support Zlib, This will cause the application can not be installed. Please contact your service provider or the site technical staff.',//'您的服务器不支持 Zlib，这将会导致应用无法安装。请联系您的服务商或者网站技术人员。',
+	'cloudaddons_check_curl_error'		=> 'Your server does not support CURL, which will cause the app to fail to install. Please contact your service provider or website administrator.',
 	'cloudaddons_genuine_message'		=> 'Sorry, You installed not genuine applications, can not continue to implement the Setup.<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">Click here to install the genuine application</a>',//'对不起，您安装的不是正版应用，安装程序无法继续执行<br /><br /><a href="admin.php?action=cloudaddons&id={addonid}">点击这里安装正版应用</a>',
 
 	'admincp_makehtml_cleanhtml_error'	=> 'Sorry, Enable to generate static HTML file, you can not clean up the HTML file.',//'对不起，开启生成HTML静态文件时，不能清理HTML文件。',
