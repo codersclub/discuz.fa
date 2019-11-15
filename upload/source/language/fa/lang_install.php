@@ -234,7 +234,7 @@ $lang = array(
 	'init_default_style'			=> 'Default Style',//'默认风格',
 	'init_default_forum'			=> 'Default Forum',//'默认版块',
 	'init_default_template'			=> 'Default template',//'默认模板套系',
-	'init_default_template_copyright'	=> 'Sing Imagination (Beijing) Technology Co., Ltd.',//'北京康盛新创科技有限责任公司',
+	'init_default_template_copyright'	=> 'Tencent Cloud Computing (Beijing) Co., Ltd.',
 
 	'init_dataformat'	=> 'Y-m-d',//'Y-n-j',
 	'init_modreasons'	=> 'Advertising/SPAM\r\nMalicious/Hacking\r\nIllegal content\r\nOfftopic\r\nRepeated post\r\n\r\nI agree\r\nExcellent article\r\nOriginal content',//'广告/SPAM\r\n恶意灌水\r\n违规内容\r\n文不对题\r\n重复发帖\r\n\r\n我很赞同\r\n精品文章\r\n原创内容',
@@ -248,7 +248,7 @@ $lang = array(
 
 	'license'	=> '<div class="license"><h1>License agreement</h1>
 
-<p>Copyright (c) 2001-2010, Hong Sing Imagination (Beijing) Technology Co., Ltd. All rights reserved.</p>
+<p>Copyright (c) 2001-2020, Tencent Cloud Computing (Beijing) Co., Ltd. (formerly Beijing Kangsheng Xinchuang Technology Co., Ltd.), All rights reserved.</p>
 
 <p>Thank you for choosing Discuz! forum product. We hope that our product will be able to provide you with a fast, efficient and powerful community forum solution.</p>
 
