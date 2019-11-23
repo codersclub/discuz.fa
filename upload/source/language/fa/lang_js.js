@@ -732,9 +732,22 @@ var lng = {
 	'avatar_3_sizes'	: 'These are three sizes of your avatar',//'以上是您头像的三种尺寸',
 	'avatar_upload_failed'	: 'Upload failed',//'上传失败',
 
+//---------------------------
+//upload/static/js/webuploader/webuploader.min.js
+	'upload_button_error'	: 'Press button assignment error',//'按钮指定错误',
+
+//---------------------------
+//upload/static/js/webuploader.js
+	'file_single_size_limit': 'Single file size must not exceed ',//'单个文件大小不得超过',
+	'file_num_limit'	: 'Can only upload at most ',//'最多只能上传',
+	'_files'		    : ' files!',//'个！',
+	'file_size_limit'	: 'The total size of all uploaded files is exceeded ',//'上传文件总大小超出',
+	'file_invalid_type'	: 'Invalid file type, please upload the correct file format!',//'无效文件类型，请上传正确的文件格式！',
+	'file_no_repeat'	: 'Please do not upload the same file repeatedly!',//'请不要重复上传相同文件！',
+	'upload_error_try_again': 'Upload error, please refresh and try again! ',//'上传错误，请刷新重试！',
+
 //-------------------------------------
 //	''	: '',//'',
-
 'fiction'	: '' // This key MUST BE THE LAST row!
 
 };
