@@ -236,6 +236,7 @@ $lang = array (
 	'task_not_found'		=> 'Task file {taskclassname} not found',//'任务文件丢失，{taskclassname}',
 	'task_not_underway'		=> 'No ongoing tasks',//'不是进行中的任务',
 	'user_banned'			=> 'متاسفانه اکانت کاربری یا آدرس آیپی شما محروم شده است شما نمیتوانید به این سایت دسترسی داشته باشید.',//'对不起，您的 IP 地址不在被允许的范围内，或您的账号被禁用，无法访问本站点。',
+	'user_banned_has_expiry' => 'Sorry, your account has been disabled and you are temporarily unable to access this site.<br />Estimated time for ending the ban: '.dgmdate($_G['member']['groupexpiry'], 'Y-m-d H:i:s'),
 	'submit_seccode_invalid'	=> 'کد امنیتی صحیح نمیباشد.',//'验证码填写错误，请返回修改。',
 	'submit_invalid'		=> 'Your request origin authentication string is incorrect or the form does not match, could not be submitted.',//'你的请求来路不正确或表单验证串不符，无法提交。',
 	'word_banned'			=> 'Sorry, your content (signature,posts,messages etc.) contains banned words.',//'对不起，您填写的内容(如签名、帖子、短消息等)包含不良内容而无法提交，请返回修改。',
@@ -243,7 +244,7 @@ $lang = array (
 	'magicuse_object_once_limit'	=> 'You have already used a magic for this information, can not be reused',//'已经对该信息使用过此道具，不能重复使用',
 	'magicuse_bad_object'		=> 'Selected object is invalid',//'没有正确选择道具要作用的对象',
 	'magicuse_has_no_valid_friend'	=> 'Magic use is failed, there is no valid friends',//'道具使用失败，没有任何合法的好友',
-/*3.2*/	'mobile_template_no_found'	=> 'You have visited the page without a mobile phone. Would you like to further access to the PC version?<br /><br /><a href="{url}">Continue access</a><br /><br />',//'您访问的页面无手机页面，是否进一步访问电脑版？<br /><br /><a href="{url}">继续访问</a><br /><br />',
+	'mobile_template_no_found'	=> 'You have visited the page without a mobile phone. Would you like to further access to the PC version?<br /><br /><a href="{url}">Continue access</a><br /><br />',//'您访问的页面无手机页面，是否进一步访问电脑版？<br /><br /><a href="{url}">继续访问</a><br /><br />',
 
 	'portal_status_off'		=> 'متاسفانه سردر غیر فعال است.',//'抱歉，门户功能尚未开启',
 
