@@ -7124,12 +7124,16 @@ RepeatLimit 32
 	'setting_language_flag'			=> 'پرچم',
 	'setting_language_name'			=> 'نام',
 	'setting_language_title'		=> 'عنوان(انگلیسی)',
-	'setting_language_dir'		=> 'Direction',
-	'setting_language_actions'	=> 'Actions',
+	'setting_language_dir'		=> 'جهت',
+	'setting_language_actions'	=> 'اقدامات',
 
 	'nav_language'				=> 'زبان ها',
 
-	'delete_install_index'		=> 'Please delete install/index.php via FTP!',
+	'delete_install_index'		=> 'لطفاً "install/index.php" را از طریق FTP حذف کنید!',
+
+	'contributors'			=> 'Discuz! مشارکت کنندگان منبع باز',
+
+	'contributors_link'		=> 'برای دیدن آن ها اینجا را کلیک کنید',
 );
 
 //------------------------------------------------------
