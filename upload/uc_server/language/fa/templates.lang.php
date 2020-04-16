@@ -9,7 +9,7 @@
 // by Valery Votintsev, codersclub.org
 //------------------------------------------------------
 
-$languages = array(
+$lang = array(
 	'title'			=> 'Title',
 	'return'		=> 'Return',
 	'dateline'		=> 'Time',
@@ -196,7 +196,7 @@ $languages = array(
 	'app_api_filename_comment'	=> 'Application API Filename, not contain the Path, default is uc.php',
 	'app_code'			=> 'Application UCenter Configuration Information',
 	'app_code_comment'		=> 'If you lost your application UCenter Configuration Information, you can copy the code below to application Configuration file',
-
+	'app_not_add_tips' => 'Possible reasons why the application cannot be added through the URL: 1. The switch to add the application through the URL is turned off; 2. The wrong password of the UCenter founder is entered multiple times',
 
 	'tag_tips'		=> 'Set the current application to obtain other applications as well as tag data on the proportion of the expansion of the data template. Template: "&#123;xxx&#125;" express the index of tag, representing the corresponding data',
 	'tag_global_template'	=> 'Global Template',
@@ -309,6 +309,8 @@ $languages = array(
 	'setting_chatpmmemberlimit_comment'	=> 'Limit the number of PM recipients that the user can send group chat short messages within 24 hours. We recommend to use a value in range of 30 - 100. Se to 0 for no restrictions. Used for limit the quantities of possible spam through the server',
 	'setting_pmfloodctrl'			=> 'PM Flood Prevention',
 	'setting_pmfloodctrl_comment'		=> 'Interval between two PM, in seconds, 0 for unlimited, this is to prevent the Ads robots',
+	'setting_addappbyurl' => 'Enable adding apps via URL',
+	'setting_addappbyurl_comment' => 'Whether to enable the function of adding an application through a URL, it is recommended to enable it only when you need to add an application through a URL',
 
 	'setting_user_failedtime'		=> 'Allows times of login failures',
 	'setting_user_failedtime_comment'	=> 'If the number of login failures exceeds this setting, the user will not be able to log in within 15 minutes. Set to 0 to not limit the number of login failures.',
