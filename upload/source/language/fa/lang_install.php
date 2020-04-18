@@ -8,6 +8,10 @@
  *	Translated to Persian by Discuz.ir
  */
 
+if(!defined('IN_COMSENZ')) {
+	exit('Access Denied');
+}
+
 define('UC_VERNAME', 'نسخه بین المللی');
 
 $lang = array(
@@ -22,6 +26,8 @@ $lang = array(
 	'agreement_yes'		=> 'موافقم',//'我同意',
 	'agreement_no'		=> 'عدم موافقت',//'我不同意',
 	'notset'		=> 'Not set',//'不限制',
+	'enable'		=> 'Enable',
+	'disable'		=> 'Disable',
 
 	'message_title'		=> 'Reminder',//'提示信息',
 	'error_message'		=> 'پیغام خطا',//'错误信息',
@@ -178,12 +184,12 @@ $lang = array(
 	'init_credits_money'	=> 'Points',//'金钱',//!!! The same in install_var.php
 
 	'init_postno0'		=> '#1',//'楼主',//!!! The same in install_var.php 
-	'init_postno1'		=> '#2',//'沙发',    //!!! The same in install_var.php
-	'init_postno2'		=> '#3',//'板凳',   //!!! The same in install_var.php
-	'init_postno3'		=> '#4',//'地板',   //!!! The same in install_var.php
+	'init_postno1'		=> '#2',//'沙发',//!!! The same in install_var.php
+	'init_postno2'		=> '#3',//'板凳',//!!! The same in install_var.php
+	'init_postno3'		=> '#4',//'地板',//!!! The same in install_var.php
 
-	'init_support'		=> 'Digg',//'支持',   //!!! The same in install_var.php
-	'init_opposition'	=> 'Bury',//'反对',//!!! The same in install_var.php
+	'init_support'		=> 'Pro',//'支持',   //!!! The same in install_var.php
+	'init_opposition'	=> 'Contra',//'反对',//!!! The same in install_var.php
 
 	'init_group_0'	=> 'Member',//'会员',
 	'init_group_1'	=> 'Administrator',//'管理员',
@@ -248,53 +254,55 @@ $lang = array(
 
 	'license'	=> '<div class="license"><h1>License agreement</h1>
 
-<p>Copyright (c) 2001-2020, Tencent Cloud Computing (Beijing) Co., Ltd. (formerly Beijing Kangsheng Xinchuang Technology Co., Ltd.), All rights reserved.</p>
+<p>Copyright (c) 2001-2020, Tencent Cloud Computing (Beijing) Co., Ltd. (formerly Beijing Hong Sing Xinchuang Technology Co., Ltd.), All rights reserved.</p>
 
 <p>Thank you for choosing Discuz! forum product. We hope that our product will be able to provide you with a fast, efficient and powerful community forum solution.</p>
 
 <p>Discuz! English full name Crossday Discuz! Board, Chinese full name Discuz! Forum, hereinafter referred to as Discuz!.</p>
-
 <p>Sing Imagination (Beijing) Technology Co., Ltd. for the Discuz! product developers, and they shall have Discuz! Product Copyright (China National Copyright Administration of Copyright Registration No. 2006SR11895). Sing Imagination (Beijing) Technology Co., Ltd. website http://www.comsenz.com, Discuz! Official website address is http://www.discuz.com, Discuz! Official forum site at http://www.discuz.net.</p>
-
 <p>Discuz! copyright has been registered in The People\'s Republic of China National Copyright Administration, copyright law and by international treaties. User: whether individuals or organizations, profit or not, how to use (including study and research purposes), are required to carefully read this agreement, understand, agree to and comply with all the terms of this agreement only after the start using Discuz! software.</p>
 
 <p>This License applies and only applies Discuz! X version, Hong Sing Imagination (Beijing) Technology Co., Ltd. has the power of final interpretation of the licensing agreement.</p>
 
 <h3>I. Licensing agreement rights</h3>
 <ol>
-<li>You can fully comply with the end user license agreement, based on the software used in this non-commercial use, without having to pay for software copyright licensing fees.</Li>
-<li>Agreement you can within the constraints and limitations modify Discuz! source code (if provided) or interface styles to suit your site requirements.</Li>
-<li>You have to use this software to build the forum all the membership information, articles and related information of ownership, and is independent of commitment and legal obligations related to the article content.</Li>
-<li>A commercial license, you can use this software for commercial applications, while according to the type of license purchased to determine the period of technical support, technical support, technical support form and content, from the moment of purchase, within the period of technical support have a way to get through the specified designated areas of technical support services. Business authorized users have the power to reflect and comment, relevant comments will be a primary consideration, but not necessarily be accepted promise or guarantee.</Li>
+   <li>You can apply this software for non-commercial use on the basis of fully complying with this license agreement, without paying the software copyright license fee.</li>
+   <li>You can modify the source code (if provided) or the interface style of Hong Sing products within the constraints and restrictions specified in the agreement to suit your website requirements.</li>
+   <li>You own the ownership of all member materials, articles and related information on the website built using this software, and independently undertake the responsibility of reviewing and paying attention to the content of the website built using this software to ensure that it does not infringe on the legal rights of anyone, Independently bear all the responsibilities caused by the use of Hong Sing software and services. If it causes losses to Hong Sing company or users, you shall be fully compensated.</li>
+   <li>If you need to use Hong Sing software or service users for commercial purposes, you must obtain Hong Sing\'s written permission separately. After you obtain commercial authorization, you can use this software for commercial purposes, according to the type of authorization purchased The determined technical support period, technical support method and technical support content, from the moment of purchase, have the technical support service within the specified range through the specified method within the technical support period. Commercial authorized users have the right to reflect and put forward opinions. The relevant opinions will be considered as the first consideration, but there is no promise or guarantee to be adopted.</li>
+   <li>You can download the application suitable for your website from the application center service provided by Hong Sing, but you should pay the application developer/owner the corresponding fee.</li>
 </ol>
 
 <h3>II. Agreement constraints and limitations</h3>
 <ol>
-<li>Business license has not been before, may not use this software for commercial purposes (including but not limited to business sites, business operations, for commercial purpose or profit web site). Purchase of commercial license, please visit http://www.discuz.com reference instructions, call 8610-51657885 for more details.</Li>
-<li>May not associated with the software or business license for rental, sale, mortgage or grant sub-licenses.</Li>
-<li>In any case, that no matter how used, whether modified or landscaping, changes to what extent, just use Discuz! the whole or any part, without the written permission of the Forum page footer Department Discuz! name and Sing Imagination (Beijing) Technology Co., Ltd. affiliated website (http://www.comsenz.com, http://www.discuz.com or http://www.discuz.net) the link must be retained, not removed or modified .</Li>
-<li>Prohibited Discuz! the whole or any part of the basis for the development of any derivative version, modified version or third-party version for redistribution.</Li>
-<li>If you failed to comply with the terms of this Agreement, your license will be terminated, the licensee rights will be recovered, and bear the corresponding legal responsibility.</Li>
+   <li>The software may not be used for commercial purposes (including but not limited to corporate websites, operating websites, profit-making or profit-making websites) without the written commercial authorization of Hong Sing Company. To purchase a commercial license, please visit http://www.discuz.com to refer to relevant instructions, or you can call 8610-51282255 for details.</li>
+   <li>The software or its associated commercial authorizations may not be rented, sold, mortgaged or sub-licenseed.</li>
+   <li>In any case, that is, regardless of the purpose, whether it has been modified or beautified, and the degree of modification, as long as the whole or any part of the product is used, the name of the product and the company in the footer of the page without the written permission Links to subordinate websites (http://www.comsenz.com, or http://www.discuz.net) must be retained, and cannot be cleared or modified.</li>
+   <li>It is forbidden to develop any derived version, modified version or third-party version for redistribution based on the whole or any part of Hong Sing products.</li>
+   <li>Applications you download from the Application Center may not be reverse engineered, reversed compiled, reversed compiled, etc. without the written permission of the application developer/owner, and may not be copied, modified, linked, Reprint, compile, publish, publish, and develop derivative products and works related to it.</li>
+   <li>If you fail to abide by the terms of this agreement, your authorization will be terminated, the rights granted will be withdrawn, and you shall bear the corresponding legal responsibilities.</li>
 </ol>
 
 <h3>III. Limited Warranty and Disclaimer</h3>
 <ol>
-<li>The software and the accompanying documents as not to provide any express or implied, or guarantee in the form of compensation provided.</li>
-<li>User voluntary use of this software, you must understand the risks of using this software, technical services in the not to buy products before, we do not promise to provide any form of technical support, use of guarantees, nor liable for any use of this software issues related to liability arising.</li>
-<li>Hong Sing Company does not use the software to build a website or forum post or liable for the information, you assume full responsibility.</li>
-<li>Hong Sing company provides software and services in a timely manner, security, accuracy is not guaranteed, due to force majeure, Hong Sing factors beyond the control of the company (including hacker attacks, stopping power, etc.) caused by software and services Suspension or termination, and give your losses, you agree to Sing corporate responsibility waiver of all rights.</li>
-<li>Hong Sing Company specifically draw your attention to Hong Sing Company in order to protect business development and adjustment of autonomy, Hong Sing Company has at any time with or without prior notice to modify the service content, suspend or terminate some or all of the rights of software and services , changes will be posted on the relevant pages of Sing website, including without notice. Hong Sing Company to modify or discontinue the exercise, termination of some or all of the rights of software and services resulting from the loss, without Hong Sing Company to you or any third party.
-</li>
+   <li>This software and the accompanying documents are provided without any explicit or implicit compensation or guarantee.</li>
+   <li>Users use this software voluntarily, you must understand the risks of using this software. Before purchasing product technical services, we do not promise to provide any form of technical support, use guarantees, nor assume any responsibility for using this software. And the related responsibility for the problem. </ li>
+   <li>Hong Sing does not assume responsibility for articles or information on websites or forums built using this software, and you are solely responsible for it.</li>
+   <li>Hong Sing cannot fully monitor the applications uploaded to the application center by third parties, so it does not guarantee the legality, security, integrity, authenticity or quality of the application; when you download the application from the application center, Agree to judge and bear all risks independently, without relying on Hong Sing. However, in any case, Hong Sing has the right to stop the application center service and take corresponding actions according to law, including but not limited to uninstalling related applications, suspending all or part of the service, keeping relevant records, and reporting to relevant authorities. As a result, Hong Sing will not bear any direct, indirect or joint liability for the losses that may be caused to you and third parties.</li>
+   <li>Hong Sing does not guarantee the timeliness, security, and accuracy of the software and services provided by Hong Sing. The software is caused by force majeure factors and factors beyond Hong Sing\’s control (including hacking attacks, power outages, etc.). If the use or service is suspended or terminated, and you cause losses, you agree to waive all rights to pursue Hong Sing\'s liability. 6. Hong Sing Company specially reminds you that Hong Sing Company has the right to modify the service content, suspend or terminate some or all of the software use and services at any time or without prior notice in order to protect the company\'s business development and adjustment autonomy. The rights will be published on the relevant pages of Hong Sing\'s website, and will be deemed as a notice once it is published. If Hong Sing Company exercises the right to modify or suspend or terminate some or all of the software use and services and cause losses, Hong Sing Company shall not be liable to you or any third party.</li>
 </ol>
 
+<p>Details on the end user license agreement, commercial authorization and technical services of Hong Sing products are provided exclusively by Hong Sing. Hong Sing has the right to modify the license agreement and service price list without prior notice. The revised agreement or price list will be effective for new authorized users from the date of change.</p>
 
-<p>Hong Sing products on the end user license agreement, business license and technical services to the details provided by the Hong Sing exclusive. Sing the company has without prior notice, modify the license agreement and services price list right to the modified agreement or price list from the change of the date of the new authorized user to take effect.</p>
+<p>Once you start to install Hong Sing products, you are deemed to fully understand and accept the terms of this agreement. While enjoying the rights granted by the above terms, you are subject to relevant constraints and restrictions. Actions beyond the scope of the agreement will directly violate this authorization agreement and constitute infringement. We have the right to terminate the authorization at any time, order to stop the damage, and reserve the right to pursue related liabilities.</p>
 
-<p>Once you start the installation Hong Sing products, shall be deemed to fully understand and accept the terms of this Agreement, the terms in the enjoyment of the rights granted at the same time, by the relevant constraints and restrictions. Licensing agreement outside the scope of acts would be a direct violation of this License Agreement and constitute an infringement, we have the right to terminate the authorization, shall be ordered to stop the damage, and retain the power to investigate related responsibilities.</p>
+<p>The interpretation, validity, and dispute resolution of the terms of this license agreement apply to the laws of the People\’s Republic of China.</p>
 
-<p>The interpretation of the terms of the license agreement, validity, and dispute resolution, applicable to the mainland People\'s Republic of law.</p>
+<p>If there is any dispute or dispute between you and Hong Sing, you should first settle it through friendly consultation. If the negotiation fails, you hereby fully agree to submit the dispute or dispute to the jurisdiction of the Beijing Haidian District People\’s Court where Hong Sing is located. Hong Sing has the right to interpret and modify the content of the above clauses.</p>
 
-<p>Between Hong Sing if you and any dispute or controversy, should first be settled through friendly consultations, the consultation fails, you hereby agree to submit the dispute or controversy Sing Haidian District People\'s Court where jurisdiction. Hong Sing Company has the right to interpret the above terms and discretion.</p>
+<p>(End of text)</p>
+
+<p align="right">Hong Sing Company</p>
 
 </div>',
 
@@ -317,6 +325,8 @@ $lang = array(
 	'allow'			=> 'Allow',//'允许',
 	'unix'			=> 'Unix-like',//'类Unix',
 	'diskspace'		=> 'Disk Space',//'磁盘空间',
+	'opcache'		=> 'OPcache',
+	'curl'			=> 'cURL library',
 	'priv_check'		=> 'بررسی فایلها و دسترسی ها',//'目录、文前服件权限检查',
 	'func_depend'		=> 'بررسی توابع',//'函数依赖性检查',
 	'func_name'		=> 'نام تابع',//'函数名称',

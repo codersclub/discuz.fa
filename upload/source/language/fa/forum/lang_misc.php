@@ -147,10 +147,6 @@ $lang = array
 
 	'eccredit_explain'		=> 'توضیح',//'解释',
 
-	'google_site_0'			=> 'جستجو در وب',//'网页搜索',
-	'google_site_1'			=> 'جستجو در سایت',//'站内搜索',
-	'google_sa'			=> 'جستجو',//'搜索',
-
 	'modcp_logs_action_home'	=> 'کنترل پنل صفحه اصلی',//'内部留言',
 	'modcp_logs_action_moderate'	=> 'اداره کردن',//'审核',
 	'modcp_logs_action_member'	=> 'ویرایش کاربر',//'用户管理',

@@ -143,7 +143,6 @@ $lang = array
 	'menu_magics'			=> 'جادو ها',//'道具中心',
 	'menu_medals'			=> 'مدال ها',//'勋章中心',
 	'menu_misc_help'		=> 'کمک',//'站点帮助',
-	'menu_google'			=> 'سرچ گوگل',//'Google 搜索',
 	'menu_ec'			=> 'E-commerce',//'电子商务',
 	'menu_card'			=> 'Recharge card close',//'充值卡密',
 

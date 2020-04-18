@@ -16,6 +16,9 @@ if(!defined('IN_DISCUZ')) {
 $lang = array
 (
 
+	'req_ver_too_low'	=> 'The {req} version ({now_ver}) in your current system environment is too low for the program to function as expected. We strongly recommend that you upgrade to the {sug_ver} version. The minimum required for normal program operation is the {req_ver} version.',//'您当前系统环境内的 {req} 版本 ({now_ver}) 过低，程序无法按预期正常运行。我们强烈建议您升级到 {sug_ver} 版本，程序正常运行最低要求为 {req_ver} 版本。',
+	'req_not_found'		=> 'The {req} module is not installed or turned off in your current system environment, and the program does not run as expected. We strongly recommend that you install or turn on this module to meet the minimum requirements for correct program operation.',
+	'req_ok'		=> 'Your current system environment is suitable for the current version of Discuz! {Version}.',
 	'subscribe_comsenz_email'	=> 'Fill in your e-mail address for subscribe to Discuz! official product development security alerts and official news.',//'填写您的邮件地址，订阅 Discuz! 官方产品动态、安全提醒、官方新闻',
 	'scan_discuz_qrcode'	=> '<img src="source/plugin/wechat/image/discuz_qr.jpg" align="left" width="80" /><br />Scan the Discuz! Official micro-channel<br /><br />Get Official News',//'<img src="source/plugin/wechat/image/discuz_qr.jpg" align="left" width="80" /><br />扫描关注Discuz!官方微信<br /><br />获取官方最新动态',
 	'reglinkname_default'	=> 'عضویت',//'注册',
@@ -782,7 +785,7 @@ $lang = array
 	'setting_access_register_maildomain_white'		=> 'WhiteList mode',//'白名单模式',
 	'setting_access_register_maildomain_black'		=> 'BlackList mode',//'黑名单模式',
 	'setting_access_register_maildomain_list'		=> 'Domain list',//'限制名单',
-	'setting_access_register_maildomain_list_comment'	=> 'When a mail domain name is present in the list, it will be operated with the corresponding action. You can block entered emails from some domains. For example, if you want to block all mailboxes like xxx@site.com, just enter the site.com. One domain per line.',//'当邮箱的域名处于本列表中的地址时，将根据上述选项进行相应限制操作。输入要限制的邮箱域名即可，例如屏蔽 xxx@xxx.com 的域，只需输入 xxx.com。每行一个域名。',
+	'setting_access_register_maildomain_list_comment'	=> 'When a mail domain name is present in the list, the corresponding restrictions will be performed according to the above options. You can block entered emails from some domains. Enter the domain name of the mailbox to be restricted. For example, to block the domain of xxx@xxx.com, just enter @xxx.com. One domain name per line.',
 	'setting_access_register_ctrl'				=> 'Registration interval limit for the same IP (hours)',//'同一 IP 注册间隔限制(小时)',
 	'setting_access_register_ctrl_comment'			=> 'Minimal time interval for register new account from the same IP,<br/>0 for no limits',//'同一 IP 在本时间间隔内将只能注册一个帐号，0 为不限制',
 	'setting_access_register_floodctrl'			=> 'Maximum number of registrations enabled for the same IP in 24 hours',//'同一 IP 在 24 小时允许注册的最大次数',
@@ -798,16 +801,16 @@ $lang = array
 	'setting_access_register_welcomemsgtxt_comment'		=> 'The system send a welcome message with this content. Title & content supports variable substitution. You can use the following variables:<br />{username}: User name<br />{time}: Sent time<br />{sitename}: Site name (shown in the page bottom as contacts)<br />{bbname}: Site Name (displayed in the browser window title, etc.)<br />{adminemail}: Administrator Email.',//'系统发送的欢迎信息的内容。标题内容均支持变量替换，可以使用如下变量:<br />{username} : 用户名<br />{time} : 发送时间<br />{sitename} : 网站名称（显示在页面底部的联系方式处的名称）<br />{bbname} : 站点名称（显示在浏览器窗口标题等位置的名称）<br />{adminemail} : 管理员 Email',
 	'setting_access_register_bbrules'			=> 'قوانین عضویت در سایت',//'显示网站服务条款',
 	'setting_access_register_bbruleforce'			=> 'اجباری کردن تایید قوانین عضویت',//'是否强制显示网站服务条款',
-	'setting_access_register_bbruleforce_comment'		=> 'This option in for the user registration, the first full terms of service will see the site, you must agree to before they can continue to be registered',//'选择是则在用户注册时，首先将看到网站服务条款全文，必须同意才可以继续注册',
+	'setting_access_register_bbruleforce_comment'           => 'If selected Yes, the user must agree the site Terms of Services before the registration',//'选择是则在用户注册时，首先将看到网站服务条款全文，必须同意才可以继续注册',
 	'setting_access_register_bbrules_comment'		=> 'Show Terms of Service to new user in registration.',//'新用户注册时显示网站服务条款',
 	'setting_access_register_bbrulestxt'			=> 'قوانین و شرایط عضویت',//'服务条款内容',
 	'setting_access_register_bbrulestxt_comment'		=> 'شرایط و قوانین عضویت در سایت را اینجا وارد کنید',//'网站服务条款的详细内容',
 	'setting_access_register_ipctrl_time'			=> 'Limit registration interval for this IP ranges (in hours):',//'限时注册IP注册间隔限制(小时):',
-	'setting_access_register_ipctrl_time_comment'		=> 'User registration with the same IP from this IP address list will be limited by the time interval',//'用户处于限时注册的 IP 列表中的 IP 地址时，同一 IP 在本时间间隔内将只能注册一个帐号',
+	'setting_access_register_ipctrl_time_comment'		=> 'When a user IP address is found inside the IP address time-limited list, then the same IP will be able to register a new account only after the specified time interval.',//'用户处于限时注册的 IP 列表中的 IP 地址时，同一 IP 在本时间间隔内将只能注册一个帐号',
 	'setting_access_register_ipctrl'			=> 'محدود کردن آیپی برای ثبت نام',//'限时注册的 IP 列表',
-	'setting_access_register_ipctrl_comment'		=> 'When the user is in this list of IP addresses, he enabled to register an account only in 72 hours. One IP per line. You can enter a full IP address or just the IP beginning, i.e. "192.168." (Without quotation marks) to match all addresses in the range of 192.168.0.0 ~ 192.168.255.255. Leave blank for no limits.',//'当用户处于本列表中的 IP 地址时，在限时注册IP注册间隔限制内将至多只允许注册一个帐号。每个 IP 一行，既可输入完整地址，也可只输入 IP 开头，例如 "192.168."(不含引号) 可匹配 192.168.0.0～192.168.255.255 范围内的所有地址，留空为不设置',
+	'setting_access_register_ipctrl_comment'		=> 'When a user IP address is in this IP address list, he can register only one account inside the specified time interval. One IP per line. You can enter a full IP address, or only the beginning of IP. For example, "192.168." (Without quotation marks) will match all addresses in the range from 192.168.0.0 to 192.168.255.255. Leave blank to not set.',//'当用户处于本列表中的 IP 地址时，在限时注册IP注册间隔限制内将至多只允许注册一个帐号。每个 IP 一行，既可输入完整地址，也可只输入 IP 开头，例如 "192.168."(不含引号) 可匹配 192.168.0.0～192.168.255.255 范围内的所有地址，留空为不设置',
 	'setting_access_register_close'				=> 'غیر فعال سازی ثبت نام',//'关闭注册',
-	'setting_access_register_open'				=> 'Enable only general registration',//'只开放普通注册',
+	'setting_access_register_open'				=> 'Enable only general registration',//'开放普通注册',
 	'setting_access_register_invite'			=> 'فعال سازی ثبت نام فقط با دعوت',//'只开放邀请注册',
 	'setting_access_register_connect'			=> 'فعال سازی اکانت QQ',//'开放QQ注册',
 	'setting_access_register_send_register_url'		=> 'ارسال لینک ثبت نام توسط ایمیل',//'通过邮件发送注册链接',
@@ -851,9 +854,9 @@ $lang = array
 	'setting_access_register_advanced'			=> 'Show advanced settings',//'显示高级选项',
 	'setting_access_register_advanced_comment'		=> 'Display advanced settings page after registration',//'在注册页面是否显示选填内容',
 	'setting_access_register_name'				=> 'Registration name:',//'注册地址:',
-	'setting_access_register_name_comment'			=> 'Set the site up address mod, default is "عضویت", change the name of irrigation software helps prevent different from the Discuz! X versions prior to change this setting, do not modify any file name, only This modification can be',//'设置站点注册地址 mod 值，默认为“register”，修改名称有利于防止灌水软件，有别于 Discuz! X 之前的版本更改了此设置，不需要修改任何文件名称，只在此修改即可',
+	'setting_access_register_name_comment'			=> 'Set the site up address mod, default is "Register", change the name of irrigation software helps prevent different from the Discuz! X versions prior to change this setting, do not modify any file name, only This modification can be',//'设置站点注册地址 mod 值，默认为“register”，修改名称有利于防止灌水软件，有别于 Discuz! X 之前的版本更改了此设置，不需要修改任何文件名称，只在此修改即可',
 	'setting_access_register_link_name'			=> 'لینک عضویت',//'注册链接文字',
-	'setting_access_register_link_name_comment'		=> 'Set the link text for the site registration page, the default is "عضویت"',//'设置站点注册页的链接文字，默认为“注册”',
+	'setting_access_register_link_name_comment'		=> 'Set the link text for the site registration page, the default is "Register"',//'设置站点注册页的链接文字，默认为“注册”',
 	'setting_access_register_strongpw'		=> 'چک کردن وضعیت گذرواژه',//'强制密码复杂度',
 	'setting_access_register_strongpw_comment'	=> 'For exclude the password hacking, a new registered user password must contain different type characters, and not contain any easy typed character sequences',//'新用户注册时密码中必须存在所选字符类型，不选则为无限制',
 	'setting_access_register_strongpw_1'		=> 'عدد',//'数字',
@@ -1013,7 +1016,7 @@ $lang = array
 	'setting_styles_forumdisplay_visitedforums'		=> 'Number of recent visited forums to show',//'显示最近访问版块数量',
 	'setting_styles_forumdisplay_visitedforums_comment'	=> 'Set the size of of drop-down list of last visited Forums. Recommended value from 0 to 30, 0 to disable this feature.',//'设置在版块列表和帖子浏览中显示最近访问过的版块数量，建议设置为 10 以内，0 为关闭此功能',
 	'setting_styles_forumdisplay_fastpost'			=> 'پست سریع',//'快速发帖',
-	'setting_styles_forumdisplay_fastpost_comment'		=> 'Show the bottom quick post form',//'底部显示快速发帖表单',
+	'setting_styles_forumdisplay_fastpost_comment'		=> 'Show quick post form at the bottom of thread list and at the bottom of the thread content',//'底部显示快速发帖表单',
 	'setting_styles_forumdisplay_fastsmilies'		=> 'Show recommended smiles',//'显示推荐表情',
 	'setting_styles_forumdisplay_fastsmilies_comment'	=> 'Show recommended smiles on the right of the quick post form. Recommended smiles needs to be set in "look management"',//'在快速发帖右侧显示推荐表情。推荐的表情需要到“表情管理”中设置',
 	'setting_styles_forumdisplay_forumpicstyle_thumbwidth'		=> 'Thread Cover width',//'主题封面宽度',
@@ -1212,7 +1215,7 @@ $lang = array
 	'setting_home_base_sendmailday'			=> 'Days offline before e-mail notice',//'邮件通知更新天数',
 	'setting_home_base_sendmailday_comment'		=> 'Number of days, when the user does not log in, after then the system will send a notification message. Set to 0 for disable e-mail notification. Enabled this feature will slightly increase the server loading.',//'(默认 0) 单位：天，当用户多少天没有登录站点的时候才会给其发送邮件通知；<br>设置为0，则不启用邮件通知功能；<br>启用本功能将会轻微增加服务器负载',
 	'setting_home_base_recycle_bin'			=> 'Enable the blog Recycle Bin',//'开启日志回收站',
-	'setting_home_base_recycle_bin_comment'		=> 'After you enable this feature, All the removed blogs will be moved into the Recycle Bin instead of removing directly.',//'打开此功能后，所有被日志将被放在回收站中，而不会被直接删除',
+	'setting_home_base_recycle_bin_comment'         => 'After you enable this feature, All the removed blogs will be moved into the Recycle Bin instead of removing directly.',//'打开此功能后，所有被删除日志将被放在回收站中，而不会被直接删除',
 
 	'setting_home_base_networkpage'			=> 'Enable tabbed browsing of members list',//'成员排行榜允许分页浏览',
 	'setting_home_base_networkpage_comment'		=> 'This setting take effect only for ranked members, online members, and all members.',//'该设置只对排行榜中的竞价排行、在线成员、全部成员有效',
@@ -1281,7 +1284,7 @@ $lang = array
 	'setting_home_videophoto_allowpoll'		=> 'Allow to add polls',//'允许发投票',
 	'setting_home_videophoto_allowshare'		=> 'Allow to add shares',//'允许分享',
 	'setting_home_videophoto_allowfavorite'		=> 'Allow to use Favorites',//'允许收藏',
-	'setting_home_videophoto_allowuserapp'		=> 'Allow to use MYOP applicationst',//'允许使用MYOP应用',
+	'setting_home_videophoto_allowuserapp'		=> 'Allow to use MYOP applications',//'允许使用MYOP应用',
 
 	'setting_home_privacy'				=> 'تنظیمات حریم خصوصی',//'隐私设置',
 	'setting_home_privacy_new_user'			=> 'حالت پیشفرض تنظیمات پروفایل',//'新用户默认隐私设置',
@@ -1341,7 +1344,7 @@ $lang = array
 	'setting_domain_app_tips'			=> "<li>For the built-in <strong>Portal, Forum, Groups, Spaces</strong>, domain name to bind by default.</li><li>Each binding domain must be unique, <strong>any opening of a domain name, you need to configure the default domain</strong>, otherwise it will create more import problems.</li><li>Set Forum formats such as: portal.comsenz.com</li><li>Do not add &quot;<strong>http://</strong>&quot; at the domain name beginning, or &quot;<strong>/</strong>&quot; at the domain ending.</li>",//"<li>各自绑定的域名不能相同，域名不需要添加“<strong>http://</strong>”，也不要以“<strong>/</strong>”结尾，例如：portal.comsenz.com</li><li>任意开启一项域名，需要配置默认域名，否则会造成多入口问题</li><li>当开启多域名时，请在 config/config_global.php 中修改 cookiedomain 值来设置 cookie 作用域</li>",
 	'setting_domain_app_mobile_tips'		=> 'Configure domain name when access by a phone. Non-mobile browser will be automatically redirected to the default domain name',//'当配置手机域名后，非手机浏览器访问会自动跳转至默认域名',
 	'setting_domain_root'				=> 'تنظیمات روت دامنه',//'根域名设置',
-	'setting_domain_root_tips'			=> "<li><strong>Groups, Space, Forum, Thread, Category</strong> can be set up into a subdomain relative to the root domain name. Example: If a user application need to be set at XXX.comsenz.com, fill in the root domain as: comsenz.com</li><li><strong>Groups, after finishing of set Space</strong> to subdomain, it is also required to open the corresponding subdomain switching so users can apply the appropriate place to bind the subdomain name. User groups also limited by the length of the subdomain name.</li><li>If a <strong>Channel</strong> enabled at subdomain, and it is bound to some directory, configure bt yourself the environment for bind related operation.</li><li>In other cases it is not recommended to change the root domain to subdomains.</li>",//"<li>可以为<strong>个人空间、{$_G[setting][navs][3][navname]}、版块、专题、频道</strong>设置一个二级域名的根域名。例：用户申请XXX.comsenz.com,根域名填：comsenz.com</li><li><strong>个人空间、{$_G[setting][navs][3][navname]}</strong>设置完二级域名的根后，还需要在<strong>基本设置</strong>中开启相应的二级域名开关，用户才能在相应的地方申请绑定二级域名，同时受限于用户组的二级域名长度</li><li><strong>频道</strong>启用二级域名如果是绑定目录的，需要自已在环境中配置相关的绑定操作</li><li>不建议中途将不同的根域变更为相同的根域</li>",
+	'setting_domain_root_tips'			=> "<li><strong>Groups, Space, Forum, Thread, Category</strong> can be set up into a subdomain relative to the root domain name. Example: If a user application need to be set at XXX.comsenz.com, fill in the root domain as: comsenz.com</li><li><strong>Groups, after finishing of set Space</strong> to subdomain, it is also required to open the corresponding subdomain switching so users can apply the appropriate place to bind the subdomain name. User groups also limited by the length of the subdomain name.</li><li>If a <strong>Channel</strong> enabled at subdomain, and it is bound to some directory, configure by yourself the environment for bind related operation.</li><li>In other cases it is not recommended to change the root domain to subdomains.</li>",//"<li>可以为<strong>个人空间、{$_G[setting][navs][3][navname]}、版块、专题、频道</strong>设置一个二级域名的根域名。例：用户申请XXX.comsenz.com,根域名填：comsenz.com</li><li><strong>个人空间、{$_G[setting][navs][3][navname]}</strong>设置完二级域名的根后，还需要在<strong>基本设置</strong>中开启相应的二级域名开关，用户才能在相应的地方申请绑定二级域名，同时受限于用户组的二级域名长度</li><li><strong>频道</strong>启用二级域名如果是绑定目录的，需要自已在环境中配置相关的绑定操作</li><li>不建议中途将不同的根域变更为相同的根域</li>",
 	'setting_domain_allow_space'			=> 'Allow Space at subdomain names',//'开启个人空间二级域名',
 	'setting_domain_allow_space_comment'		=> 'If this is turned ON, you need to set the root domain name. A user group or an application domain name length is limited!',//'开启后需在设置根域名、以及用户组域名长度后方能开启域名申请',
 	'setting_domain_allow_group'			=> 'Enable groups at subdomain name',//'开启群组二级域名',
@@ -1359,11 +1362,11 @@ $lang = array
 	'setting_profile_time_zone'			=> 'Time Zone',//'时区',
 	'setting_profile_tips'				=> '<li>Must enable at least part of users groups. If not enabled, the default is all enabled</li>',//'<li>用户栏目分组至少必须启用一项，如果都不启用，默认为全部启用</li>',
 
-/*3.2.1*/	'setting_threadprofile_tpl_tpls'	=> '<li>{<b>tag</b>} Without Parameters Posted within User Information Tag called.</li><li>{<b>tag</b>=<b>parameter</b>} Paste parameters, user information tag called. Separate Multiple parameters with a comma &quot;,&quot;.</li><li>{<b>tag</b>} <b>HTML</b> {<b>*</b>} <b>HTML</b> {/<b>tag</b>} When call the content value {*} Before and after HTML content</li><li>&quot;<b>plugin:plugin_ID</b>&quot; format <b>tag</b> paste plugin adds user information tag call. For plugin developers: Read the &laquo;<a href="http://open.discuz.net/?!devdoc" target="_blank">Discuz! Technical Library</a>&raquo; carefully before designing a new paste user information tag.</li>',//'<li>{<b>标记</b>} 不含参数的贴内用户信息标记调用。</li><li>{<b>标记</b>=<b>参数</b>} 含参数的贴内用户信息标记调用，多个参数用","分割</li><li>{<b>标记</b>}<b>HTML</b>{<b>*</b>}<b>HTML</b>{/<b>标记</b>} 当有调用内容有值时显示 {*} 前后的 HTML 内容</li><li>“<b>plugin:插件标识</b>”格式的<b>标记</b>为插件增加的贴内用户信息标记调用。插件开发人员在设计新的贴内用户信息标记前请务必仔细阅读《<a href="http://open.discuz.net/?!devdoc" target="_blank">Discuz! 技术文档</a>》中的内容。</li>',
+	'setting_threadprofile_tpl_tpls'	=> '<li>{<b>tag</b>} Use a TAG without parameters.</li><li>{<b>tag</b>=<b>parameter</b>} Use a TAG with parameters. Separate multiple parameters with a comma &quot;,&quot;.</li><li>{<b>tag</b>}HTML{<b>*</b>}HTML{/<b>tag</b>} Display HTML content before and after {*} when there is a value for the calling content</li><li>&quot;<b>plugin:Plugin_ID</b>&quot; this format of a <b>tag</b> is used to display the info from a plugin. Plug-in developers must read carefully the &laquo;<a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! Technical Documentation</a>&raquo; before designing a new user defined tag.</li>',//'<li>{<b>标记</b>} 不含参数的贴内用户信息标记调用。</li><li>{<b>标记</b>=<b>参数</b>} 含参数的贴内用户信息标记调用，多个参数用","分割</li><li>{<b>标记</b>}<b>HTML</b>{<b>*</b>}<b>HTML</b>{/<b>标记</b>} 当有调用内容有值时显示 {*} 前后的 HTML 内容</li><li>“<b>plugin:插件标识</b>”格式的<b>标记</b>为插件增加的贴内用户信息标记调用。插件开发人员在设计新的贴内用户信息标记前请务必仔细阅读《<a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! 技术文档</a>》中的内容。</li>',
 
-	'setting_numbercard'			=> 'User attributes buiseness card',//'用户属性名片',
+	'setting_numbercard'			=> 'User attributes business card',//'用户属性名片',
 	'setting_numbercard_row'		=> 'First {i} rows',//'第 {i} 列',
-	'setting_numbercard_type_threads'	=> 'Threads threads',//'主题数',
+	'setting_numbercard_type_threads'	=> 'Threads',//'主题数',
 	'setting_numbercard_type_posts'		=> 'Posts',//'帖子数',
 	'setting_numbercard_type_digestposts'	=> 'Digests',//'精华数',
 	'setting_numbercard_type_credits'	=> 'Credits',//'总积分',
@@ -1436,19 +1439,40 @@ $lang = array
 	'setting_seo_articlelist'		=> 'لیست مقاله ها',//'文章列表',
 	'setting_seo_article'			=> 'محتوای مفاله ها',//'文章内容',
 	'setting_seo_forum'			=> 'صفحه نخست انجمن',//'论坛首页',
-	'setting_seo_forum_tips'		=> '<li>site name&nbsp;<font class="highlight">{bbname}</font>(Application: All Location)</li><li>current forum name&nbsp;<font class="highlight">{forum}</font>(Application: In addition to home than)</li><li>a forum name&nbsp;<font class="highlight">{fup}</font>(Applications: Sub-Forum page and post the contents of a list of topics page)</li><li>District Name&nbsp;<font class="highlight">{fgroup}</font>(Application: In addition to home than)</li><li>post title&nbsp;<font class="highlight">{subject}</font>(application: Posts content page)</li><li>Topic summary&nbsp;<font class="highlight">{summary}</font>(application: Posts content page)</li><li>topic tag&nbsp;<font class="highlight">{tags}</font>(application: Posts content page )</li><li>sub pages&nbsp;<font class="highlight">{page}</font>(application: a list of topics page, post the contents page)</li>',//'<li>站点名称&nbsp;<font class="highlight">{bbname}</font>（应用范围：所有位置）</li><li>当前版块名称&nbsp;<font class="highlight">{forum}</font>（应用范围：除首页以外）</li><li>一级版块名称&nbsp;<font class="highlight">{fup}</font>（应用范围：子版块主题列表页和帖子内容页）</li><li>分区名称&nbsp;<font class="highlight">{fgroup}</font>（应用范围：除首页以外）</li><li>帖子标题&nbsp;<font class="highlight">{subject}</font>（应用范围：帖子内容页）</li><li>主题摘要&nbsp;<font class="highlight">{summary}</font>（应用范围：帖子内容页）</li><li>主题标签&nbsp;<font class="highlight">{tags}</font>（应用范围：帖子内容页）</li><li>分页数&nbsp;<font class="highlight">{page}</font>（应用范围：主题列表页、帖子内容页）</li>',
+	'setting_seo_forum_tips'		=> '<li>Site name&nbsp;<font class="highlight">{bbname}</font>(Application: All Location)</li>
+						<li>Current forum name&nbsp;<font class="highlight">{forum}</font>(Application: Except to forum home)</li>
+						<li>Upper forum name&nbsp;<font class="highlight">{fup}</font>(Applications: Sub-Forum thread list and thread content)</li>
+						<li>District Name&nbsp;<font class="highlight">{fgroup}</font>(Application: Except to forum home)</li>
+						<li>Post title&nbsp;<font class="highlight">{subject}</font>(application: Posts content page)</li>
+						<li>Topic summary&nbsp;<font class="highlight">{summary}</font>(application: Posts content page)</li>
+						<li>Topic tag&nbsp;<font class="highlight">{tags}</font>(application: Posts content page )</li>
+						<li>Sub pages&nbsp;<font class="highlight">{page}</font>(application: a list of topics page, post the contents page)</li>',//'<li>站点名称&nbsp;<font class="highlight">{bbname}</font>（应用范围：所有位置）</li><li>当前版块名称&nbsp;<font class="highlight">{forum}</font>（应用范围：除首页以外）</li><li>一级版块名称&nbsp;<font class="highlight">{fup}</font>（应用范围：子版块主题列表页和帖子内容页）</li><li>分区名称&nbsp;<font class="highlight">{fgroup}</font>（应用范围：除首页以外）</li><li>帖子标题&nbsp;<font class="highlight">{subject}</font>（应用范围：帖子内容页）</li><li>主题摘要&nbsp;<font class="highlight">{summary}</font>（应用范围：帖子内容页）</li><li>主题标签&nbsp;<font class="highlight">{tags}</font>（应用范围：帖子内容页）</li><li>分页数&nbsp;<font class="highlight">{page}</font>（应用范围：主题列表页、帖子内容页）</li>',
 	'setting_seo_threadlist'		=> 'لیست موضوعات',//'主题列表',
 	'setting_seo_viewthread'		=> 'نمایش موضوع',//'帖子内容',
 	'setting_seo_home'			=> 'صفحه اول',//'家园首页',
-	'setting_seo_home_tips'			=> '<li>Site Name&nbsp;<font class="highlight">{bbname}</font> (Application: All locations</li><li>Blog Title&nbsp;<font class="highlight">{subject}</font>(Application: Blog content pages)</li><li>Blog/Photos&nbsp;<font class="highlight">{user}</font> (Application: Blog and photo album content pages)</li><li>Blog Summary&nbsp;<font class="highlight">{summary}</font> (Application: Blog content page)</li><li>Blog Tags&nbsp;<font class="highlight">{tags}</font> (Applications: Blog content page)</li><li>Album Name&nbsp;<font class="highlight">{album}</font> (Applications: Photo content page)</li><li>Album Description&nbsp;<font class="highlight">{depict}</font> (Application: Photo content page)</li>',//'<li>站点名称&nbsp;<font class="highlight">{bbname}</font>（应用范围：所有位置）</li><li>日志标题&nbsp;<font class="highlight">{subject}</font>（应用范围：日志内容页）</li><li>日志/相册作者&nbsp;<font class="highlight">{user}</font>（应用范围：日志和相册内容页）</li><li>日志摘要&nbsp;<font class="highlight">{summary}</font>（应用范围：日志内容页）</li><li>日志标签&nbsp;<font class="highlight">{tags}</font>（应用范围：日志内容页）</li><li>相册名称&nbsp;<font class="highlight">{album}</font>（应用范围：相册内容页）</li><li>册描述&nbsp;<font class="highlight">{depict}</font>（应用范围：相册内容页）</li>',
+	'setting_seo_home_tips'			=> '<li>Site Name&nbsp;<font class="highlight">{bbname}</font> (Application: All locations</li>
+						<li>Blog Title&nbsp;<font class="highlight">{subject}</font>(Application: Blog content pages)</li>
+						<li>Blog/Photos author&nbsp;<font class="highlight">{user}</font> (Application: Blog and photo album content pages)</li>
+						<li>Blog Summary&nbsp;<font class="highlight">{summary}</font> (Application: Blog content page)</li>
+						<li>Blog Tags&nbsp;<font class="highlight">{tags}</font> (Applications: Blog content page)</li>
+						<li>Album Name&nbsp;<font class="highlight">{album}</font> (Applications: Photo content page)</li>
+						<li>Album Description&nbsp;<font class="highlight">{depict}</font> (Application: Photo content page)</li>',//'<li>站点名称&nbsp;<font class="highlight">{bbname}</font>（应用范围：所有位置）</li><li>日志标题&nbsp;<font class="highlight">{subject}</font>（应用范围：日志内容页）</li><li>日志/相册作者&nbsp;<font class="highlight">{user}</font>（应用范围：日志和相册内容页）</li><li>日志摘要&nbsp;<font class="highlight">{summary}</font>（应用范围：日志内容页）</li><li>日志标签&nbsp;<font class="highlight">{tags}</font>（应用范围：日志内容页）</li><li>相册名称&nbsp;<font class="highlight">{album}</font>（应用范围：相册内容页）</li><li>册描述&nbsp;<font class="highlight">{depict}</font>（应用范围：相册内容页）</li>',
 	'setting_seo_blog'			=> 'محتوای وبلاگ',//'日志内容',
 	'setting_seo_album'			=> 'محتوای آلبوم',//'相册内容',
 	'setting_seo_group'			=> 'Group Home/Category',//'群组首页/分类',
-	'setting_seo_group_tips'		=> '<li>Site Name&nbsp;<font class="highlight">{bbname}</font> (Application: All Locations)</li><li>Current group name&nbsp;<font class="highlight">{forum}</font> (Application: In addition to the group home page, category page)</li><li>Category name&nbsp;<font class="highlight">{first}</font> (Application: All Locations)</li><li>Sub-category name&nbsp;<font class="highlight">{second}</font> (Application: All Locations)</li><li>Current group description&nbsp;<font class="highlight">{gdes}</font> (Application: Groups and Group post page)</li><li>Post title&nbsp;<font class="highlight">{subject}</font>  (Application: Group post page)</li><li>Topic summary&nbsp;<font class="highlight">{summary}</font> (Application: Group post page)</li><li>Topic tags&nbsp;<font class="highlight">{tags}</font> (Application: Group Post content page)</li><li>Page Number&nbsp;<font class="highlight">{page}</font> (Application: a list of topics page, post content page)</li>',//'<li>站点名称&nbsp;<font class="highlight">{bbname}</font>（应用范围：所有位置）</li><li>当前群组名称&nbsp;<font class="highlight">{forum}</font>（应用范围：除群组首页、分类页）</li><li>一级分类名称&nbsp;<font class="highlight">{first}</font>（应用范围：所有位置）</li><li>二级分类名称&nbsp;<font class="highlight">{second}</font>（应用范围：所有位置）</li><li>当前群组简介&nbsp;<font class="highlight">{gdes}</font>（应用范围：群组和群组帖子页）</li><li>帖子标题&nbsp;<font class="highlight">{subject}</font>（应用范围：群组帖子页）</li><li>主题摘要&nbsp;<font class="highlight">{summary}</font>（应用范围：群组帖子页）</li><li>主题标签&nbsp;<font class="highlight">{tags}</font>（应用范围：群组帖子内容页）</li><li>分页数&nbsp;<font class="highlight">{page}</font>（应用范围：主题列表页、帖子内容页）</li>',
+	'setting_seo_group_tips'		=> '<li>Site Name&nbsp;<font class="highlight">{bbname}</font> (Application: All Locations)</li>
+						<li>Current group name&nbsp;<font class="highlight">{forum}</font> (Application: Except to the group home page, category page)</li>
+						<li>Category name&nbsp;<font class="highlight">{first}</font> (Application: All Locations)</li>
+						<li>Sub-category name&nbsp;<font class="highlight">{second}</font> (Application: All Locations)</li>
+						<li>Current group description&nbsp;<font class="highlight">{gdes}</font> (Application: Groups and Group post page)</li>
+						<li>Post title&nbsp;<font class="highlight">{subject}</font>  (Application: Group post page)</li>
+						<li>Topic summary&nbsp;<font class="highlight">{summary}</font> (Application: Group post page)</li>
+						<li>Topic tags&nbsp;<font class="highlight">{tags}</font> (Application: Group Post content page)</li>
+						<li>Page Number&nbsp;<font class="highlight">{page}</font> (Application: a list of topics page, post content page)</li>',//'<li>站点名称&nbsp;<font class="highlight">{bbname}</font>（应用范围：所有位置）</li><li>当前群组名称&nbsp;<font class="highlight">{forum}</font>（应用范围：除群组首页、分类页）</li><li>一级分类名称&nbsp;<font class="highlight">{first}</font>（应用范围：所有位置）</li><li>二级分类名称&nbsp;<font class="highlight">{second}</font>（应用范围：所有位置）</li><li>当前群组简介&nbsp;<font class="highlight">{gdes}</font>（应用范围：群组和群组帖子页）</li><li>帖子标题&nbsp;<font class="highlight">{subject}</font>（应用范围：群组帖子页）</li><li>主题摘要&nbsp;<font class="highlight">{summary}</font>（应用范围：群组帖子页）</li><li>主题标签&nbsp;<font class="highlight">{tags}</font>（应用范围：群组帖子内容页）</li><li>分页数&nbsp;<font class="highlight">{page}</font>（应用范围：主题列表页、帖子内容页）</li>',
 	'setting_seo_grouppage'			=> 'Single group page',//'单一群组页面',
 	'setting_seo_viewthread_group'		=> 'Group thread content',//'群组帖子内容',
 	'setting_seo_seotitle'			=> 'Meta Title',
-	'setting_seo_seotitle_comment'		=> 'Page title is often very valuable for search engines, and this additional characters will appear in the title behind the site name. If there are multiple keywords, separate them by "," without quotes.',//'设置这里的标题会替换以下模块页面的模块标题，可以使用 {bbname} 表示当前的站点名称',
+	'setting_seo_seotitle_comment'		=> 'Page title is often very valuable for search engines, and this additional characters will appear in the title behind the site name. You can use the site name tag {bbname}.',//'设置这里的标题会替换以下模块页面的模块标题，可以使用 {bbname} 表示当前的站点名称',
 	'setting_seo_seokeywords'		=> 'Meta Keywords',
 	'setting_seo_seokeywords_comment'	=> 'Meta keywords in the Meta tag in the page header, used to record the page keyword. Separate multiple keywords with a comma ",".',//'keywords出现在页面头部的 Meta 标签中，用于记录本页面的关键字，多个关键字间请用半角逗号 "," 隔开',
 	'setting_seo_seodescription'		=> 'Meta Description',
@@ -1538,7 +1562,7 @@ $lang = array
 	'setting_cachethread_coefficient_forum_comment'	=> 'This will overwrite the previous cache coefficient value. You can hold down the CTRL key for multiple choice.',//'将会覆盖以前的缓存系数值，可以按住 CTRL 多选',
 
 	'setting_memory'			=> 'بهینه سازی مموری',//'内存优化',
-	'setting_memory_tips'			=> '<li>Memory optimization program will greatly enhance a performance and decrease the server loading. Memory optimization feature require the server support appropriate PHP extension.</li><li>Currently supported three Memory Optimization Interfaces: Memcache, eAccelerator, and Xcache. Optimize system will be based on the current server environment, followed by optional interfaces.</li><li>For enable Memory optimization you can edit the config_global.php for advanced settings.</li>',//'<li>启用内存优化功能将会大幅度提升程序性能和服务器的负载能力，内存优化功能需要服务器系统以及PHP扩展模块支持</li><li>目前支持的内存优化接口有 Memcache、eAccelerator、Alternative PHP Cache(APC)、Xcache 四种，优化系统将会依据当前服务器环境依次选用接口</li><li>内存接口的主要设置位于 config_global.php 当中，您可以通过编辑 config_global.php 进行高级设置</li>',
+	'setting_memory_tips'			=> '<li>Memory optimization program will greatly enhance a performance and decrease the server loading. Memory optimization feature require the server support appropriate PHP extension.</li><li>Currently supported the next Memory Optimization Interfaces: Memcache, eAccelerator, Alternative PHP Cache (APC), Xcache, Redis, YAC, APCu. Optimize system will be based on the current server environment, followed by optional interfaces.</li><li>For enable Memory optimization you can edit the config_global.php for advanced settings.</li>',//'<li>启用内存优化功能将会大幅度提升程序性能和服务器的负载能力，内存优化功能需要服务器系统以及PHP扩展模块支持</li><li>目前支持的内存优化接口有 Memcache、eAccelerator、Alternative PHP Cache(APC)、Xcache 四种，优化系统将会依据当前服务器环境依次选用接口</li><li>内存接口的主要设置位于 config_global.php 当中，您可以通过编辑 config_global.php 进行高级设置</li>',
 	'setting_memory_status'			=> 'Current status of memory optimization',//'当前内存工作状态',
 	'setting_memory_php_enable'		=> 'Supported',//'支持',
 	'setting_memory_php_disable'		=> 'Not supported',//'不支持',
@@ -1811,6 +1835,8 @@ $lang = array
 	'setting_functions_other_uidlogin_comment'		=> 'Select "Yes" for allow login by the UID',//'选择“是”，站点登录时允许通过 UID的方式登录验证',
 	'setting_functions_other_autoidselect'			=> 'Enable automatic account detection while login',//'启用登录自动选择帐号',
 	'setting_functions_other_autoidselect_comment'		=> 'Select "Yes" for autodetect the user account by first matching of a user name, UID or E-mail',//'选择“是”，站点登录时的将自动按 UID、E-mail、用户名的顺序逐一去匹配，其中UID验证只有UID登录方式被启用后才有效',
+	'setting_functions_other_submitlock' => '<span class="spectitle">Enable the form anti-concurrency function</span>',
+	'setting_functions_other_submitlock_comment' => 'Selecting "Yes" will prevent users from submitting multiple forms at the same time, which can effectively prevent the problem of possible points. Note: In the case of not using memory cache (Redis, Memcached), this function may increase the burden on the server',
 	'setting_functions_other_rssstatus'			=> '<span class="spectitle">Enable RSS</span>',//'<span class="spectitle">启用 RSS</span>',
 	'setting_functions_other_rssstatus_comment'		=> 'Select "Yes" for allow users to use RSS client software to receive the latest Forum posts. Note: If a forum has many sub-forums, this feature may increase the server loading.',//'选择“是”，将允许用户使用 RSS 客户端软件接收最新的帖子、文章更新。注意: 在分类很多的情况下，本功能可能会加重服务器负担',
 	'setting_functions_other_rssttl'			=> '<span class="spectitle">RSS TTL (minutes)</span>',//'<span class="spectitle">RSS TTL(分钟)</span>',
@@ -1913,17 +1939,17 @@ $lang = array
 
 	'setting_credits'				=> 'تنظیمات پول',//'积分设置',
 	'setting_credits_base'				=> 'تنظیمات اصلی',//'基本设置',
-	'setting_credits_scheme_title'			=> 'Points scheme',//'积分设置方案',
-	'setting_credits_scheme'			=> 'Points set scheme',//'积分设置方案',
-	'setting_credits_extended'			=> 'Exchange points ratio',//'扩展积分设置',
-	'setting_credits_extended_comment'		=> 'Set the exchanging coefficient between internal points and external currencies. Once the exchange ratio is set, a user can exchange their points to external currency and backward. If you do not want to use points conversion, set the exchange ratio to 0.',//'兑换比率为单项积分对应一个单位标准积分的值，例如 extcredits1 的比率为 1.5(相当于 1.5 个单位标准积分)、extcredits2 的比率为 3(相当于 3 个单位标准积分)、extcredits3 的比率为 15(相当于 15 个单位标准积分)，则 extcredits3 的 1 分相当于 extcredits2 的 5 分或 extcredits1 的 10 分。一旦设置兑换比率，则用户将可以在个人中心自行兑换各项设置了兑换比率的积分，如不希望实行积分自由兑换，请将其兑换比率设置为 0',
+	'setting_credits_scheme_title'			=> 'Credits scheme',//'积分设置方案',
+	'setting_credits_scheme'			=> 'Set Credits scheme',//'积分设置方案',
+	'setting_credits_extended'			=> 'Exchange Credits ratio',//'扩展积分设置',
+	'setting_credits_extended_comment'		=> 'Set the exchanging ratio between internal Credits and external currencies. Once the exchange ratio is set, a user can exchange their points to external currency and backward. If you do not want to use Credits conversion, set the exchange ratio to 0.',//'兑换比率为单项积分对应一个单位标准积分的值，例如 extcredits1 的比率为 1.5(相当于 1.5 个单位标准积分)、extcredits2 的比率为 3(相当于 3 个单位标准积分)、extcredits3 的比率为 15(相当于 15 个单位标准积分)，则 extcredits3 的 1 分相当于 extcredits2 的 5 分或 extcredits1 的 10 分。一旦设置兑换比率，则用户将可以在个人中心自行兑换各项设置了兑换比率的积分，如不希望实行积分自由兑换，请将其兑换比率设置为 0',
 	'setting_credits_ratio'				=> 'Exchange ratio',//'兑换比率',
 	'setting_credits_lower_limit'			=> ' points',//'积分下限',
 	'setting_credits_init'				=> 'Initial points after Registration',//'注册初始积分',
 	'setting_credits_available'			=> 'Enable',//'启用',
-	'credits_img'					=> 'Points icon',//'积分图标',
+	'credits_img'					=> 'Credits icon',//'积分图标',
 	'setting_credits_show_in_thread'		=> 'Show in a post',//'在帖子中显示',
-	'setting_credits_export'			=> 'Enable points export',//'允许兑出',
+	'setting_credits_export'			=> 'Enable credits export',//'允许兑出',
 	'setting_credits_export_comment'		=> 'Set whether to allow to exchange points to external currency',//'设置该是否允许该项积分兑换为其他积分',
 	'setting_credits_import'			=> 'Enable points import',//'允许兑入',
 	'setting_credits_import_comment'		=> 'Set whether to allow to exchange external currency to points',//'设置该是否允许其他积分兑换为该项积分',
@@ -1980,13 +2006,13 @@ $lang = array
 	'setting_credits_formula_doings'	=> 'Doings',//'记录数',
 	'setting_credits_formula_polls'		=> 'Polls',//'投票数',
 	'setting_credits_formula_sharings'	=> 'Shares',//'分享数',
-	'setting_credits_formula_extcredits'	=> 'Ext Points',//'自定义积分',
+	'setting_credits_formula_extcredits'	=> 'Ext Credits',//'自定义积分',
 	'setting_credits_formula_comment'	=> 'Total score is a criteria for measure a user level. You can set your own user total score formula based on a number of posts (threads + replies); a number of threads; a number of digests made; a number of user friends; a number of doings; a number of blogs; a number of albums; a number of polls; a number of shares; number of extended bonuses (extcredits1 ~ extcredits8). Formula can include symbols: + - * / ()',//'总积分是衡量用户级别的唯一标准，您可以在此设定用户的总积分计算公式，其中 posts 代表发帖数 (主题 + 回复数)；threads 代表用户发表的主题数；digestposts 代表精华帖数；oltime 代表用户总在线时间(小时)；friends 代表好友数；doings 代表发表的记录数；blogs 代表发表的日志数；albums 代表上传的相册数；sharings 代表发表的分享数；extcredits1～extcredits8 分别代表上述 8 个自定义积分。公式中可使用包括 + - * / () 在内的运算符号',
 	'setting_credits_trans'			=> 'Transaction points',//'交易积分设置',
 	'setting_credits_trans_comment'		=> 'Transaction is transferring of points between users, such as sale transaction or publishing a reward points thread. You can specify such points as trading points. If you do not specify the trading points, a feature of transfer  points between users will not be used. Note: Do not change once enabled and set a transaction points. Otherwise, may cause problems while tracking transaction records.',//'交易积分是一种可以由用户间自行转让、买卖交易、发布悬赏主题的积分类型，您可以指定一种积分作为交易积分。如果不指定交易积分，则用户间积分交易功能将不能使用。注意: 交易积分必须是已启用的积分，一旦确定请尽量不要更改，否则以往记录及交易可能会产生问题',
-	'setting_credits_trans_credits'		=> 'Use Total Points',//'使用总积分',
-	'setting_credits_trans_used'		=> 'Use the transaction points',//'使用交易积分',
-	'setting_credits_trans1'		=> 'Thread Attachments points',//'主题(附件)买卖使用的积分',
+	'setting_credits_trans_credits'		=> 'Use Total Credits',//'使用总积分',
+	'setting_credits_trans_used'		=> 'Use the transaction credits',//'使用交易积分',
+	'setting_credits_trans1'		=> 'Thread Attachments credits',//'主题(附件)买卖使用的积分',
 	'setting_credits_trans1_comment'	=> 'Thread Attachments transactions',//'主题(附件)买卖使用的积分',
 	'setting_credits_trans2'		=> 'Reward points',//'悬赏使用的积分',
 	'setting_credits_trans2_comment'	=> 'Set to use Reward points',//'设置悬赏使用的积分',
@@ -2067,7 +2093,7 @@ $lang = array
 	'setting_seccheck'			=> 'Authentication Settings',//'验证设置',
 	'setting_accountguard'			=> 'Account bodyguard',//'帐号保镖',
 	'setting_sec_code_tips'			=> '<li>If an image used as verification code, the image must contain only this 24 characters: "2346789BCEFGHJKMPQRTVWXY", and must be a GIF format image with a transparent background, and a black as a first indexed color. Image size is not restricted, but the recommended width must be not more than 1/4 of the text verification code width. The height must be not grater than a height of verification code. After new images completed, create a new directory with any name under the static/image/seccode/gif/ directory, and upload 24 new GIF images into this subdirectory.</li><li>For using another background image for verification code, upload JPG images to the static/image/seccode/background/ directory. The site will randomly choose an image from this directory as a background for the verification code.</li><li>For use another TTF fonts in verification code, upload the English TTF font files to static/image/seccode/font/en/directory, the site will randomly use fonts from this directory in a verification code.</li><li>Before using of Chinese fonts in verification code, you need to upload full Chinese characters TTF font to the static/image/seccode/font/ch/ directory, the site will randomly use fonts from this directory for generating a verification code.</li><li>System verification code placed in source/class/seccode directory, verification code Plug-in is located in source/plugin/seccode/ directory.</li>',//'<li>使用图片作为验证码文字，图片必须包含字符“2346789BCEFGHJKMPQRTVWXY”24 个字符，且必须为 GIF 透明图片、背景透明、前景黑色，黑色为图片的第一个索引色。图片大小不限制，但建议宽度不大于验证码宽度的 1/4，高度不大于验证码高度。制作完毕后在 static/image/seccode/gif/ 下创建一个新的子目录，目录名任意，把制作完毕的 24 个 GIF 图片上传到新子目录下</li><li>使用图片作为验证码的背景，把制作好的 JPG 图片上传到 static/image/seccode/background/ 目录下，站点将随机使用里面的图片作为验证码的背景</li><li>使用 TTF 字体作为验证码文字，把下载的 TTF 英文字体文件上传到 static/image/seccode/font/en/ 目录下，站点将随机使用里面的字体文件作为验证码的文字</li><li>使用中文图片验证码前，需要把包含完整中文汉字的 TTF 中文字体文件上传到 static/image/seccode/font/ch/ 目录下，站点将随机使用里面的字体文件作为验证码的文字</li><li>系统验证码位于 source/class/seccode/ 目录中，插件验证码位于 source/plugin/插件目录/seccode/ 目录中。</li>',
-	'setting_sec_qaa_tips'			=> '<li>Validation questions should be concise, without any ambiguity, so normal people are able to answer the question correctly. Please verify that the questions and answers updated frequently in order to prevent guess and speculations!</li><li>To install a new validation Q & A script, upload it to the source/class/secqaa/ directory. Plugin for validate questions is placed in the source/plugin/secqaa/ directory.</li><li>Before programming a new Questions &amp; Answers  validation plug-in, you have to read the &laquo;<a href="http://open.discuz.net/?!devdoc" target="_blank">Discuz! Technical Library</a>&raquo;.</li>',//'<li>验证问题应该言简意赅，没有歧义，正常人都能够正确作答。请经常更新验证问答的问题及答案以防止被猜测！</li><li>系统验证问答位于 source/class/secqaa/ 目录中，插件验证问答位于 source/plugin/插件目录/secqaa/ 目录中。</li><li>插件开发人员在设计新的验证问答脚本前请务必仔细阅读《<a href="http://dev.discuz.org/wiki" target="_blank">Discuz! 技术文库</a>》中的内容。</li>',
+	'setting_sec_qaa_tips'			=> '<li>Validation questions should be concise, unambiguous, so normal people are able to answer the question correctly. Please verify that the questions and answers updated frequently in order to prevent guess and speculations!</li><li>To install a new validation Q & A script, upload it to the source/class/secqaa/ directory. Plugin for validate questions is placed in the source/plugin/secqaa/ directory.</li><li>Before programming a new Questions &amp; Answers validation plug-in, you have to read the &laquo;<a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! Technical Documentation</a>&raquo;.</li>',//'<li>验证问题应该言简意赅，没有歧义，正常人都能够正确作答。请经常更新验证问答的问题及答案以防止被猜测！</li><li>系统验证问答位于 source/class/secqaa/ 目录中，插件验证问答位于 source/plugin/插件目录/secqaa/ 目录中。</li><li>插件开发人员在设计新的验证问答脚本前请务必仔细阅读《<a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! 技术文档</a>》中的内容。</li>',
 
 	'setting_sec_seclevel'			=> 'Security authentication scheme',//'安全验证模式',
 	'setting_sec_seclevel_comment'		=> 'Typically, we recommend you to use the advanced authentication scheme. If you decided the site can not spent resources for user verification, you can use a normal authentication scheme.',//'通常情况下，我们推荐您使用高级验证模式。当您站点有较多用户遇到验证码无法通过的时候，您可以使用一般验证模式',
@@ -2278,7 +2304,7 @@ $lang = array
 	'setting_sec_accountguard_loginpwcheck_prompt'	=> 'Enable and prompt',//'开启并提示',
 	'setting_sec_accountguard_loginpwcheck_force'	=> 'Enable and force to modify the weak password',//'开启并强制修改弱密码',
 	'setting_sec_accountguard_loginoutofdate'	=> 'Abnormal log in detecting',//'异常登录检测',
-	'setting_sec_accountguard_loginoutofdate_comment'	=> 'When a user was logged on/off more than 90 days since the last Log in, the account became the "unverified" status. A user can verify his mailbox or complaint the thaw account. QQ logged in users not affects this function <a href="'.ADMINSCRIPT.'?frames=yes&action=moderate&operation=members">Audit users</a>',//'当用户异地登录且距离上次登录超过 90 天时，帐号会进入未审核组，用户可以通过验证邮箱或者申诉解冻帐号，QQ登录的用户不受此功能影响 <a href="'.ADMINSCRIPT.'?frames=yes&action=moderate&operation=members">审核用户</a>',
+	'setting_sec_accountguard_loginoutofdate_comment'	=> 'When a user was not logged in more than 90 days since the last Log in, the account became the "unverified" status. The user can unfreeze the account by verifying the email or complaint. Users logged in with QQ are not affects this function <a href="'.ADMINSCRIPT.'?frames=yes&action=moderate&operation=members">Audit users</a>',
 
 
 	'setting_attach'			=> 'تنظیمات آپلود',//'上传设置',
@@ -2302,7 +2328,7 @@ $lang = array
 	'setting_attach_basic_multi'		=> 'Bulk upload',//'批量上传',
 	'setting_attach_basic_simple'		=> 'General upload',//'普通上传',
 	'setting_attach_basic_allowattachurl'		=> 'Enable attachment URL for media player',//'附件 URL 地址、媒体附件播放',
-	'setting_attach_basic_allowattachurl_comment'	=> 'Allow to use attachment reference in form "attach://aid" within posts. Supporting this form enable to use a direct broadcast media services.',//'开启附件 URL 地址后，上传附件的地址可通过 "attach://aid" 方式在任何帖内引用，并支持媒体类附件的直接播放',
+	'setting_attach_basic_allowattachurl_comment'	=> 'After opening the attachment URL, the uploaded attachment address can be referenced in any post via "attach://aid" and supports direct playback of media attachments. This setting needs to be set at the <a href="'.ADMINSCRIPT.'?action=usergroups">User Groups</a> - Allows user groups to use multimedia codes for the post to take effect. This setting requires to select the attachment reading mode to support the Range meta-tag in the header and correct MIME type header for normal operation.',//'开启附件 URL 地址后，上传附件的地址可通过 "attach://aid" 方式在任何帖内引用，并支持媒体类附件的直接播放，此项设置需要在 <a href="'.ADMINSCRIPT.'?action=usergroups">用户组</a> - 帖子相关 中允许用户组使用多媒体代码方可生效，此项设置需选择的附件读取模式支持 Range 头和正确的 MIME 类型头才可正常运行',
 	'setting_attach_basic_swfupload_comment'	=> 'Bulk upload mechanism to upload using Flash, can be used to upload multiple attachments, show upload progress in run time.',//'批量上传采用 Flash 机制上传，可一次上传多个附件，上传时还会有进度显示',
 
 	'setting_attach_forumattach'			=> 'Forum attachments',//'论坛附件',
@@ -3427,6 +3453,11 @@ $lang = array
 	'members_edit_password_comment'		=> 'اگر نمیخواهید گذرواژه کنونی را تغییر دهید خالی بگذارید.',//'如果不更改密码此处请留空',
 	'members_edit_clearquestion'		=> 'حذف سوال امنیتی کاربر',//'清除用户安全提问',
 	'members_edit_status'			=> 'قفل کردن کاربر کنونی',//'锁定当前用户',
+	'members_edit_freeze' => 'User freeze status',
+	'members_edit_freeze_false' => 'Not frozen',
+	'members_edit_freeze_password' => 'Unfreeze after resetting password',
+	'members_edit_freeze_admincp' => 'Unfreeze after background review',
+	'members_edit_freeze_email' => 'Need to verify the mailbox or Unfreeze after background review',
 	'members_edit_clearquestion_comment'	=> 'برای پاک کردن سوالات امنیتی کاربر "بله" را انتخاب کنید ، بنابراین کاربر هنگام ورود نیازی به پاسخگویی به سوالات امنیتی نخواهد داشت. "عدم" را برای تغییر تنظیمات سوال امنیتی کاربر انتخاب کنید',//'选择“是”将清除用户安全提问，该用户将不需要回答安全提问即可登录；选择“否”为不改变用户的安全提问设置',
 	'members_edit_nickname'			=> 'نام مستعار',//'昵称',
 	'members_edit_gender'			=> 'جنسیت',//'性别',
@@ -3663,7 +3694,7 @@ $lang = array
 	'members_newsletter_posttype'		=> 'Message type mode',//'内容解析方式',
 	'members_newsletter_posttype_text'	=> 'Text mode',//'文本方式',
 	'members_newsletter_posttype_html'	=> 'HTML Mode',//'html方式',
-	'members_newsletter_mobile_tips'	=> '<li>You can use this feature to send a notification to the mobile client user, for a better user touch up proposals and to promote the mobile client.</li><li>To use this function you have to open the cloud platform service and Mobile client plug-in</li><li><strong>Please pay attention to update the "<a href="http://addon.dismall.com/?@mobile.plugin">Mobile client</a>" in the application center. When enabled, the plug-in detailed description will be shown</strong></li>',//'<li>您可以通过该功能给手机客户端用户发送通知，为了您更好的触达用户建议大力推广我们的手机客户端。</li><li>要使用本功能需要开启云平台服务、手机客户端插件</li><li><strong>请关注应用中心中"<a href="http://addon.dismall.com/?@mobile.plugin">手机客户端</a>"的更新，功能启用时将会在插件中做详细说明</strong></li>',
+	'members_newsletter_mobile_tips'	=> '<li>You can use this feature to send a notification to the mobile client user, and to promote our mobile client for your better reach.</li><li>To use this function you have to open the cloud platform service and Mobile client plug-in</li><li><strong>Please pay attention to update the "<a href="https://addon.dismall.com/?@mobile.plugin">Mobile client</a>" in the application center. When enabled, the plug-in detailed description will be shown</strong></li>',//'<li>您可以通过该功能给手机客户端用户发送通知，为了您更好的触达用户建议大力推广我们的手机客户端。</li><li>要使用本功能需要开启云平台服务、手机客户端插件</li><li><strong>请关注应用中心中"<a href="https://addon.dismall.com/?@mobile.plugin">手机客户端</a>"的更新，功能启用时将会在插件中做详细说明</strong></li>',
 
 	'members_grouppmlist'			=> 'Send PM record',//'群发短消息记录',
 	'members_grouppmlist_newsletter'	=> 'Send notification',//'发送通知',
@@ -3720,7 +3751,7 @@ $lang = array
 	'members_repeat'		=> 'Repeated',//'马甲',
 
 	'members_ipban'			=> 'محرومیت آیپی',//'禁止 IP',
-	'members_ipban_tips'		=> '<li>IP Ban management needs to enable the relevant permissions.</li><li>If you are the site administrator, you can use "*" as a wildcard for add IP addresses.</li><li>If you are not the site administrator, you can not use the "*", and can add only full items and edit or delete records added by yourself.</li>',//'<li>此操作需要在管理组内开启相关权限。</li><li>如果您是站点管理员，可以使用“*”作为通配符禁止某段地址。</li><li>如果您不是站点管理员，您将无法使用“*”且只能对自己添加的项目进行编辑或删除。</li>',
+	'members_ipban_tips'		=> '<li>This operation requires related permissions to be enabled in the group management.</li><li>If you are the site administrator, you can use CIDR format to ban certain addresses.</li><li>If you are not a site administrator, you will not be able to use CIDR, you can only edit or delete items you add.</li>',//'<li>此操作需要在管理组内开启相关权限。</li><li>如果您是站点管理员，可以使用CIDR格式禁止某段地址。</li><li>如果您不是站点管理员，您将无法使用CIDR且只能对自己添加的项目进行编辑或删除。</li>',
 	'members_ipban_location'	=> 'IP location',//'地理位置',
 	'members_ipban_input'		=> 'Import Banned IP list',//'导入禁止 IP 列表',
 	'members_ipban_input_tips'	=> '<li>This operation requires the corresponding management group permission, Only site administrators can use it.</li><li>You can use a previously exported Baned IP list, or write the disbled IP list manually.</li><li>You can <a href="admin.php?action=members&operation=ipban&ipact=output">Export existing Banned IP list</a></li>',//'<li>此操作需要在管理组内开启相关权限，只有站点管理员可以使用。</li><li>可以使用以前导出的禁止IP列表，也可以手动编写以便批量禁止IP。</li><li>你可以 <a href="admin.php?action=members&operation=ipban&ipact=output">导出现有禁止IP库</a></li>',
@@ -3963,7 +3994,7 @@ $lang = array
 	'founder_perm_moderate_comments'	=> 'مدیریت نظرات',//'审核评论/留言',
 	'founder_perm_moderate_articles'	=> 'Moderate Articles',//'审核文章',
 	'founder_perm_moderate_articlecomments'	=> 'Moderate Article Comments',//'审核文章评论',
-	'founder_perm_credits'			=> 'Points strategy',//'积分策略',
+	'founder_perm_credits'			=> 'Credits strategy',//'积分策略',
 	'founder_perm_members_group'		=> 'User group of the user',//'用户所在用户组',
 	'founder_perm_members_access'		=> 'دسترسی های کاربر',//'用户权限',
 	'founder_perm_members_credit'		=> 'User points',//'用户积分',
@@ -4008,17 +4039,17 @@ $lang = array
 	'founder_patchstatus_error5'	=> 'Copy files problem. Make sure the source code directories, subdirectories and files are readable and writable, or files may be locked. Please close the site after the operation',//'复制文件出现问题，请确认源代码文件目录及子目录可读可写，或文件可能被锁，请关闭站点后进行操作',
 	'founder_patchstatus_error6'	=> 'Fix the vulnerability have problems, or rollback have problems. As soon as possible restore files, the file backup can be found in the same directory',//'修复漏洞出现问题，回退时出现问题，请尽快恢复文件，文件备份可在同级目录找到',
 	'founder_patch_tips'		=> '<li>Bug fix status description:</li>
-					<li>
-						<em class="fixed">&nbsp;2</em> The file is possibe modified, did not find the vulnerability<br />
-						<em class="fixed">&nbsp;1</em> Fixed<br />
-						<em class="unfixed">&nbsp;0</em> Not fixed<br />
-						<em class="unfixed">-1</em> Security patch code is empty, your local patch information and data possible have a problem<br />
-						<em class="unfixed">-2</em> Vulnerability patched file does not exist or can not be modified, check and modify the file permissions to read/write (777)<br />
-						<em class="unfixed">-3</em> Write to the temporary file failed, check the data directory is writable<br />
-						<em class="unfixed">-4</em> FTP mode can not be used, Make sure the FTP account information is correct<br />
-						<em class="unfixed">-5</em> Copy files problem. Make sure the source code directories, subdirectories and files are readable and writable, or files may be locked. Please close the site after the operation<br />
-						<em class="unfixed">-6</em> Fix the vulnerability have problems, or rollback have problems. As soon as possible restore files, the file backup can be found in the same directory
-					</li>',
+							<li>
+								<em class="fixed">&nbsp;2</em> The file is possibe modified, did not find the vulnerability<br />
+								<em class="fixed">&nbsp;1</em> Fixed<br />
+								<em class="unfixed">&nbsp;0</em> Not fixed<br />
+								<em class="unfixed">-1</em> Security patch code is empty, your local patch information and data possible have a problem<br />
+								<em class="unfixed">-2</em> Vulnerability patched file does not exist or can not be modified, check and modify the file permissions to read/write (777)<br />
+								<em class="unfixed">-3</em> Write to the temporary file failed, check the data directory is writable<br />
+								<em class="unfixed">-4</em> FTP mode can not be used, Make sure the FTP account information is correct<br />
+								<em class="unfixed">-5</em> Copy files problem. Make sure the source code directories, subdirectories and files are readable and writable, or files may be locked. Please close the site after the operation<br />
+								<em class="unfixed">-6</em> Fix the vulnerability have problems, or rollback have problems. As soon as possible restore files, the file backup can be found in the same directory
+							</li>',
 
 	'usergroups'			=> 'گروه ها کاربری',//'用户组',
 	'usergroups_system_0'		=> 'Ordinary user',//'普通用户',
@@ -5102,7 +5133,7 @@ $lang = array
 	'misc_tag_hot'			=> 'تگ های داغ',//'热门标签',
 	'misc_tag_search'		=> 'جستجوی تگ',//'搜索标签',
 	'misc_tag_threadnum_between'	=> 'تعداد موضوعات محدوده',//'主题数介于',
-	'misc_tag_status'		=> 'وضعیت',//'状态',
+//vot	'misc_tag_status'		=> 'وضعیت',//'状态',
 	'misc_tag_all_delete'		=> 'حذف همه',//'全部删除',
 	'misc_tag_all_close'		=> 'قفل کردن همه',//'全部锁定',
 	'misc_tag_all_open'		=> 'باز کردن همه',//'全部开放',
@@ -5215,7 +5246,7 @@ $lang = array
 	'plugins_vars_variable'		=> 'Configuration variable name (required)',//'配置变量名(必填)',
 	'plugins_vars_type'		=> 'Variable Type',//'配置类型',
 	'plugins_add'			=> 'ساخت پلاگین جدید',//'设计新插件',
-	'plugins_add_tips'		=> '<li><b>This feature is only for plug-in developers.</b></li><li>Before use this feature for plug-in developers, please be sure to carefully read the document "<a href="http://open.discuz.net/?!devdoc" target="_blank">Discuz! Technical Documentation</a>".</li><li>Warning: do not design or install the non-correct plug-ins, it may endanger the normal use of the site.</li>',//'<li><b>本功能仅供插件开发者使用。</b></li><li>插件开发人员在使用本功能前请务必仔细阅读《<a href="http://open.discuz.net/?!devdoc" target="_blank">Discuz! 技术文档</a>》中的内容。</li><li>警告: 不正确的插件设计或安装可能危及到整个站点的正常使用。</li>',
+	'plugins_add_tips'		=> '<li><b>This feature is only for plug-in developers.</b></li><li>Before use this feature for plug-in developers, please be sure to carefully read the document "<a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! Technical Documentation</a>".</li><li>Warning: do not design or install the non-correct plug-ins, it may endanger the normal use of the site.</li>',//'<li><b>本功能仅供插件开发者使用。</b></li><li>插件开发人员在使用本功能前请务必仔细阅读《<a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! 技术文档</a>》中的内容。</li><li>警告: 不正确的插件设计或安装可能危及到整个站点的正常使用。</li>',
 	'plugins_import'		=> 'Import plug-in data',//'导入插件数据',
 	'plugins_import_ignore_version'	=> 'Allow to import plug-ins for different versions of Discuz! (can produce an error!!!)',//'允许导入不同版本 Discuz! 的插件(易产生错误!!)',
 	'plugins_update_to'		=> 'آپگرید به',//'更新到 ',
@@ -5226,11 +5257,12 @@ $lang = array
 	'plugins_config_uninstall'	=> 'آپگرید/حذف',//'升级/卸载',
 	'plugins_config_upgrade'	=> 'به روزرسانی',//'更新',
 	'plugins_config_delete'			=> 'حذف پلاگین',//'卸载插件',
+	'plugins_config_uninstall_tips' =>' Are you sure you want to uninstall the {pluginname} plugin and irreversibly delete all data generated by the {pluginname} plugin?',
 	'plugins_config_upgrade_other'		=> 'Are you sure you want to upgrade the Plug-in {pluginname} {version} to the next version?',//'你确定要把 {pluginname} {version} 插件更新到以下版本吗？',
 	'plugins_config_uninstallplugin'	=> 'حذف پلاگین',//'卸载此插件',
 	'plugins_edit'				=> 'Design of plug-in',//'设计插件',
 	'plugins_edit_available'		=> ' (پلاگین های موجود)',//' (插件已启用)',
-	'plugins_edit_tips'			=> '<li><b>This feature is only for use by plug-in developers. if you only install or use the plug-in, do not modify this settings.</b></li><li>Before use of this feature for plug-in developers, please be sure to carefully read the <a href="http://open.discuz.net/?!devdoc" target="_blank">Discuz! Technical Documentation</a>.</li><li>Warning: Incorrect designed or installed plug-in may endanger the normal use of the site.</li><li>After creating a plugin place it in the <a href="http://addon.dismall.com" target="_blank">Discuz! Application Center</a></li>',//'<li><b>本功能仅供插件开发者使用，如果您只是安装或使用本插件，切勿修改本设置。</b></li><li>插件开发人员在使用本功能前请务必仔细阅读《<a href="http://open.discuz.net/?!devdoc" target="_blank">Discuz! 技术文库</a>》中的内容。</li><li>警告: 不正确的插件设计或安装可能危及到整个站点的正常使用。</li><li>把设计完的插件发布到<a href="http://addon.dismall.com" target="_blank">“Discuz! 应用中心”</a>分享给广大站长。</li>',
+	'plugins_edit_tips'			=> '<li><b>This feature is only for use by plug-in developers. if you only install or use the plug-in, do not modify this settings.</b></li><li>Before use of this feature for plug-in developers, please be sure to carefully read the <a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! Technical Documentation</a>.</li><li>Warning: Incorrect designed or installed plug-in may endanger the normal use of the site.</li><li>After creating a plugin place it in the <a href="https://addon.dismall.com" target="_blank">Discuz! Application Center</a></li>',//'<li><b>本功能仅供插件开发者使用，如果您只是安装或使用本插件，切勿修改本设置。</b></li><li>插件开发人员在使用本功能前请务必仔细阅读《<a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! 技术文库</a>》中的内容。</li><li>警告: 不正确的插件设计或安装可能危及到整个站点的正常使用。</li><li>把设计完的插件发布到<a href="https://addon.dismall.com" target="_blank">“Discuz! 应用中心”</a>分享给广大站长。</li>',
 	'plugins_edit_name'			=> 'نام پلاگین',//'插件名称(name)',
 	'plugins_edit_name_comment'		=> 'The plug-in name can contain only latin letters, and must be shorter than 40 bytes',//'此插件的名称，中英文均可，最多 40 个字节',
 	'plugins_edit_version'			=> 'نسخه پلاگین',//'插件版本号(version)',
@@ -5444,7 +5476,7 @@ $lang = array
 
 
 	'magics'		=> 'Magic Center',//'道具中心',
-	'magics_tips'		=> 'System magic items located in the source/class/magic/ folder. The plug-in magics located in the source/plugin/your_plugin_name/magic/ folder. Before creating a new magic, you have to read carefully the <a href="http://http://open.discuz.net/?!devdoc" target="_blank">Discuz! Technical Documentation</a>!',//'<li>系统道具位于 source/class/magic/ 目录中，插件道具位于 source/plugin/插件目录/magic/ 目录中</li><li>插件开发人员在设计新的道具前请务必仔细阅读《<a href="http://open.discuz.net/?!devdoc" target="_blank">Discuz! 技术文库</a>》中的内容。</li>',
+	'magics_tips'		=> 'System magic items located in the source/class/magic/ folder. The plug-in magics located in the source/plugin/your_plugin_name/magic/ folder. Before creating a new magic, you have to read carefully the <a href="http://https://open.dismall.com/?!devdoc" target="_blank">Discuz! Technical Documentation</a>!',//'<li>系统道具位于 source/class/magic/ 目录中，插件道具位于 source/plugin/插件目录/magic/ 目录中</li><li>插件开发人员在设计新的道具前请务必仔细阅读《<a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! 技术文库</a>》中的内容。</li>',
 
 	'magics_config'				=> 'Magic Base Settings',//'道具基本设置',
 	'magics_config_open'			=> 'Enable Magic center',//'是否打开道具中心',
@@ -5518,7 +5550,7 @@ $lang = array
 	'tasks_tips_edit'		=> '<li>Members can access and apply tasks only marked as "available".</li><li>Set the start time, and when you start a task can be scheduled. If not set, then the task is started by default.</li>',//'<li>只有任务标示为“可用”状态，会员才可能看到并参与他。</li><li>任务是可以设置开始时间的，你可以预定某个任务何时开始。如果没有设置，那么这个任务默认就是开始了。</li>',
 	'tasks_tips_add_member'		=> '<li>Member class tasks include three types: add friends, add favorites and use magic. Such tasks can guide the members to use the forum functions for activate the forum atmosphere.</li><li>By setting different task conditions, you can create tasks suitable for your forum.</li>',//'<li>会员类任务目前包括三种：添加好友、收藏主题、使用道具，此类任务用来鼓励和引导会员使用论坛的某个功能，活跃论坛的氛围。</li><li>设置不同的完成任务条件，可以创造出适合您论坛的任务。</li>',
 	'tasks_tips_add_post'		=> '<li>Post class tasks now includes three types: fat, Add thread, Add reply, Add thread/reply.</li><li>When set a post class task, then pay attention for the user group and Forum permission settings! Withot such permissions some users can not be able to complete the task, perhaps because no rights to posting in the Forum.</li><li>You can specify a particular author or thread to reply for the task , but please note that the thread must exists, otherwise a user can not complete the task.</li>',//'<li>帖子类任务目前包括三种：发新主题、发新回复、发新主题/回复。</li><li>帖子类任务如果指定了版块，那么请您注意用户组及版块的权限设置，否则有的用户申请了任务，可能由于无权在该版块发帖，而永远无法完成任务。</li><li>发新回复的任务您可以指定回复某个主题或者某个作者的主题，但请注意该主题必须存在，否则用户无法完成任务。</li>',
-	'tasks_tips_add_type'		=> '<li>The system tasks located in the source/class/task/ folder. Plugin tasks located in the source/plugin/your_plugin_name/task/ folder.</li><li>Before creating a new task, you have to read carefully the <a href="http://open.discuz.net/?!devdoc" target="_blank">Discuz! Technical Documentation</a>!</li>',//'<li>系统任务位于 source/class/task/ 目录中，插件任务位于 source/plugin/插件目录/task/ 目录中。</li><li>插件开发人员在设计新的任务类型前请务必仔细阅读《<a href="http://open.discuz.net/?!devdoc" target="_blank">Discuz! 技术文库</a>》中的内容。</li>',
+	'tasks_tips_add_type'		=> '<li>The system tasks located in the source/class/task/ folder. Plugin tasks located in the source/plugin/your_plugin_name/task/ folder.</li><li>Before creating a new task, you have to read carefully the <a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! Technical Documentation</a>!</li>',//'<li>系统任务位于 source/class/task/ 目录中，插件任务位于 source/plugin/插件目录/task/ 目录中。</li><li>插件开发人员在设计新的任务类型前请务必仔细阅读《<a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! 技术文库</a>》中的内容。</li>',
 	'tasks_edit'			=> 'ویرایش وظیفه',//'编辑任务',
 	'tasks_list'			=> 'لیست وظایف',//'任务列表',
 	'tasks_edit_basic'		=> 'ویرایش تنظیمات وظیفه',//'编辑任务设置',
@@ -5632,8 +5664,14 @@ $lang = array
 	'ec_tenpay_checklink_credit'		=> 'Recharge points Order Test',//'积分充值订单测试',
 	'ec_tenpay_checklink_virtualgoods'	=> 'Virtual product order test',//'虚拟商品订单测试',
 	'ec_tenpay_checklink_goods'		=> 'Real product order test',//'实物商品订单测试',
-	'ec_tenpay_tips'			=> '<li>"TenPay" (<a href="http://www.tenpay.com" target="_blank">http://www.tenpay.com</a>) is a leading online payment platform in China founded by Tencent. Discuz! users can use an integration with this platform for make transactions.</li>
-						    <li>For enable real-time recharge points into the user account, you have to use the payments through <b>Enterprise Edition</b> and enable <b>Immediately credited into account transactions</b>. Otherwise, you can just enable the "<b>Intermediary secure transactions</b>".</li> <li><b>If the cash transaction are enabled, in order to avoid improper operation resulting to the financial losses, please start using only the points payment general functionality (not include the TenPay button function). Be sure to carefully read the e-commerce section of the "User Manual", as confirmed fully understand and accept the processes and the related settings after use.</b></li><li>You can set to allow users to pay by online cash, recharge their account points for the purchase of post content, to buy the user group permissions, transfer points to users or groups, to upgrade and so on. TenPay integral transaction capabilities are required to enable the trade integration in the "Points Settings", and also set the corresponding points strategy to meet the needs of different occasions. Be sure to set correctly your TenPay account, otherwise payment will result to the user points can not be credited into account in real-time, and as a result cause a large number of orders that require manual processing.</li><li>In addition Discuz! Official website provide payment services through financial payment fee of 1% per transaction. Please read the official information and notices concerning this service at the Discuz! Official website or official forum.</li><li>If you use TenPay service built entirely on a voluntary basis, it can cause of financial losses caused by factors outside the Hong Sing Imagination (in Beijing) Technology Co. Ltd., and in such case the Comsenz ltd. is not responsible for your errors or financial problems</li><li>TenPay Service Hotline: 0755-83762288-2 (24-hour online service)</li>',//'<li>“财付通”(<a href="http://www.tenpay.com" target="_blank">http://www.tenpay.com</a>)是腾讯公司创办的中国领先的在线支付平台，为 Discuz! 用户提供积分购买交易平台。</li><li>如需启用积分充值即时到账，请使用财付通<b>企业版</b>并开通<b>即时到账交易</b>；否则，只需要开通“<b>中介担保交易</b>”即可。</li><li><b>由于涉及现金交易，为避免因操作不当而造成的资金损失，请在开始使用财付通积分交易功能(不包含财付通按钮功能)前，务必仔细阅读《用户使用说明书》中有关电子商务的部分，当确认完全理解和接受相关流程及使用方法后再进行相关设置。</b></li><li>您可以设置允许用户通过现金在线支付的方式，为其交易积分账户充值，用于购买帖子内容、购买用户组权限、积分转账或用户组升级等功能。财付通积分交易功能，需在“积分设置”中启用交易积分，并同时设置相应的积分策略以满足不同场合的需要。请务必正确设置您的收款财付通账号，否则将造成用户付款后积分无法实时到账，造成大量需要人工处理的订单信息。</li><li>除 Discuz! 官方网站或官方论坛另行通知以外，Discuz! 提供的财付通支付服务每笔交易收取 1% 的手续费。请及时关注相关业务的最新通知，各项政策或流程的变更、调整，以 Discuz! 官方网站或官方论坛提供的信息为准。</li><li>您使用财付通服务是建立在完全自愿的基础上，除 Discuz! 因主观恶意的因素造成的资金损失以外，康盛创想(北京)科技有限公司不对因使用此功能造成的任何损失承担责任。</li><li>财付通服务热线：0755-83762288-2（全天24小时服务热线）</li>',
+	'ec_tenpay_tips'			=> '<li>"TenPay" (<a href="http://www.tenpay.com" target="_blank">http://www.tenpay.com</a>) is a leading online payment platform in China founded by Tencent. Discuz! users can use an integration with this platform for make point transactions.</li>
+<li>If you need to enable point recharge to be credited instantly, please use Tenpay <b>Enterprise Edition</b> and activate <b>Immediate credit transaction</b>; otherwise, you only need to activate <b>Intermediary secure transactions</b>".</ li>
+<li><b>If the cash transaction are enabled, in order to avoid improper operation resulting to the financial losses, please start using only the points payment general functionality (not include the TenPay button function). Be sure to carefully read the e-commerce section of the "User Manual", as confirmed fully understand and accept the processes and the related settings after use.</b></li>
+<li><b>Because cash transactions are involved, in order to avoid financial losses caused by improper operations, please be sure to carefully read the "User\'s Manual" before starting to use the Tenpay points transaction function (excluding Tenpay buttons). For the e-commerce part, make sure to fully understand and accept the relevant processes and methods of use before setting this.</b></li>
+<li>You can set up a method that allows users to pay online with cash to recharge their transaction points account, which is used to purchase a paid post content, purchase user group permissions, transfer points or upgrade user group functions. For Tenpay\'s points trading function, you need to enable trading points in "Point Settings" and set the corresponding points strategy at the same time to meet the needs of different occasions. Please be sure to set up your Tencent account correctly, otherwise it will cause the user\'s points cannot be credited to the account in real time after payment, resulting in a lot of order information that needs to be processed manually.</li>
+<li>Except for further notice on the Discuz! official website or official forum, the Tenpay payment service provided by Discuz! charges a 1% handling fee per transaction. Please pay attention to the latest notices of related businesses, changes and adjustments of various policies or procedures in accordance with the information provided by Discuz! Official website or official forum.</li>
+<li>Your using of Tenpay services is based on a completely voluntary basis. Except for Discuz!\'s financial losses caused by subjective malicious factors, Tencent Cloud will not be liable for any losses caused by the use of this function.</li>
+<li>Tenpay service hotline: 0755-83762288-2 (24-hour service hotline)</li>',
 
 	'ec_orders'				=> 'Maximum order points',//'积分充值订单',
 	'ec_orders_tips'			=> '<li>You are at the starting points of using the transaction order management functionality (not included Alipay button function). Be sure to carefully read the "User Manual" in the part of electronic commerce, as confirmed fully understand and accept the processes and use then to delete.</li><li>If your users complained that after online payment their points can not be automatically recharge accounts, it is may be due to your Alipay account interface settings are wrong, or your website is not enabled to use regular paiments. You can log in to Alipay transaction management interface, and look for details of the transaction confirmed the relevant orders.</li><li>Order information retained for 60 days, so you can check and manage orders information within 60 days. After the 60 days the information will be automatically deleted.</li>',//'<li>请在开始使用支付宝积分交易订单管理功能(不包含支付宝按钮功能)前，务必仔细阅读《用户使用说明书》中有关电子商务的部分，当确认完全理解和接受相关流程及使用方法后再进行相关操作。</li><li>如果您的用户反映在线支付后无法自动为其积分账户充值，可能是由于您的支付宝账户的通知接口设置有误，或您的网站无法被支付宝通知系统正常访问所致。您可以登录支付宝交易管理界面，通过比对交易详情人工确认相关订单。</li><li>订单信息保留 60 天，因此您只能查询和管理 60 天之内的订单信息，超过 60 天的信息将被自动删除。</li>',
@@ -5987,7 +6025,7 @@ $lang = array
 	'counter_forumid'		=> 'ID انجمن',//'版块ID',
 	'counter_have_cover'		=> 'پوشش موضوعات کنونی',//'包含已有封面主题',
 	'counter_tips'			=> '<li>The following data is not normal. You can use this function to update the data to correct state. Please try to avoid the peak time of members access</li>' . //'<li>当下列数据不正常时，可以使用此功能对数据进行更新校正。请尽量避开会员访问的高峰时间</li>
-					'<li>Each cycle update the number: Set the value in a reasonable range. Must be not too large, Otherwise it increase the server load pressure</li>',//<li>每个循环更新数量：数值请在一个合理范围，不要过大，否则会给服务器带来负载压力</li>',
+				'<li>Each cycle update the number: Set the value in a reasonable range. Must be not too large, Otherwise it increase the server load pressure</li>',//<li>每个循环更新数量：数值请在一个合理范围，不要过大，否则会给服务器带来负载压力</li>',
 
 
 	'db'				=> 'Database',//'数据库',
@@ -6235,7 +6273,7 @@ $lang = array
 	'adv_edit'			=> 'ویرایش تبلیغ',//'编辑广告',
 	'adv_add'			=> 'اضافه کردن تبلیغ',//'添加广告',
 	'adv_list'			=> 'لیست تبلیغات',//'广告列表',
-	'adv_edit_style'		=> 'Display style',//'展现附方式',
+	'adv_edit_style'		=> 'Display style',//'展现方式',
 	'adv_edit_style_comment'	=> 'Please select the ads show style',//'请选择所需的广告展现方式',
 	'adv_edit_title'		=> 'Ad Title (required)',//'广告标题(必填)',
 	'adv_edit_title_comment'	=> 'Note: Ad Title is only for identify of the different entries and not appear in the ad',//'注意: 广告标题只为识别辨认不同广告条目之用，并不在广告中显示',
@@ -6449,8 +6487,6 @@ $lang = array
 	'cplog_setting_ec'		=> 'E-Commerce settings',//'电子商务基本设置',
 	'cplog_ecommerce_ec_credit'	=> 'Points Rating System',//'信用评级体系',
 	'cplog_tradelog'		=> 'E-commerce logs',//'商品交易订单',
-
-	'cplog_google_config'		=> 'تنظیمات اصلی گوگل',//'Google 基本设置',
 
 	'cplog_database_export'		=> 'Data Backup',//'数据备份',
 	'cplog_database_import'		=> 'Data Recovery',//'数据恢复',
@@ -6707,7 +6743,7 @@ $lang = array
 	'blockstyle_add_parity'		=> 'Current data in the odd lines',//'当前数据是否在奇数行',
 
 	'blockxml'			=> 'Third-party blocks',//'第三方模块',
-	'blockxml_tips'			=> '<li>Plug-in developers before design a new third-party block must read the <a href="http://open.discuz.net/?!devdoc" target="_blank">Discuz! Technical Documentation</a>.</li>',//'<li>插件开发人员在设计新的第三方模块前请务必仔细阅读《<a href="http://open.discuz.net/?!devdoc" target="_blank">Discuz! 技术文库</a>》中的内容。</li>',
+	'blockxml_tips'			=> '<li>Plug-in developers before design a new third-party block must read the <a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! Technical Documentation</a>.</li>',//'<li>插件开发人员在设计新的第三方模块前请务必仔细阅读《<a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! 技术文库</a>》中的内容。</li>',
 	'blockxml_list'			=> 'List of third-party blocks',//'第三方模块列表',
 	'blockxml_name'			=> 'Block Name',//'模块名称',
 	'blockxml_signtype_no'		=> 'No Signature',//'不使用签名',
@@ -7134,6 +7170,8 @@ RepeatLimit 32
 	'contributors'			=> 'Discuz! مشارکت کنندگان منبع باز',
 
 	'contributors_link'		=> 'برای دیدن آن ها اینجا را کلیک کنید',
+
+	'detect_environment'		=> 'Detect operating environment',//'运行环境检测',
 );
 
 //------------------------------------------------------
@@ -7152,4 +7190,3 @@ if(file_exists($adminextendfile = DISCUZ_ROOT.'./data/sysdata/cache_adminextend.
 		$lang = array_merge($lang, $extend_lang);
 	}
 }
-

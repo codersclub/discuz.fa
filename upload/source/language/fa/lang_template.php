@@ -132,6 +132,7 @@ $lang = array (
 	'unselected'			=> 'انتخاب نشده',//'未选',
 	'imgcropper'			=> 'برش تصویر',//'裁切图片',
 	'imgcropper_crop'		=> 'برش',//'裁切',
+	'parse_av_tips'			=> 'If it cannot be played, please click here to open in a new window',
 	'preview_footertext'		=> 'اطلاعات کپی رایت و فوتر',//'版权及页脚信息',
 	'preview_highlightlink'		=> 'لینک های برجسته',//'高亮链接',
 	'preview_lighttext'		=> 'نوشته های برجسته',//'浅色文字',

@@ -118,5 +118,6 @@ $lang = array
 	'optimizer_white_list_need'			=> 'You have set up a waterproof wall whitelist. Whitelist spamming users markers is yet not processed, please be careful.',//'您设置了防水墙白名单，白名单用户发垃圾贴不被处理，请慎重',
 	'optimizer_white_list_no_need'			=> 'White list is not set',//'未设置白名单',
 	'optimizer_security_daily_need'			=> 'Enabling the daily waterproof wall optimization can clear the traces of deleted posts',//'开启防水墙每日优化，可清除删帖后首页痕迹',
+//vot	'optimizer_white_list_no_need' => 'The scheduled task is enabled',//'该计划任务已开启',
 /*vot*/	'optimizer_security_daily_no_need'		=> 'The scheduled task is enabled',//'该计划任务已开启',
 );
