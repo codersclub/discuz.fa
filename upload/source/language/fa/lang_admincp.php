@@ -3562,6 +3562,7 @@ $lang = array
 	'members_ban_validity_comment'	=> 'After the specified time period the banned user can automatically become a regular user.',//'在有效期过后该用户可以自动解除限制，成为普通用户',
 	'members_ban_delpost'		=> 'پست ها',//'删除该用户帖子',
 	'members_ban_delfollow'		=> 'دنبال کنندگان',//'广播',
+	'members_ban_delfollower'	=> 'پیروان',
 	'members_ban_delblog'		=> 'وبلاگ ها',//'删除该用户日志',
 	'members_ban_delalbum'		=> 'آلبوم ها',//'删除该用户相册',
 	'members_ban_deldoing'		=> 'Doings',//'删除该用户记录',
@@ -7164,8 +7165,6 @@ RepeatLimit 32
 	'setting_language_actions'	=> 'اقدامات',
 
 	'nav_language'				=> 'زبان ها',
-
-	'delete_install_index'		=> 'لطفاً "install/index.php" را از طریق FTP حذف کنید!',
 
 	'contributors'			=> 'Discuz! مشارکت کنندگان منبع باز',
 
