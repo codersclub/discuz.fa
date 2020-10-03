@@ -457,6 +457,7 @@ $lang = array(
 	'home_member_count'		=> 'Members',
 	'home_app_count'		=> 'Applications',
 	'home_env'			=> 'System Environment',
+	'home_envstatus' => 'Operating environment detection',
 	'home_team'			=> 'UCenter Development Team',
 
 	'admin_add_succeed'		=> '$addname successfully added as Admininistrator',
@@ -506,6 +507,11 @@ $lang = array(
 
 	'app_allowips'			=> 'IP allowed to access',
 	'app_allowips_comment'		=> 'Leave blank in common case. If you set this, all others IPs will not have an access to this application',//vot
+
+	'envstatus_result' => 'Test results',
+	'envstatus_ver_too_low' => 'In your current system environment $envstatus[req] version ($envstatus[now_ver]) is too low, The program can not work as expected. It is strongly recommend to upgrade to $envstatus[sug_ver] version. The minimal required version for the program normal operation is $envstatus[req_ver].',
+	'envstatus_not_found' => 'Module $envstatus[req] is not installed or not enabled in your current system environment. The program can not work as expected. It is strongly recommend to install or enable this module to meet the minimum requirements for the normal program operation.',
+	'envstatus_ok' => 'Your current system environment is suitable for the current UCenter version $envstatus[version].',
 
 //Added by Valery Votintsev, codersclub.org
 	'view_ml_new_version'		=> 'View Latest ML Version',
