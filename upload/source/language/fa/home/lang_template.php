@@ -9,6 +9,10 @@
  *	Translated to Persian by Discuz.ir
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array (
 	'cancel'			=> 'لغو',//'取消',
 	'close'				=> 'بستن',//'关闭',
@@ -1541,8 +1545,8 @@ $lang = array (
 	'connect_fill_profile_to_comment'	=> 'You need to <a href="member.php?mod=connect" class="xi2">Provide account information</a> or <a href="member.php?mod=connect&ac=bind" class="xi2">Bind existing account</a> before you can continue',//'您需要<a href="member.php?mod=connect" class="xi2">完善帐号信息</a> 或 <a href="member.php?mod=connect&ac=bind" class="xi2">绑定已有帐号</a> 后才可以留言',
 	'save_to_album'				=> 'ذخیره در آلبوم',//'保存到相册',
 	'usergroup_expired'			=> 'Your current user group has expired, Please choose the renew for continue or switch to other user group',//'您当前的用户组已经到期，请选择继续续费还是要切换到其他用户组',
-	'freeze_pw_tips' => 'Your current account has been frozen, please change your password to unlock it',//'您当前的帐号已经被冻结，请修改密码解除冻结状态',
-	'freeze_email_tips' => 'Your current account has been frozen. You must verify your mailbox before you can unfreeze it. <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">Resend verification email</a>',//'您当前的帐号已经被冻结，必须验证邮箱后才能解除冻结状态 <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">重新接收验证邮件</a>',
+	'freeze_pw_tips'	=> 'Your current account has been frozen, please change your password to unlock it',//'您当前的帐号已经被冻结，请修改密码解除冻结状态',
+	'freeze_email_tips'	=> 'Your current account has been frozen. You must verify your mailbox before you can unfreeze it. <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">Resend verification email</a>',//'您当前的帐号已经被冻结，必须验证邮箱后才能解除冻结状态 <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">重新接收验证邮件</a>',
 	'freeze_admincp_tips' => 'Your current account has been frozen, you must fill in the appeal reasons on this page, and your account will be unfrozen after the reviewing at the management center',//'您当前的帐号已经被冻结，必须在本页面填写申诉理由，并经管理中心审核通过后才能解除冻结状态',
 	'freeze_reason'		=> 'Freeze reason',//'申诉理由',
 	'freeze_reason_comment' => 'If you are unable to verify the E-mail, Please fill in the complaint reason',//'如果您无法通过邮箱验证，请填写申诉理由',
@@ -1554,7 +1558,7 @@ $lang = array (
 // Added by Valery Votintsev
 	'login_immediately'	=> 'ورود سریع',//'马上登录',
 	'nofollow'		=> 'لفو دنبال کردن',//'不收听',
-	'views'			=> 'نمایش ها',//'空间查看数',
+//vot	'views'			=> 'نمایش ها',//'空间查看数',
 	'in'			=> ' &nbsp;در',//'在',
 	'poston'		=> 'زمان پست',//'发表于',
 	'views'			=> 'بازید ها',//'查看',
@@ -1564,6 +1568,7 @@ $lang = array (
 	'follow_intro3'		=> 'Check your followings and listeners',//'查看收听的人<br/>和听众',
 	'follow_intro4'		=> 'پیام شما در اینجا نمایش داده خواهد شد',//'您收听的人发的广播<br/>会在这里出现',
 	'say_to'		=> '',//'说',
-	'visibility'		=> 'دید',//'能見度',
-	'reset'			=> 'بازنشانی',//'重启',
+	'visibility'		=> 'Visibility',//'能見度',
+	'reset'			=> 'Reset',//'重启',
+	'lastupdate'		=> 'Updated',//'更新',//'最后更新',
 );

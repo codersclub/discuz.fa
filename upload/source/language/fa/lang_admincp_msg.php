@@ -637,5 +637,6 @@ $lang = array (
 	'admincp_makehtml_cleanhtml_error'	=> 'Sorry, Enable to generate static HTML file, you can not clean up the HTML file.',//'对不起，开启生成HTML静态文件时，不能清理HTML文件。',
 	'admincp_makehtml_cleanhtml_succeed'	=> 'HTML file cleaned up successfully.',//'清理HTML文件成功。',
 	'admincp_makehtml_cleanhtml_choose_item'	=> 'Sorry, please select the HTML file need to be cleaned up.',//'对不起，请选择需要清理HTML文件。',
+	'attach_readmod_error' => 'Sorry, the current local file reading mode will cause abnormal video playback in some browsers. If you need to enable the attachment URL address and media attachment playback, please modify the local file reading mode to 1 in config_global.php Or try again with the mode = 4',
 );
 

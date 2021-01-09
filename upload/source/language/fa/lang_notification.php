@@ -111,6 +111,8 @@ $lang = array
 
 	'modreplies_delete'	=> 'پاسخ شما تایید نشد و حذف شد. <p class="summary">Content: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表回复没有通过审核，现已被删除！ <p class="summary">回复内容：<span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
+	'modreplies_delete_reason'	=> 'Your reply was not approved and has now been deleted! <p class="summary">Response content: <span>{post}</span></p><div class="quote"><blockquote>{reason}</blockquote></div>',
+
 	'modreplies_validate'	=> 'پاسخ شما تایید شد &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">برای مشاهده آن اینجا کلیک کنید</a> <p class="summary">Content: <span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',//'你发表的回复已经审核的回复通过！ &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">查看 &rsaquo;</a> <p class="summary">回复内容：<span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'transfer'		=> '{actor} sent you {credit} points. &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=log&suboperation=creditslog" target="_blank" class="lit">View</a>
