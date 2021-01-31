@@ -156,7 +156,7 @@ $lang = array(
 	'install_succeed'	=> 'Installed Succesufully, click here to next step',
 	'license'		=> '<div class="license"><h1>License</h1>
 
-<p>Copyright (c) 2001-2020, Tencent Cloud Computing (Beijing) Co., Ltd. (formerly Beijing Kangsheng Xinchuang Technology Co., Ltd.), All rights reserved.</p>
+<p>Copyright (c) 2001-' . date('Y') . ', Tencent Cloud Computing (Beijing) Co., Ltd. (formerly Beijing Kangsheng Xinchuang Technology Co., Ltd.), All rights reserved.</p>
 
 <p> Thank you for choosing UCenter product. We hope that our efforts to provide you with a fast and powerful and efficient site solution.</p>
 
