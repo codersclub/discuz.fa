@@ -254,7 +254,7 @@ $lang = array(
 
 	'license'	=> '<div class="license"><h1>License agreement</h1>
 
-<p>Copyright (c) 2001-2020, Tencent Cloud Computing (Beijing) Co., Ltd. (formerly Beijing Hong Sing Xinchuang Technology Co., Ltd.), All rights reserved.</p>
+<p>Copyright (c) 2001-' . date('Y') . ', Tencent Cloud Computing (Beijing) Co., Ltd. (formerly Beijing Hong Sing Xinchuang Technology Co., Ltd.), All rights reserved.</p>
 
 <p>Thank you for choosing Discuz! forum product. We hope that our product will be able to provide you with a fast, efficient and powerful community forum solution.</p>
 
