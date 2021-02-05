@@ -221,16 +221,15 @@ $lang = array
 
 	'close'				=> 'بستن',//'关闭',
 
+	'attackevasive_1_subject'	=> 'Refresh frequency limit',//'频繁刷新限制',
+	'attackevasive_1_message'	=> 'You visit the site too fast, less than two seconds! Please wait a little...',//'您访问本站速度过快或者刷新间隔时间小于两秒！请等待页面自动跳转 ...',
+	'attackevasive_2_subject'	=> 'Access throug proxy servers is restricted',//'代理服务器访问限制',
+	'attackevasive_2_message'	=> 'Access to the site through a proxy servers is restricted for mow. Please remove your proxy setting configuration, and access to the site directly.',//'本站现在限制使用代理服务器访问，请去除您的代理设置，直接访问本站。',
+	'attackevasive_4_subject'	=> 'Open the page reload',//'页面重载开启',
+	'attackevasive_4_message'	=> 'Welcome to the site!<br/>Re-loading the page, please wait...',//'欢迎光临本站，页面正在重新载入，请稍候 ...',
+
 //--------------------------------------------------------------------------
 // Added by Valery Votintsev
-
-//source/include/misc/misc_security.php
-	'attackevasive_1_subject'	=> 'Refresh frequency limit',//'刷新频率限制',
-	'attackevasive_1_message'	=> 'You visit the site too fast, less than two seconds! Please wait a little...',//'您访问网站的速度太快，不到两秒钟！请等一下...',
-	'attackevasive_2_subject'	=> 'Access throug proxy servers is restricted',//'通过代理服务器的访问是受到限制',
-	'attackevasive_2_message'	=> 'Access to the site through a proxy servers is restricted for mow. Please remove your proxy setting configuration, and access to the site directly.',//'通过代理服务器访问网站限制亩。请删除您的代理设置配置，并直接访问该网站。',
-	'attackevasive_4_subject'	=> 'Open the page reload',//'打开页面重载',
-	'attackevasive_4_message'	=> 'Welcome to the site!<br/>Re-loading the page, please wait...',//'欢迎的网站，页面重新载入，请稍候...',
 
 // Months Names
 	'month_name'	=> array('Month','January','February','March','April','May','June','July','August','September','October','November','December'),//array('月','一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'),
