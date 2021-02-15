@@ -610,7 +610,7 @@ $lang = array
 	'founder_optimizer_optimizer'	=> 'بهینه ساز',//'优化',
 	'founder_optimizer_view'	=> 'نمایش',//'查看',
 	'founder_optimizer_scan'	=> 'اسکن',//'扫描',
-	'founder_optimizer_check_option'	=> 'بررسی تنظیمات',//'检测检项目',
+	'founder_optimizer_check_option'	=> 'بررسی تنظیمات',//'检测项目',
 	'founder_optimizer_status'	=> 'وضعیت',//'状态',
 	
 	'founder_optimizer_security'	=> 'تست امنیت',//'安全测试',
@@ -1454,7 +1454,7 @@ $lang = array
 	'setting_seo_home_tips'			=> '<li>Site Name&nbsp;<font class="highlight">{bbname}</font> (Application: All locations</li>
 						<li>Blog Title&nbsp;<font class="highlight">{subject}</font>(Application: Blog content pages)</li>
 						<li>Blog/Photos author&nbsp;<font class="highlight">{user}</font> (Application: Blog and photo album content pages)</li>
-						<li>Blog Summary&nbsp;<font class="highlight">{summary}</font> (Application: Blog content page)</li>
+						<li>Blog Summary&nbsp;<font class="highlight">{summary}</font>(Application: Blog content page)</li>
 						<li>Blog Tags&nbsp;<font class="highlight">{tags}</font> (Applications: Blog content page)</li>
 						<li>Album Name&nbsp;<font class="highlight">{album}</font> (Applications: Photo content page)</li>
 						<li>Album Description&nbsp;<font class="highlight">{depict}</font> (Application: Photo content page)</li>',//'<li>站点名称&nbsp;<font class="highlight">{bbname}</font>（应用范围：所有位置）</li><li>日志标题&nbsp;<font class="highlight">{subject}</font>（应用范围：日志内容页）</li><li>日志/相册作者&nbsp;<font class="highlight">{user}</font>（应用范围：日志和相册内容页）</li><li>日志摘要&nbsp;<font class="highlight">{summary}</font>（应用范围：日志内容页）</li><li>日志标签&nbsp;<font class="highlight">{tags}</font>（应用范围：日志内容页）</li><li>相册名称&nbsp;<font class="highlight">{album}</font>（应用范围：相册内容页）</li><li>册描述&nbsp;<font class="highlight">{depict}</font>（应用范围：相册内容页）</li>',
@@ -2807,11 +2807,11 @@ $lang = array
 	'forums_edit_extend_style_comment'		=> 'Enter the style used by visitors in this Forum',//'访问者进入本版块所使用的风格方案',
 	'forums_edit_extend_domain'			=> 'Parked domain',//'绑定域名',
 	'forums_edit_extend_domain_comment'		=> 'Forum sub-domain will be effective only after you have set the root domain name. <a href="'.ADMINSCRIPT.'?action=domain&operation=root"><strong>Set the root domain name</strong></a>',//'根域名设置完后，此处域名绑定才能生效，<a href="'.ADMINSCRIPT.'?action=domain&operation=root"><strong>设置根域名</strong></a>',
-	'forums_edit_extend_forum_horizontal'		=> 'Show forums horizontally',//'论坛首页下级子版块横排',
+	'forums_edit_extend_forum_horizontal'		=> 'Show sub-forums horizontally',//'论坛首页下级子版块横排',
 	'forums_edit_extend_forum_horizontal_comment'	=> 'Set this value to a number of forums you want to be displayed horizontally per line at the forum home. I.e. If you have 9 forum in a category and set the value to 3, then your forums will be shown in 3 rows by 3 forums per row. If set to 0, forums will be shown vertically.',//'设置进入论坛首页时下级子版块横排时每行版块数量，如果设置为 0，则按正常方式排列',
 	'forums_edit_extend_sub_horizontal'		=> 'Show sub-Forums horizontally at the forum page',//'论坛版块下级子版块横排',
 	'forums_edit_extend_sub_horizontal_comment'	=> 'Set this value to a number of subforums you want to be displayed horizontally per line at the forum page. I.e. If you have 9 subforums and set the value to 3, then your subforums will be shown in 3 rows by 3 forums per row. If set to 0, subforums will be shown vertically.',//'设置进入论坛版块时下级子版块横排时每行版块数量，如果设置为 0，则按正常方式排列',
-	'forums_edit_extend_cat_sub_horizontal'		=> 'Show forums horizontally at the category page',//'分区下级子版块横排',
+	'forums_edit_extend_cat_sub_horizontal'		=> 'Show sub-forums horizontally at the category page',//'分区下级子版块横排',
 	'forums_edit_extend_cat_sub_horizontal_comment'	=> 'Set this value to a number of forums you want to be displayed horizontally per line at the category page. I.e. If you have 9 forums and set the value to 3, then your forums will be shown in 3 rows by 3 forums per row. If set to 0, forums will be shown vertically.',//'设置进入分区时，下级子版块横排时每行版块数量，如果设置为 0，则按正常方式排列',
 	'forums_edit_extend_subforumsindex'		=> 'Show sub-Forums in the Forum Home',//'本版块在首页显示下级子版块',
 	'forums_edit_extend_subforumsindex_comment'	=> 'Forum Home at the bottom of the list shows the forum name and the lower sub-Forum links (if present). Note: This feature does not consider the child forums permissions for a visitor. Select "Default" to use global settings.',//'首页版块列表中在版块简介下方显示下级子版块名字和链接(如果存在的话)。注意: 本功能不考虑子版块特殊浏览权限的情况，只要存在即会被显示出来。选择“默认”，将使用全局设置',
@@ -3121,7 +3121,7 @@ $lang = array
 	'threadtype_edit_vars_type_checkbox'	=> 'Multiple choice (checkbox)',//'多选(checkbox)',
 	'threadtype_edit_vars_type_select'	=> 'Select (select)',//'选择(select)',
 	'threadtype_edit_vars_type_calendar'	=> 'Calendar (calendar)',//'日历(calendar)',
-	'threadtype_edit_vars_type_url'		=> 'Link (url)',//'超级链接(url)',
+	'threadtype_edit_vars_type_url'		=> 'Link (URL)',//'超级链接(url)',
 	'threadtype_edit_vars_type_image'	=> 'Upload image (image)',//'上传图片(image)',
 	'threadtype_edit_vars_type_email'	=> 'E-mail (email)',//'电子邮件(email)',
 	'threadtype_edit_vars_type_upload'	=> 'Upload (upload)',//'上传(upload)',
@@ -6508,7 +6508,7 @@ $lang = array
 
 	'cplog_logs_illegal'		=> 'لاگ خطاهای رمز ورود',//'密码错误记录',
 	'cplog_logs_rate'		=> 'User rating records',//'用户评分记录',
-	'cplog_logs_credits'		=> 'Points transactions',//'积分交易记录',
+	'cplog_logs_credits'		=> 'Credits transactions',//'积分交易记录',
 	'cplog_logs_mods'		=> 'Moderator management records',//'版主管理记录',
 	'cplog_logs_medals'		=> 'Medal awarded Records',//'勋章颁发记录',
 	'cplog_logs_ban'		=> 'لاگ کاربران محروم شده',//'禁止用户记录',
@@ -7102,6 +7102,11 @@ RewriteBase /discuz
 {apache2}
 </pre>
 
+<h1>Nginx Web Server</h1>
+<pre class="colorbox">
+{nginx}
+</pre>
+
 <h1>IIS Web Server (independent host user)</h1>
 <pre class="colorbox">
 [ISAPI_Rewrite]
@@ -7125,14 +7130,15 @@ RepeatLimit 32
 &lt;/rewrite&gt;
 </pre>
 
-<h1>Zeus Web Server</h1>
+<h1>Lighttpd Web Server</h1>
 <pre class="colorbox">
-{zeus}
+url.rewrite-once = (
+{lighttpd})
 </pre>
 
-<h1>Nginx Web Server</h1>
+<h1>Caddy Web Server</h1>
 <pre class="colorbox">
-{nginx}
+{caddy}
 </pre>',
 
 //---------------------------
@@ -7153,19 +7159,19 @@ RepeatLimit 32
 	'change_language'	=> 'تغییر زبان',//'更改语言',
 	'change_style'		=> 'تغییر استایل',//'更改风格',
 
-	'language'				=> 'زبان ها',
-	'setting_language'			=> 'تنظیمات زبان',
-	'setting_language_tips'			=> '<li>اضافه/ویرایش بسته های زبان</li>',
-	'setting_language_available'		=> 'فعال کردن',
+	'language'			=> 'زبان ها',
+	'setting_language'		=> 'تنظیمات زبان',
+	'setting_language_tips'		=> '<li>اضافه/ویرایش بسته های زبان</li>',
+	'setting_language_available'	=> 'فعال کردن',
 	'setting_language_id'		=> 'Id',
 	'setting_language_order'	=> 'Order',
-	'setting_language_flag'			=> 'پرچم',
-	'setting_language_name'			=> 'نام',
-	'setting_language_title'		=> 'عنوان(انگلیسی)',
+	'setting_language_flag'		=> 'پرچم',
+	'setting_language_name'		=> 'نام',
+	'setting_language_title'	=> 'عنوان(انگلیسی)',
 	'setting_language_dir'		=> 'جهت',
 	'setting_language_actions'	=> 'اقدامات',
 
-	'nav_language'				=> 'زبان ها',
+	'nav_language'			=> 'زبان ها',
 
 	'contributors'			=> 'Discuz! مشارکت کنندگان منبع باز',
 
