@@ -469,7 +469,7 @@ $lang = array (
 	'lostpasswd_many_users_use_email'	=> 'متاسفانه بیش از یک کاربر از این ایمیل استفاده میکنند لطفا برای بازیابی رمز عبور نام کاربری مورد نظر را وارد کنید.',//'抱歉，存在多个使用此 Email 的用户，请填写您需要找回密码的用户名',
 	'getpasswd_account_invalid'	=> 'مدیر کل سایت و مدیر ارشد نمیتوانند از سیستم بازیابی رمز عبور استفاده کند.',//'管理员和超级版主不能使用取回密码功能，请返回。',
 	'getpasswd_send_succeed'	=> 'ایمیل برای شما ارسال شد, <br />لطفا حداکثر تا سه روز آینده رمز خود را تغییر دهید.',//'取回密码的方法已经通过 Email 发送到您的信箱中，<br />请在 3 天之内修改您的密码。',
-	'getpasswd_has_send'	=> 'Retrieve password instruction has been sent to your Email. If you have not received it, please wait 15 minutes and try again',
+	'getpasswd_has_send'	=> 'You have already applied for the password retrieval email, if you have not received it, please wait 15 minutes and try again',
 
 	'submit_verify_succeed'		=> 'Audit request to the successful, Will now return to the Control Panel home page.',//'审核请求提交成功，现在将返回控制面板首页。',
 
