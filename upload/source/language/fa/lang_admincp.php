@@ -4374,6 +4374,8 @@ $lang = array
 	'usergroups_edit_credit_exempt_outperm'		=> 'Outside the Forum jurisdiction',//'管辖版块外',
 
 	'usergroups_edit_home'				=> 'Space related',//'空间相关',
+	'usergroups_edit_home_allow_viewprofile' => 'Allow to view user profile',
+	'usergroups_edit_home_allow_viewprofile_comment' => 'Set whether to allow viewing of other users profile information',
 	'usergroups_edit_home_allow_blog'		=> 'Publish blog',//'发表日志',
 	'usergroups_edit_home_allow_blog_mod'		=> 'Published blogs must be verified',//'发表日志需要审核',
 	'usergroups_edit_home_allow_doing'		=> 'Write Doing',//'发表记录',
@@ -7141,15 +7143,32 @@ url.rewrite-once = (
 {caddy}
 </pre>',
 
+	'detect_environment' => 'Detect operating environment',
+	'contributors'			=> 'Discuz! مشارکت کنندگان منبع باز',
+	'contributors_see'		=> 'برای دیدن آن ها اینجا را کلیک کنید',
+	'detect_environment_error' => 'Your server cannot detect the new version, please click to view the new version',
+	'refresh' => 'Refresh'
+	'qq_group' => 'QQ group:',
+	'discuz_news' => 'Discuz! Feed',
+	'log_in_to_update' => 'If you have no updates yet, please log in to Discuz! Community to view.',
+	'download_latest' => 'Discuz! X3.4 latest version download',
+	'org_name' => 'Tencent Cloud Computing (Beijing) Co., Ltd.',
+	'dev_manager' => 'Kevin \'Crossday\'',
+	'app_discussion' => 'Discuz! Application Discussion Area',
+	'org_site' => 'Company Website',
+	'purchase_service' => 'Purchase service',
+	'discussion_area' => 'Discussion area',
+	'app_center' => 'Discuz! Application Center',
+
 //---------------------------
 // Added by Valery Votintsev
 
 //source/function/function_admincp.php
-	'upload_selectfile'		=> 'Browse',//'浏览',
-	'version_uptodate'		=> 'You are currently using up-to-date Discuz! program. To update, please refer to the prompts of following line',//'&#x60A8;&#x5F53;&#x524D;&#x4F7F;&#x7528;&#x7684; Discuz! &#x7A0B;&#x5E8F;&#x7248;&#x672C;&#x6709;&#x91CD;&#x8981;&#x66F4;&#x65B0;&#xFF0C;&#x8BF7;&#x53C2;&#x7167;&#x4EE5;&#x4E0B;&#x63D0;&#x793A;&#x8FDB;&#x884C;&#x53CA;&#x65F6;&#x5347;&#x7EA7;',
+	//'upload_selectfile'		=> 'Browse',//'浏览',
+	//'version_uptodate'		=> 'You are currently using up-to-date Discuz! program. To update, please refer to the prompts of following line',//'&#x60A8;&#x5F53;&#x524D;&#x4F7F;&#x7528;&#x7684; Discuz! &#x7A0B;&#x5E8F;&#x7248;&#x672C;&#x6709;&#x91CD;&#x8981;&#x66F4;&#x65B0;&#xFF0C;&#x8BF7;&#x53C2;&#x7167;&#x4EE5;&#x4E0B;&#x63D0;&#x793A;&#x8FDB;&#x884C;&#x53CA;&#x65F6;&#x5347;&#x7EA7;',
 
 //source/admincp/admincp_index.php - javascript function shownews()
-	'subscribe'		=> 'اشتراک',//'订阅',
+	//'subscribe'		=> 'اشتراک',//'订阅',
 
 //source/admincp/admincp_plugins.php
 	'disable'		=> 'غیرفعال کردن',//'禁用',
@@ -7173,11 +7192,6 @@ url.rewrite-once = (
 
 	'nav_language'			=> 'زبان ها',
 
-	'contributors'			=> 'Discuz! مشارکت کنندگان منبع باز',
-
-	'contributors_link'		=> 'برای دیدن آن ها اینجا را کلیک کنید',
-
-	'detect_environment'		=> 'Detect operating environment',//'运行环境检测',
 );
 
 //------------------------------------------------------
