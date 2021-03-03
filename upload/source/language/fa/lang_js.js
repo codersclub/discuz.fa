@@ -530,6 +530,7 @@ var lng = {
 	'unknown_error'		: 'خطای ناشناخته رخ داده است',//'发生未知错误',
 	'touch_down_refresh'	: 'برای بروز رسانی لمس کنید',//'下拉可以刷新',
 	'touch_up_refresh'	: 'Touch UP to refresh',//'松开可以刷新',
+	'submit_error'		: 'The form submission was abnormal and your request could not be completed',
 
 //--------------------------------
 //static/js/portal.js
