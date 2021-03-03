@@ -72,7 +72,6 @@ $lang = array
 	'thismonth'		=> 'این ماه',//'本月',
 	'thisweek'		=> 'این هفته',//'本周',
 	'today'			=> 'امروز',//'今日',
-	'thread'		=> 'موضوع',//'帖子',
 	'subject'		=> 'موضوع',//'标题',
 	'nosubject'		=> 'بدون عنوان',//'无标题',
 	'message'		=> 'پیام',//'内容',
@@ -94,7 +93,6 @@ $lang = array
 	'ip'			=> 'آدرس ایپی',//'IP 地址',
 	'usergroup'		=> 'گروه کاربری',//'用户组',
 	'usernum'		=> 'کاربران:',//'用户数：',
-	'admingroup'		=> 'گروه مدیر کل',//'管理组',
 	'guest'			=> 'مهمان',//'游客',
 	'anonymous'		=> 'بی نام',//'匿名',
 	'forum'			=> 'انجمن',//'版块',
@@ -209,7 +207,6 @@ $lang = array
 	'num'			=> 'شماره',//'数量',
 	'weight'		=> 'وزن',//'重量',
 	'saveconf'		=> 'ذخیره تنظیمات',//'保存为设置方案',
-	'view'			=> 'نمایش',//'查看',
 	'value'			=> 'ارزش',//'数据',
 	'hour'			=> 'ساعت',//'小时制',
 	'hourtime'		=> 'h.',//'小时',
@@ -417,7 +414,6 @@ $lang = array
 	'nav_announce'			=> 'Site Announces',//'站点公告',
 	'nav_javascript'		=> 'Javascript calls',//'数据调用',
 	'nav_infoside'			=> 'سایدبار',//'边栏',
-	'nav_fileperms'			=> 'چک کردن دسترسی فایل',//'文件权限检查',
 	'nav_updatecounters'		=> 'به روز رسانی آمار',//'更新统计',
 
 	'nav_admingroups'		=> 'گروه مدیریت',//'管理组',
@@ -1066,7 +1062,6 @@ $lang = array
 	'setting_styles_viewthread_userinfo_creditinfo'		=> 'Credit rating',//'信用度',
 	'setting_styles_viewthread_userinfo_follower'		=> 'تعداد دنبال کنندگان',//'听众数',
 	'setting_styles_viewthread_userinfo_following'		=> 'Number of listenings',//'收听数',
-//vot	'setting_styles_viewthread_userinfo_friends'		=> 'Friends',//'好友',
 	'setting_styles_viewthread_userinfo_readperm'		=> 'دسترسی خواندن',//'阅读权限',
 	'setting_styles_viewthread_userinfo_gender'		=> 'جنسیت',//'性别',
 	'setting_styles_viewthread_userinfo_location'		=> 'موقعیت',//'来自',
@@ -1909,7 +1904,7 @@ $lang = array
 	'setting_permissions_allowviewuserthread_comment'	=> 'This setting allowed to view topics and posts published by other users. Choose the appropriate forum so personal space "theme" modules and links.',//'设置是否允许查看其他用户的主题和帖子，选择相应的版块那么在个人空间将出现“主题”模块和链接',
 	'setting_permissions_allowviewuserthread_forum_group'	=> 'All forums and groups',//'所有版块和群组',
 	'setting_permissions_allowviewuserthread_fids'		=> 'Enable view other Forums',//'允许查看哪些版块的帖子',
-	'setting_permissions_allowviewuserthread_fids_comment'	=> 'This setting allows users to viewe other Forum topics and posts',//'设置允许查看其他用户哪些版块的主题和帖子',
+	'setting_permissions_allowviewuserthread_fids_comment'	=> 'Set up which forum topics and posts of other users are allowed to be viewed, you can hold down CTRL to select multiple items',
 	'setting_permissions_allowmoderatingthread'		=> 'Prompt the moderator if he have not reviewed thread or post',//'是否提示用户自己有未审核的主题或者帖子',
 	'setting_permissions_allowmoderatingthread_comment'	=> 'Select "Yes" for notify a moderator to review the pending posts, so he will be able to see the tips in the post list page.',//'选择“是”，用户如果有正在审核的主题，将可以在帖子列表页看到提示',
 	'setting_permissions_memliststatus'			=> 'Enable to view member list',//'允许查看会员列表',
@@ -2053,6 +2048,7 @@ $lang = array
 	'setting_mail_setting'				=> 'تنظیمات',//'设置',
 	'setting_mail_setting_silent'			=> 'Hide all errors while e-mail send',//'屏蔽邮件发送中的全部错误提示',
 	'setting_mail_setting_send'			=> 'Send mail method',//'邮件发送方式',
+	'setting_mail_setting_send_comment' => 'If you need to use SSL encrypted SMTP sending, please add ssl:// before the server address and adjust the port number.',
 	'setting_mail_setting_send_1'			=> 'Via the PHP sendmail function (Recommended)',//'通过 PHP 函数的 sendmail 发送(推荐此方式)',
 	'setting_mail_setting_send_2'			=> 'Via SMTP server using sockets (supports ESMTP authentication)',//'通过 SOCKET 连接 SMTP 服务器发送(支持 ESMTP 验证)',
 	'setting_mail_setting_send_3'			=> 'Via PHP SMTP functions (valid only under Windows hosts, does not support ESMTP authentication)',//'通过 PHP 函数 SMTP 发送 Email(仅 Windows 主机下有效，不支持 ESMTP 验证)',
@@ -2548,7 +2544,7 @@ $lang = array
 
 	'tag'				=> 'مدیریت برچسب',//'标签管理',
 	'tag_set'			=> 'Set',//'设置',
-	'tag_status'			=> 'Enabled',//'是否启用标签',
+	'tag_enable'			=> 'Enable Tags',//'是否启用标签',
 	'tag_tagitem_num'		=> 'Number of tags for a thread',//'标签关联主题数量',
 	'tag_tagitem_num_comment'	=> 'Set the max number of tags related to a thread, 0 for disable tag association. Note: too large tag amount will consume a lot of server resources. Recommended number is 10.',//'设置主题帖关联相关标签主题的数量，0 为不关联。注意: 数量太大会消耗服务器资源，推荐数目 10',
 	'tag_index_num'			=> 'Number of tags shown at Home',//'首页显示标签数量',
@@ -2739,7 +2735,7 @@ $lang = array
 	'forums_grid_style_image'		=> 'Illustrated',//'图文并茂',
 	'forums_grid_style_text'		=> 'Simple text',//'简洁文字',
 	'forums_grid_data_source'		=> 'Data source Forums',//'数据来源版块',
-	'forums_grid_data_source_comment'	=> 'Forums where to get the data for the page, default is all forums',//'数据来源版块,默认为所有版块',
+	'forums_grid_data_source_comment'	=> 'Data source forum section(s), the default is all sections. You can hold down CTRL to select multiple options',
 	'forums_grid_text_length'		=> 'Title length truncation',//'标题截取长度',
 	'forums_grid_text_length_comment'	=> 'Set the maximum title length, all exceeding part will be truncated',//'设置标题的最大长度，超过的部分将被截取掉',
 	'forums_grid_high_light'		=> 'Highlight threads',//'是否显示主题高亮',
@@ -3624,8 +3620,6 @@ $lang = array
 	'members_search_nonemedal'	=> 'No Medals available',//'暂时没有可用勋章',
 	'members_search_noneusertags'	=> 'No user tags available',//'暂时没有用户标签',
 
-	'members_verify'			=> 'اطلاعات در انتظار',//'审核资料',
-
 	'members_verify_tips'			=> '<li>Can batch operations</li>',//'<li>可以批量操作</li>',
 	'members_verify_pass'			=> 'تایید کردن',//'通过',
 	'members_verify_pass_with_group'	=> 'and rise to user group',//'并升到用户组',
@@ -3642,11 +3636,10 @@ $lang = array
 	'members_verify_newvalue'	=> 'Submitted Info',//'提交信息',
 	'members_verify_submit'		=> 'Submit',//'提交',
 
-//vot	'members_verify'		=> 'Authentication Settings',//'认证设置',
+	'members_verify'		=> 'Authentication Settings',//'认证设置',
 	'members_verify_base'		=> 'تنظیمات اصلی',//'基本设置',
 	'members_verify_add'		=> 'Adding verification',//'添加认证',
 	'members_verify_verify'		=> 'Audited information',//'审核资料',
-	'members_verify_setting'	=> 'User authentication settings',//'用户认证设置',
 	'members_verify_available'	=> 'Enable',//'启用',
 	'members_verify_id'		=> 'Authentication code',//'认证代号',
 	'members_verify_title'		=> 'Authentication name',//'认证名称',
@@ -3661,10 +3654,7 @@ $lang = array
 	'members_verify_view_video_photo_comment'	=> 'This setting limits non-verified users to view other video-verified user\'s photos',//'该设置限制了未通过视频认证用户是否有权限查看认证通过的认证照片',
 	'members_verify_uid'		=> 'UID کاربر',//'用户UID',
 	'members_verify_username'	=> 'نام کاربری',//'用户名',
-	'members_verify_dateline'	=> 'Date Submitted',//'提交时间',
 	'members_verify_info'		=> 'Audited information',//'审核信息',
-	'members_verify_oldvalue'	=> 'Current infor',//'当前信息',
-	'members_verify_newvalue'	=> 'Submitted info',//'提交信息',
 	'members_verify_type'		=> 'Audit type',//'审核类型',
 	'members_verify_fieldid'	=> 'Review fields',//'审核项',
 	'members_verify_profile'	=> 'Data auditing',//'资料审核',
@@ -3769,7 +3759,6 @@ $lang = array
 	'members_profile_edit_name'			=> 'نام دسته بندی',//'栏目名称',
 	'members_profile_edit_field'			=> 'نام فیلد',//'字段名',
 	'members_profile_edit_field_desc'		=> 'توضیح فیلد',//'栏目描述',
-	'members_profile_edit_available'		=> 'فعال کردن',//'启用',
 	'members_profile_edit_field_type'		=> 'نوع فیلد',//'填写类型',
 	'members_profile_edit_display_order'		=> 'Display order',//'显示顺序',
 	'members_profile_edit_display_order_comment'	=> 'The larger value will display the more front',//'值越大显示越靠后',
@@ -4452,6 +4441,7 @@ $lang = array
 	'groups_manage_founder_uid'		=> 'Founder UID',//'创建者 UID',
 	'groups_editgroup_name'			=> 'نام گروه',//'群组名',
 	'groups_editgroup_category'		=> 'دسته بندی گروه',//'群组分类',
+	'groups_editgroup_category_comment' => 'You can hold down CTRL for multiple selection',
 	'group_mergetype'			=> 'ادغام دسته بندی ها',//'合并分类',
 	'group_mergegroup'			=> 'ادغام گروه ها',//'合并到群组',
 	'group_changetype'			=> 'انتقال به دسته بندی:',//'转移到分类:',
@@ -5137,7 +5127,6 @@ $lang = array
 	'misc_tag_hot'			=> 'تگ های داغ',//'热门标签',
 	'misc_tag_search'		=> 'جستجوی تگ',//'搜索标签',
 	'misc_tag_threadnum_between'	=> 'تعداد موضوعات محدوده',//'主题数介于',
-//vot	'misc_tag_status'		=> 'وضعیت',//'状态',
 	'misc_tag_all_delete'		=> 'حذف همه',//'全部删除',
 	'misc_tag_all_close'		=> 'قفل کردن همه',//'全部锁定',
 	'misc_tag_all_open'		=> 'باز کردن همه',//'全部开放',
@@ -5227,7 +5216,6 @@ $lang = array
 	'faq_keywords_comment'		=> 'Help keywords are usefull to help identify the object of help for the template call',//'配合帮助标识用于帮助信息的前台的模版调用',
 	'faq_content'			=> 'Help Content',//'帮助内容',
 	'faq_content_comment'		=> 'Help content, support for HTML code',//'帮助内容，支持 HTML 代码',
-	'faq_sortup'			=> 'Higher category',//'上级分类',
 	'faq_additem'			=> 'Add new help topics',//'添加新帮助主题',
 	'faq_addcat'			=> 'Add new help category',//'添加新帮助分类',
 
@@ -6768,9 +6756,6 @@ $lang = array
 	'blockxml_xmlurl_delete_confirm'	=> 'Want to delete this third-party blocks?',//'确定要删除此 第三方模块吗？',
 	'blockxml_xmlurl_delete_succeed'	=> ' Third-party blocks  removed successfully ',//' 第三方模块删除成功 ',
 	'blockxml_xmlurl_add_succeed'		=> ' Third-party blocks added successfully ',//' 第三方模块添加成功 ',
-	'blockxml_xmlurl_update_succeed'	=> 'XML block is updated successfully',//'XML 模块更新成功',
-	'blockxml_xmlurl_delete_confirm'	=> 'Want to delete this XML block?',//'确定要删除此 XML 模块吗？',
-	'blockxml_xmlurl_delete_succeed'	=> ' XML blocke deleted successfully',//' XML 模块删除成功',
 	'blockxml_import_version_invalid'	=> 'Version numbers do not match, the current version: {cur_version}, system version: {set_version}',//'版本号不匹配，当前版本：{cur_version}，系统版本：{set_version}',
 	'CLIENT_NOT_EXISTS'		=> 'Client does not exist',//'客户端不存在',
 	'SIGN_ERROR'			=> 'Signature Data error',//'数据签名错误',
@@ -6961,7 +6946,6 @@ $lang = array
 	'threads_search_sourcetable'		=> 'Search the following thread table',//'搜索以下 thread 分表',
 	'threadsplit_move_tidrange'		=> 'Thread ID range',//'tid 范围',
 	'threadsplit_move_to'			=> 'Move to',//'移动到',
-	'threadsplit_manage_threadcount'	=> 'Threads',//'主题数',
 	'threadsplit_manage_table_add'		=> 'Add archive table',//'添加存档表',
 	'threadsplit_manage_update'		=> 'Update the table information',//'更新表信息',
 	'threadsplit_manage_forum_update'	=> 'Update the Forum Archive',//'更新版块存档',
@@ -6995,18 +6979,6 @@ $lang = array
 	'category_sort'				=> 'مدیریت دسته بندی ها',//'分类管理',
 	'category_area'				=> 'مدیریت ناحیه ها',//'地区管理',
 	'category_counter'			=> 'Statistical data',//'统计数据',
-
-//vot	'category_channel'			=> 'Basic settings',//'基本设置',
-//vot	'category_channel_config'		=> 'Basic settings',//'基本设置',
-//vot	'category_channel_open'			=> 'Is open',//'是否开启',
-//vot	'category_channel_title'		=> 'Title',//'名称',
-//vot	'category_channel_identifier'		=> 'Idetifier',//'标识',
-//vot	'category_channel_identifier_comment'	=> 'Change unique module identifier. Do not modify if not necessary.',//'做为改模块的唯一标识，如无必要请勿修改',
-
-//vot	'category_option'			=> 'Options Management',//'选项管理',
-//vot	'category_sort'				=> 'Category management',//'分类管理',
-//vot	'category_area'				=> 'Regions Management',//'地区管理',
-//vot	'category_counter'			=> 'Statistical data',//'统计数据',
 
 	'setting_manyou'		=> 'Manyou Settings',//'Manyou 设置',
 	'setting_manyou_tips'		=> '<li>After the application platform open, Users can choose at the server a variety of applications (Such as Happy farm, Happy manor, Texas hold-em, GloryhHospital, etc ...).</li>
@@ -7202,11 +7174,8 @@ if(file_exists($adminextendfile = DISCUZ_ROOT.'./data/sysdata/cache_adminextend.
 	@include $adminextendfile;
 	foreach($adminextend as $extend) {
 		$extend_lang = array();
-/*vot*/ if(defined('DISCUZ_ML_REVISION')) {
-/*vot*/		@include DISCUZ_ROOT.'./source/language/fa/lang_admincp_'.$extend;
-/*vot*/ } else {
 		@include DISCUZ_ROOT.'./source/language/lang_admincp_'.$extend;
-/*vot*/ }
+/*vot*/	@include DISCUZ_ROOT.'./source/language/fa/lang_admincp_'.$extend;
 		$lang = array_merge($lang, $extend_lang);
 	}
 }
