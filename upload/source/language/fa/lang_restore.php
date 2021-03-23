@@ -6,17 +6,7 @@
  */
 
 $lang = array(
-
-//---------------------------
-//utility/restore.php
-
-	'restore_title'		=> 'Discuz! data recovery tool',//'Discuz! 数据恢复工具',
-	'restore_questions'	=> 'For any Recovering questions, please visit the support site',//'恢复当中有任何问题请访问技术支持站点',
-	'browser_jump'		=> 'Browser will automatically jump page, without human intervention. Unless a long time when your browser does not support frames, please click here',//'浏览器会自动跳转页面，无需人工干预。除非当您的浏览器长时间没有自动跳转时，请点击这里',
-	'ok'			=> 'OK',//'确定',
-	'cancel'		=> 'لغو',//'取消',
 	'filename'		=> 'نام کامل',//'文件名称',
-
 	'director'		=> 'پوشه',//'所在目录',
 	'version'		=> 'نسخه',//'版本',
 	'time'			=> 'زمان پشتیبان گیزی',//'备份时间',
@@ -46,6 +36,7 @@ $lang = array(
 	'database_import_format_illegal'	=> 'Data file is non-Discuz! format, can not be imported',//'数据文件非 Discuz! 格式，无法导入',
 	'database_import_unzip'			=> '{info}<br />Unzip the backup file is completed. Do you need to automatically import the backup? After importing the extracted files will be deleted',//'{info}<br />备份文件解压缩完毕，您需要自动导入备份吗？导入后解压缩的文件将会被删除',
 	'database_import_multivol_unzip'	=> '{info}<br />Unzip the backup sub-volume file is completed. Do you need to self-extract other sub-volume?',//'{info}<br />备份文件解压缩完毕，您需要自动解压缩其他的分卷文件吗？',
+	'database_import_multivol_unzip_start'	=> 'Unzip the backup file, the program will automatically continue',
 	'database_import_multivol_unzip_redirect'	=> 'Data file # {multivol} successfully extracted, the program will automatically continue',//'数据文件 #{multivol} 解压缩成功，程序将自动继续',
 	'database_import_confirm'		=> 'Imported file data and current Discuz! Version are incompatible and may cause a failure',//'导入和当前 Discuz! 版本不一致的数据极有可能产生无法解决的故障，您确定继续吗？',
 	'database_import_confirm_sql'		=> 'Are you sure you want to import the backup?',//'您确定导入该备份吗？',
@@ -60,6 +51,6 @@ $lang = array(
 	'restore_questions'	=> 'For any Recovering questions, please visit the support site',//'恢复当中有任何问题请访问技术支持站点',
 	'browser_jump'		=> 'Browser will automatically jump page, without human intervention. Unless a long time when your browser does not support frames, please click here',//'浏览器会自动跳转页面，无需人工干预。除非当您的浏览器长时间没有自动跳转时，请点击这里',
 	'ok'			=> 'OK',//'确定',
-	'cancel'		=> 'Cancel',//'取消',
+	'cancel'		=> 'لغو',//'取消',
 
 );

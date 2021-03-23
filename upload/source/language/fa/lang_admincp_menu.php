@@ -22,7 +22,8 @@ $lang = array
 	'header_user'		=> 'کاربران',//'用户',
 	'header_topic'		=> 'مدیریت موضوع',//'内容',
 	'header_extended'	=> 'اضافات',//'扩展',
-	'header_plugin'		=> 'پلاگینها',//'插件',
+	'header_plugin'		=> 'پلاگین',//'插件',
+	'header_template'	=> 'الگو',
 	'header_style'		=> 'استایل ها',//'界面',
 	'header_adv'		=> 'تبلیغات',//'广告',
 	'header_tools'		=> 'ابزارها',//'工具',
@@ -32,9 +33,9 @@ $lang = array
 	'header_bbs'		=> 'مشاهده سایت',//'站点首页',
 	'header_portal'		=> 'سردر',//'门户',
 	'header_group'		=> 'گروه ها',//'群组',
-	'header_safe'		=> 'ضد اسپم',//'防灌水',
+	'header_safe'		=> 'ایمن',
 	'header_founder'	=> 'مدیران',//'站长',
-	'header_cloudaddons'	=> 'Application Center',//'应用中心',
+	'header_cloudaddons'	=> 'App Center',//'应用中心',
 
 
 	'menu_home'			=> 'مرکز مدیریت',//'管理中心首页',
@@ -136,6 +137,7 @@ $lang = array
 	'menu_upgrade'			=> 'آپگرید آنلاین',//'在线升级',
 	'menu_optimizer'		=> 'بهینه سازی',//'优化大师',
 	'menu_security'			=> 'Security master',//'安全大师',
+	'menu_serversec'		=> 'Server security',
 
 	'menu_addons'			=> 'Application Center',//'应用中心',
 	'menu_plugins'			=> 'پلاگینها',//'插件',
@@ -146,13 +148,14 @@ $lang = array
 	'menu_ec'			=> 'E-commerce',//'电子商务',
 	'menu_card'			=> 'Recharge card close',//'充值卡密',
 
-	'menu_styles'			=> 'قالب پیشفرض',//'风格管理',
-	'menu_styles_templates'		=> 'قالب ها',//'模板管理',
+	'menu_styles'			=> 'مدیریت الگو',//'风格管理',
+	'menu_styles_templates'		=> 'مدیریت بسته الگوی',//'模板管理',
+	'menu_templates_add'		=> 'Add new template',
 	'menu_posting_smilies'		=> 'شکلک ها',//'表情管理',
 	'menu_click'			=> 'امتیازات',//'表态动作',
 	'menu_thread_icon'		=> 'آیکون های تاپیک',//'主题图标',
 	'menu_thread_stamp'		=> 'مهرهای تاپیک',//'主题图章',
-	'menu_posting_editor'		=> 'تنظیمات ویرایشگر',//'编辑管器设置',
+	'menu_posting_editor'		=> 'تنظیمات ویرایشگر',//'编辑器设置',
 	'menu_misc_onlinelist'		=> 'آیکون های آنلاین',//'在线列表图标',
 
 	'menu_misc_link'		=> 'لینک ها',//'友情链接',

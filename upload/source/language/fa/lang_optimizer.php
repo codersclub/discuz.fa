@@ -120,4 +120,8 @@ $lang = array
 	'optimizer_security_daily_need'			=> 'Enabling the daily waterproof wall optimization can clear the traces of deleted posts',//'开启防水墙每日优化，可清除删帖后首页痕迹',
 //vot	'optimizer_white_list_no_need' => 'The scheduled task is enabled',//'该计划任务已开启',
 /*vot*/	'optimizer_security_daily_no_need'		=> 'The scheduled task is enabled',//'该计划任务已开启',
+	'optimizer_dos8p3_need' => 'DOS 8.3 file name support is turned on incorrectly',
+	'optimizer_dos8p3_no_need' => 'DOS 8.3 file name support is not enabled or the bottom layer is not supported',
+	'optimizer_httphost_need' => 'Empty HOST access is enabled',
+	'optimizer_httphost_no_need' => 'Empty HOST access support is not enabled or the bottom layer is not supported',
 );
