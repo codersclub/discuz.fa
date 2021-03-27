@@ -390,7 +390,7 @@ $lang = array
 	'nav_attaches'			=> 'مدیریت پیوست ها',//'论坛附件管理',
 	'nav_attaches_group'		=> 'مدیریت پیوست گروه ها',//'群组附件管理',
 	'nav_styles'			=> 'مدیریت سبک الگو',
-	'nav_templates'			=> مدیریت بسته الگوی',//'模板管理',
+	'nav_templates'			=> 'مدیریت بسته الگوی',//'模板管理',
 	'nav_smilies'			=> 'مدیریت شکلک ها',//'表情管理',
 	'nav_click'			=> 'Rate management',//'表态动作',
 
