@@ -32,7 +32,7 @@ $lang = array (
 	'database_export_multivol_succeed'	=> 'Congratulations! All {volume} backup files successfully created, backup is completed.<br />{filelist}',//'恭喜您，全部 {volume} 个备份文件成功创建，备份完成。<br /> {filelist}',
 	'database_export_zip_succeed'		=> 'Backup data successfully compressed and saved to the server <a href="{filename}">{filename}</a>.',//'数据成功备份并压缩至服务器 <a href="{filename}">{filename}</a> 中。',
 	'setting_update_succeed'		=> 'Current settings successfully updated.',//'当前设置成功更新。',
-	'setting_domain_http_error'		=> 'Fill in the name withour "http://" at beginning and "/" at end, please return amended.',//'填写的域名不要以“http://”、“.”开头或者以“/”、“.”结尾，请返回修改。',
+	'setting_domain_http_error'		=> 'Please fill in the legal domain name. Common errors are starting with "http://", "." or ending with "/", "/index.php", ".", or the domain name contains converted to Punycode internationalized domain name, etc.',
 	'orders_validate_succeed'		=> 'Order processed successfuly.',//'订单处理成功。',
 	'faq_list_update'			=> 'FAQ list update',//'帮助列表更新',
 	'forums_edit_succeed'			=> 'Forum settings successfully updated.',//'版块设置成功更新。',
