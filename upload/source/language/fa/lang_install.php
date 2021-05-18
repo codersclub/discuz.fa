@@ -118,7 +118,10 @@ $lang = array(
 	'click_to_back'			=> 'برای بازگشت کلیک کنید',//'点击返回上一步',
 	'adminemail'			=> 'ایمیل مدیر کل',//'系统信箱 Email',
 	'adminemail_comment'		=> 'برای گزارش خطاها استفاده میشود',//'用于发送程序错误报告',
-	'dbhost_comment'		=> 'localhost  نام سرور معمولا به صورت',//'数据库服务器地址, 一般为 localhost',
+	'dbhost_comment'		=> 'معمولاً 127.0.0.1 یا localhost',
+	'dbname_comment'		=> 'پایگاه داده ای که برای نصب Discuz استفاده شده است!',
+	'dbuser_comment'		=> 'نام کاربری پایگاه داده شما',
+	'dbpw_comment'			=> 'رمزعبور پایگاه داده شما',
 	'tablepre_comment'		=> 'اگر میخواهید از یک دیتابیسی که قبلا در آن اطلاعاتی وجود دارد استفاده کنید لطفا پیشوند جداول را تنظیم کنید.',//'同一数据库运行多个论坛时，请修改前缀',
 	'forceinstall_check_label'	=> 'I want to delete all the data, and start mandatory installation!',//'我要删除数据，强制安装 !!!',
 
@@ -339,7 +342,7 @@ $lang = array(
 	'advice_xml'			=> 'This function require the PHP support for XML. Please contact the server administrator to resolve this problem.',//'该函数需要 PHP 支持 XML。请联系空间商，确定开启了此项功能',
 	'none'				=> 'None',//'无',
 
-	'dbhost'		=> 'نام سرور مانند(localhost)',//'数据库服务器',
+	'dbhost'		=> 'آدرس سرور پایگاه داده',
 	'dbuser'		=> 'نام کاربری دیتابیس',//'数据库用户名',
 	'dbpw'			=> 'رمز ورود دیتابیس',//'数据库密码',
 	'dbname'		=> 'نام دیتابیس',//'数据库名',
