@@ -794,7 +794,7 @@ $lang = array (
 	'haved_red_bag'			=> 'You already have a red envelope',//'你已经领取过此次红包了',
 	'haved_red_bag_gain'		=> 'You have received a red envelope to: Get {percredit} {credittype}',//'你已经领取到红包了:获得 {percredit} {credittype}',
 	'space_no_red_bag'		=> 'The space owner have no a red envelope',//'空间主人没有设置红包或已被领完了',
-	'red_bag_no_credits'		=> 'There is no points remaining in the red envelope',//'红包里没有任何积分剩余了',
+	'red_bag_no_credits'		=> 'There is no credits remaining in the red envelope',//'红包里没有任何积分剩余了',
 	'return_red_bag'		=> 'The red envelope successfully returned. Left: {leftcredit} {credittype}',//'回收红包成功: 返回 {leftcredit} {credittype}',
 
 	'delete_pm_error_option'	=> 'عمل شما اشتباه میباشد.',//'抱歉，您的操作有误',
@@ -873,6 +873,7 @@ $lang = array (
 	'usergroups_join_succeed'	=> 'شما گروه کاربری را دعوت کردید {group}.',//'您已加入用户组 {group}。',
 	'usergroups_exit_succeed'	=> 'You have exited the user group {group}.',//'您已退出用户组 {group}。',
 	'usergroup_switch_not_allow'	=> 'Your current user group does not expire, can not switch to other user groups',//'您当前的用户组未到期，无法切换到其他用户组',
+	'usergroup_switch_not_allowvisit'	=> 'Sorry, you cannot switch to a user group that cannot access the forum',
 	'usergroups_switch_succeed'	=> 'You have switched to user group {group}.',//'您已切换到用户组 {group}。',
 
 	'no_privilege_banpost'		=> 'شما دسترسی لازم برای محروم کردن پست را ندارید.',//'抱歉，您没有权限屏蔽主题',
