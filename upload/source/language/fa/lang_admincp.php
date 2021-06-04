@@ -18,7 +18,7 @@ $lang = array
 
 	'req_ver_too_low'	=> 'The {req} version ({now_ver}) in your current system environment is too low for the program to function as expected. We strongly recommend that you upgrade to the {sug_ver} version. The minimum required for normal program operation is the {req_ver} version.',//'您当前系统环境内的 {req} 版本 ({now_ver}) 过低，程序无法按预期正常运行。我们强烈建议您升级到 {sug_ver} 版本，程序正常运行最低要求为 {req_ver} 版本。',
 	'req_not_found'		=> 'The {req} module is not installed or turned off in your current system environment, and the program does not run as expected. We strongly recommend that you install or turn on this module to meet the minimum requirements for correct program operation.',
-	'req_ok'		=> 'Your current system environment is suitable for the current version of Discuz! {Version}.',
+	'req_ok'		=> 'Your current system environment is suitable for the current version of Discuz! {version}.',
 	'subscribe_comsenz_email'	=> 'Fill in your e-mail address for subscribe to Discuz! official product development security alerts and official news.',//'填写您的邮件地址，订阅 Discuz! 官方产品动态、安全提醒、官方新闻',
 	'scan_discuz_qrcode'	=> '<img src="source/plugin/wechat/image/discuz_qr.jpg" align="left" width="80" /><br />Scan the Discuz! Official micro-channel<br /><br />Get Official News',//'<img src="source/plugin/wechat/image/discuz_qr.jpg" align="left" width="80" /><br />扫描关注Discuz!官方微信<br /><br />获取官方最新动态',
 	'reglinkname_default'	=> 'عضویت',//'注册',
@@ -2625,8 +2625,8 @@ $lang = array
 	'setting_mobile_hotthread_comment'	=> 'If enabled then hot threads displayed at the Home page',//'“触屏版”功能，开启则在首页显示热贴',
 	'setting_mobile_displayorder3'		=> 'Show sticky threads',//'是否显示置顶贴',
 	'setting_mobile_displayorder3_comment'	=> 'If enabled then sticky threads displayed at the Home page',//'“触屏版”功能，在帖子列表页面中是否显示置顶贴，否为不显示',
-	'setting_mobile_simpletype'		=> 'Do not display photos',//'开启不显示图片',
-	'setting_mobile_simpletype_comment'	=> 'The default display pictures. Is turned on, "Touch-screen version" Do not post pictures, "Standard Edition" Do not post pictures, Small icons, topic date and other such type page elements',//'默认显示图片，开启后，“触屏版”不显示帖子图片，“标准版”不显示帖子图片、小图标、主题列表日期等页面元素',
+	'setting_mobile_simpletype'		=> 'Enable no-images mode',
+	'setting_mobile_simpletype_comment'	=> 'Images are displayed by default. When this option is turned on, the "touch screen version" does not display post images, and the "simple (WML) version" does not display post images, small icons, thread list dates and other page elements',
 	'setting_mobile_simpletype_yes'		=> 'No Image Starter Edition',//'无图精简版',
 	'setting_mobile_simpletype_no'		=> 'Standard Edition',//'标准版',
 	'setting_mobile_topicperpage'		=> 'Topics per page',//'每页显示主题数',
@@ -2639,8 +2639,8 @@ $lang = array
 	'setting_mobile_index_forumview_comment'	=> 'Such as "put away", Forum Home will show by default only forum titles<br />Users need to click a forum link to view thread list under this Forum',//'如“收起”，论坛首页将默认只展示分区标题<br />用户需点击分区展开该分区下的版块列表',
 	'setting_mobile_come_from'		=> 'Mark Mobile posts',//'手机发帖来源自定义',
 	'setting_mobile_come_from_comment'	=> 'Default is blank. If completed, a post will be marked by "From mobile phone". You can add a custom text or icon<br />Such as: &lt;a href=\'http://m.x.com\'&gt;Mobile Channel&lt;/a&gt;<br />HTML tags supported: &lt;a&gt;&lt;font&gt;&lt;span&gt;&lt;strong&gt;&lt;b&gt;&lt;img&gt;<br />If you use the icon, Please ensure the image height is 16px (pixels) or less',//'默认留空，如果填写，将在看帖页面"来自手机"处增加自定义文字或图标<br />如:&lt;a href=\'http://m.x.com\'&gt;手机频道&lt;/a&gt;<br />此处支持HTML标签有：&lt;a&gt;&lt;font&gt;&lt;span&gt;&lt;strong&gt;&lt;b&gt;&lt;img&gt;<br />如果使用图标，请保证图片高度在16px(像素)以内',
-	'setting_mobile_wml'			=> 'Enable the minimalist version',//'是否启用极简版',
-	'setting_mobile_wml_comment'		=> 'Minimalist version supports only WML language compatible with the old devices browsers.',//'极简版为一些仅支持WML语言的较早期的设备浏览网站的内容',
+	'setting_mobile_wml'			=> 'Whether to enable WML version',
+	'setting_mobile_wml_comment'		=> 'WML version is the content for some earlier devices that only support the WML language to browse the website',
 	'pack'					=> 'Pack',//'收起',
 	'unwind'				=> 'Expand',//'展开',
 
@@ -3380,12 +3380,12 @@ $lang = array
 	'styles_stylecount'		=> 'Style number',//'风格数',
 	'styles_uninstall'		=> 'حذف کردن',//'卸载',
 	'styles_find_newversion'	=> 'پیدا کردن نسخه جدید',//'发现新版',
-	
+
 	'styles_default'		=> 'Default Style',//'默认风格',
 	'styles_default0'		=> 'PC version',//'电脑版',
-	'styles_default1'		=> 'Standard Mobile Edition (WAP)',//'手机标准版',
+	'styles_default1'		=> 'Mobile simple version',//'手机标准版',
 	'styles_default2'		=> 'Mobile touch screen version',//'手机触屏版',
-	'styles_default3'		=> 'Mobile minimalistic version',//'手机极简版',
+	'styles_default3'		=> 'Mobile WML version',//'手机极简版',
 
 	'styles_import'			=> 'Import Interface style',//'导入界面方案',
 	'styles_import_ignore_version'	=> 'Enable to import styles of other Discuz! versions (this can produce an error!)',//'允许导入不同版本 Discuz! 的界面(易产生错误!!)',
