@@ -1937,6 +1937,10 @@ $lang = array
 	'setting_permissions_editby_comment'			=> 'Editing after 60 seconds from created time will add a remark "Post edited by xxx at xxxx-xx-xx". Administrators can avoid this restriction.',//'在 60 秒后编辑帖子添加“本帖由 xxx 于 xxxx-xx-xx 编辑”字样。管理员编辑不受此限制',
 	'setting_permissions_post_append'			=> 'Enable Post append function',//'启用帖子补充功能',
 	'setting_permissions_post_append_comment'		=> 'When enabled, users can not edit their posts, but can add content',//'启用后，当用户无法编辑自己的帖子时，可以补充内容',
+	'setting_permissions_nsprofiles' => 'Personal information is not displayed in the personal space',
+	'setting_permissions_nsprofiles_comment' => 'Personal information will not be displayed in the personal space after activation',
+	'setting_permissions_modasban' => 'Do not ignore review keywords',
+	'setting_permissions_modasban_comment' => 'If such keywords are found in a module that does not support audit keywords after being enabled, the posting will be rejected, and posting will be allowed if closed',
 
 	'setting_credits'				=> 'تنظیمات پول',//'积分设置',
 	'setting_credits_base'				=> 'تنظیمات اصلی',//'基本设置',
@@ -2306,7 +2310,9 @@ $lang = array
 	'setting_sec_accountguard_loginpwcheck_prompt'	=> 'Enable and prompt',//'开启并提示',
 	'setting_sec_accountguard_loginpwcheck_force'	=> 'Enable and force to modify the weak password',//'开启并强制修改弱密码',
 	'setting_sec_accountguard_loginoutofdate'	=> 'Abnormal log in detecting',//'异常登录检测',
-	'setting_sec_accountguard_loginoutofdate_comment'	=> 'When a user was not logged in more than 90 days since the last Log in, the account became the "unverified" status. The user can unfreeze the account by verifying the email or complaint. Users logged in with QQ are not affects this function <a href="'.ADMINSCRIPT.'?frames=yes&action=moderate&operation=members">Audit users</a>',
+	'setting_sec_accountguard_loginoutofdate_comment'	=> 'When the user has logged in for more than a certain period of time, the account will enter the unaudited group, and the user can unfreeze the account by verifying the mailbox or appealing, and the QQ login user will not be affected by this feature. <a href="'.ADMINSCRIPT.'?action=moderate&operation=members">Audit users</a>',
+	'setting_sec_accountguard_loginoutofdatenum' => 'Number of days for abnormal login detection',
+	'setting_sec_accountguard_loginoutofdatenum_comment' => 'Configure the number of days for abnormal login detection, the default value is 90 days',
 
 
 	'setting_attach'			=> 'تنظیمات آپلود',//'上传设置',
@@ -2495,6 +2501,10 @@ $lang = array
 	'setting_search_status_comment'		=> 'Check the areas you want to enable search',//'勾选您要开启的搜索栏目',
 	'setting_search_onoff'			=> 'Enable',//'开启',
 	'search_item_name'			=> 'Search area',//'搜索项目',
+
+	'setting_search_srchsetting' => 'Search option settings',
+	'setting_search_srchcensor' => 'Search is controlled by word filtering',
+
 	'setting_search_srchhotkeywords'		=> 'Popular keywords',//'热门关键词',
 	'setting_search_srchhotkeywords_comment'	=> 'One keyword per line',//'每行一个',
 	'setting_search_srchhotkeywords_disabled'	=> '<strong>You have turned on the Latitude Search service, please go to <a href="'.ADMINSCRIPT.'?action=cloud&operation=search">Cloud platform->Longitude Search</a> settings</strong>',
