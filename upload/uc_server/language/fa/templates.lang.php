@@ -313,7 +313,7 @@ $lang = array(
 	'setting_addappbyurl_comment' => 'Whether to enable the function of adding an application through a URL, it is recommended to enable it only when you need to add an application through a URL',
 
 	'setting_user_failedtime'		=> 'Allows times of login failures',
-	'setting_user_failedtime_comment'	=> 'If the number of login failures exceeds this setting, the user will not be able to log in within 15 minutes. Set to 0 to not limit the number of login failures.',
+	'setting_user_failedtime_comment'	=> 'If the number of login failures exceeds this setting, the user will not be able to log in within 15 minutes. Set to 0 use default value. Set to -1 for not limit the number of login failures (unsafe).',
 
 	'setting_register'			=> 'Registration Settings',
 	'setting_register_tips'			=> 'Allowed/Forbidden Email List. You just need to enter its domain. One Email per line. Example: @hotmail.com',
