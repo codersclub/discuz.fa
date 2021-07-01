@@ -110,6 +110,7 @@ $lang = array
 	'menu_setting_collection'	=> 'مجموعه ها',//'淘帖管理',
 	'menu_posting_tags'		=> 'مدیریت برچسب ها',//'标签管理',
 	'menu_posting_censors'		=> 'فیلتر کلمات',//'词语过滤',
+	'menu_remoderate'		=> 'Content moderation',
 	'menu_maint_report'		=> 'گزارشات کاربران',//'用户举报',
 	'menu_threads_forumstick'	=> 'مهم کردن موضوعات',//'多版块置顶',
 	'menu_post_position_index'	=> 'بهینه سازی پست ها',//'帖子优化',

@@ -455,6 +455,7 @@ $lang = array
 	'nav_misc_links'		=> 'لینکها',//'友情链接',
 	'nav_misc_relatedlink'		=> 'لینکهای مرتبط',//'关联链接',
 	'nav_posting_censor'		=> 'فیلتر کلمات',//'词语过滤',
+	'nav_remoderate'			=> 'Content moderation',
 	'nav_posting_bbcode'		=> 'BB-Codes',//'编辑 Discuz! 代码',
 	'nav_thread_icon'		=> 'آیکن موضوعات',//'主题图标',
 	'nav_thread_stamp'		=> 'مهرهای موضوعات',//'主题鉴定',
@@ -715,6 +716,7 @@ $lang = array
 	'home_sys_info'				=> 'اطلاعات سیستم',//'系统信息',
 	'home_discuz_version'			=> 'نسخه دیسکاز!',//'Discuz! 程序版本',
 	'home_ucclient_version'			=> 'UCenter نسخه',//'UCenter 客户端版本',
+	'home_git_version' =>			'(unofficial version)',
 	'home_check_newversion'			=> 'چک کردن نسخه جدید',//'查看最新版本',
 	'home_environment'			=> 'System Environtment',//'服务器系统及 PHP',
 	'home_serversoftware'			=> 'وضعیت سرور',//'服务器软件',
@@ -6063,6 +6065,22 @@ $lang = array
 	'counter_tips'			=> '<li>The following data is not normal. You can use this function to update the data to correct state. Please try to avoid the peak time of members access</li>' . //'<li>当下列数据不正常时，可以使用此功能对数据进行更新校正。请尽量避开会员访问的高峰时间</li>
 				'<li>Each cycle update the number: Set the value in a reasonable range. Must be not too large, Otherwise it increase the server load pressure</li>',//<li>每个循环更新数量：数值请在一个合理范围，不要过大，否则会给服务器带来负载压力</li>',
 
+
+	'remoderate'		=> 'Content moderation',
+	'remoderate_thread'	=> 'Moderate threads and replies',
+	'remoderate_blog'	=> 'Moderate blog title and content',
+	'remoderate_pic'	=> 'Moderate images',
+	'remoderate_doing'	=> 'Moderate doings',
+	'remoderate_share'	=> 'Moderate shares',
+	'remoderate_comment'	=> 'Moderate guestbook',
+	'remoderate_article'	=> 'Moderate articles',
+	'remoderate_articlecomment'	=> 'Moderate article comments',
+	'remoderate_topiccomment'	=> 'Moderate topic comments',
+	'remoderate_amount'			=> 'Update amount per cycle',
+	'remoderate_processing'		=> 'Processing from {current} to {next}',
+	'remoderate_tips'			=> '<li>When the word filtering parameters have a large change or are near sensitive time points, you can use this function to review the historical data. Please try to avoid the peak hours of member visits</li>
+				<li>The number of updates per cycle: Please keep the value within a reasonable range, not too large, otherwise it will put load pressure on the server</li>
+				',
 
 	'db'				=> 'Database',//'数据库',
 	'db_export'			=> 'Data Backup',//'数据备份',
