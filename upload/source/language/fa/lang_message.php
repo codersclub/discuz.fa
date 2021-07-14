@@ -169,7 +169,7 @@ $lang = array (
 	'failed_to_delete_operation'		=> 'حذف نشد لطفا دوباره تلاش کنید.',//'删除失败，请检查操作',
 	'you_have_friends'			=> 'شما درحال حاضر دوست هستید',//'你们已经是好友了',
 	'no_privilege_addfriend'		=> 'متاسفانه شما دسترسی اضافه کردن دوست را ندارید, <a href="home.php?mod=spacecp&ac=usergroup">برای دیدن دسترسی ها اینجا کلیک کنید</a>',//'抱歉，您目前没有权限添加好友，<a href="home.php?mod=spacecp&ac=usergroup">点击这里查看权限</a>',
-	'enough_of_the_number_of_friends_with_magic'	=> 'The number of your current friends to system restrictions, <a id="a_magic_friendnum2" href="magic.php?mid=friendnum" onclick="ajaxmenu(event, this.id, 1)">Compatibilizer compatibilizer card using friends</a>',//'您当前的好友数目达到系统限制，<a id="a_magic_friendnum2" href="magic.php?mid=friendnum" onclick="ajaxmenu(event, this.id, 1)">使用好友增容卡增容</a>',
+	'enough_of_the_number_of_friends_with_magic'	=> 'Sorry, the number of your current friends has reached the system limit. <a id="a_magic_friendnum2" href="home.php?mod=magic&mid=friendnum" onclick="ajaxmenu(event, this.id, 1)">Please use the "Friend capacity expansion card" to increase the number of friends</a>',//'您当前的好友数目达到系统限制，<a id="a_magic_friendnum2" href="home.php?mod=magic&mid=friendnum" onclick="ajaxmenu(event, this.id, 1)">使用好友增容卡增容</a>',
 	'enough_of_the_number_of_friends'	=> 'محدودیت اضافه کردن دوست فرا رسیده است لطفا بعضی از دوستان خود را حذف کنید.',//'您当前的好友数目达到系统限制，请先删除部分好友',
 	'specified_user_is_not_your_friend'	=> 'کاربر مشخص شده از دوستان شما نمیباشد.',//'指定的用户还不是您的好友',
 	'change_friend_groupname_error'		=> 'تعیین نام گروه دوستان کاربر قابل انجام نیست.',//'指定的好友用户组不能被操作',
