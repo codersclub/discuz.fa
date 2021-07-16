@@ -7135,8 +7135,8 @@ $lang = array
 # Enable RewriteEngine module
 RewriteEngine On
 
-# Modify the following statement for real discuz directory at your server, if the Discuz is installed at the root, change to "/"
-RewriteBase /discuz
+# Modify the following statement for real discuz directory at your server. # For example, www.discuz.net/bbs/, the corresponding is RewriteBase /bbs/, if the program is placed in the root directory, use RewriteBase /
+RewriteBase {siteroot}
 
 # Rewrite rules, do not modify the system
 {apache2}
