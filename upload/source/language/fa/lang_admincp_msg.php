@@ -618,8 +618,6 @@ $lang = array (
 	'members_verify_update_title_error'	=> 'Authentication enabled name can not be empty, please return.',//'认证启用时认证名称不能为空，请返回修改。',
 	'members_verify_title_invalid'		=> 'You do not have rights for the entire set of enabled authentication name, please return amended.',//'你没有为全部被启用的认证设置认证名称，请返回修改。',
 
-	'connect_like_url_error'	=> 'QQ space favorite links must be in qq.com domain',//'QQ空间喜欢的链接必须是 qq.com 域名',
-	'connect_like_url_miss'		=> 'You did not fill in the QQ space favorite link URL',//'您没有填写QQ空间喜欢链接 URL',
 	'connect_update_succeed'	=> 'QQ binding settings updated successfully',//'QQ绑定设置更新成功 ',
 
 	'my_app_status_off'		=> 'Please first open normally the MYOP functioning',//'请先正常开启漫游功能',

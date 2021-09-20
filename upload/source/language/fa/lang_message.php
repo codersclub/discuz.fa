@@ -469,7 +469,7 @@ $lang = array (
 	'lostpasswd_many_users_use_email'	=> 'متاسفانه بیش از یک کاربر از این ایمیل استفاده میکنند لطفا برای بازیابی رمز عبور نام کاربری مورد نظر را وارد کنید.',//'抱歉，存在多个使用此 Email 的用户，请填写您需要找回密码的用户名',
 	'getpasswd_account_invalid'	=> 'مدیر کل سایت و مدیر ارشد نمیتوانند از سیستم بازیابی رمز عبور استفاده کند.',//'管理员和超级版主不能使用取回密码功能，请返回。',
 	'getpasswd_send_succeed'	=> 'ایمیل برای شما ارسال شد, <br />لطفا حداکثر تا سه روز آینده رمز خود را تغییر دهید.',//'取回密码的方法已经通过 Email 发送到您的信箱中，<br />请在 3 天之内修改您的密码。',
-	'getpasswd_has_send'	=> 'You have already applied for the password retrieval email, if you have not received it, please wait 15 minutes and try again',
+	'getpasswd_has_send'	=> 'You have already sent the password retrieval email, if you have not received it, please wait {interval} seconds before retrying to send the password retrieval email',
 
 	'submit_verify_succeed'		=> 'Audit request to the successful, Will now return to the Control Panel home page.',//'审核请求提交成功，现在将返回控制面板首页。',
 
@@ -840,7 +840,7 @@ $lang = array (
 	'profile_email_verify'		=> 'ایمیل ارسال شد لطفا طبق دستور العمل های ایمیل ارسال شده حساب کاربری را فعال کنید.اگر ایمیلی دریافت نکرده اید دوباره درخواست ایمیل تایید بدهید یا ایمیل خود را تغییر بدهید.توجه کنید که تا حساب خود را فعال نکرده اید قادر به ارسال پست در این انجمن نمیباشید.',//'确认 Email 已经发送，请用邮件中提供的方法激活您的帐号。如果您没有收到我们发送的系统邮件，请点击控制面板首页中的“重新验证 Email 有效性”，或尝试更换另外一个地址。注意：在完成激活之前，根据管理员设置，您将只能以待验证会员的身份访问站点，您可能不能进行发帖等操作。激活成功后，上述限制将自动取消。',
 	'profile_succeed'		=> 'پروفایل شخصی با موفقیت ذخیره سازی شد.',//'个人资料已成功保存。',
 	'send_activate_mail_succeed'	=> 'ایمیل ارسال شد لطفا چند دقیقه برای دریافت ایمیل صبر کنید.',//'邮件已经送出，可能需要几分钟后才能收到邮件',
-	'send_activate_mail_error'	=> 'ارسال ایمیلی ناموفق بود لطفا بعد از 5 دقیقه دوباره اقدام به ارسال مجدد ایمیل فعال سازی کنید/',//'邮件发送失败，请过5分钟后重试发送验证激活邮件',
+	'send_activate_mail_error'	=> 'با عرض پوزش ، ایمیل ارسال نشد ، لطفاً {interval} ثانیه صبر کنید و دوباره ایمیل فعال سازی تأیید را ارسال کنید',
 
 	'no_privilege_sendmailday'	=> 'درحال حاضر هشدار ایمیل در این سایت غیرفعال است.',//'当前站点尚未开启邮件提醒功能',
 	'email_input'			=> 'You have not set your mailbox. Please <a href="home.php?mod=spacecp&ac=profile&op=contact">Contact</a>Fill in your E-mail',//'您还没有设置邮箱，请在<a href="home.php?mod=spacecp&ac=profile&op=contact">联系方式</a>中准确填写您的邮箱',
@@ -1082,8 +1082,5 @@ $lang = array (
 	'author_not_uploadpic'		=> 'کاربر مورد نظر تصویری آپلود نکرده است.',//'楼主暂时没有上传图片',
 	'noreply_yourself_error'	=> 'شما نمیتوانید به پست های خود رای دهید.',//'您不能对自己的回帖进行投票',
 	'noreply_voted_error'		=> 'شما در حال حاضر در این نظر سنجی رای داده اید.',//'您已经对此回帖投过票了',
-
-// Added by Valery Votintsev
-	'timeout_or_data_error'		=> 'Operation timeout or data source error',//'操作超时或者数据来源错误',
 );
 

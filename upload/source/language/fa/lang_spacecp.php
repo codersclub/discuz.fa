@@ -332,9 +332,9 @@ $lang = array(
 	'spacecp_message_prompt'	=> '(supported {msg} code, maximum 1000 characters)',//'(支持 {msg} 代码,最大 1000 字)',
 	'card_update_doing'		=> ' <a class="xi2" href="###">[update doings]</a>',//' <a class="xi2" href="###">[更新记录]</a>',
 	'email_acitve_message'		=> '<img src="{imgdir}/mail_inactive.png" alt="Unverified" class="vm" />
-						<span class="xi1">ایمیل جدید({newemail})برای اعتبار سنجی صبر کنید ...</span><br />
+						<span class="xi1">ایمیل جدید ({newemail}) برای اعتبار سنجی صبر کنید ...</span><br />
 						The system has sent a verification email to you, please check your mailbox for activate this e-mail.<br>
-						If you did not receive the verification message, you can replace a mailbox, or <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">Re-send the verification message</a>',
+						If you did not receive the verification message, you can replace a mailbox, or <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1&formhash={formhash}" class="xi2">Re-send the verification message</a>',
 	'qq_set_status'		=> 'I set my QQ online status',//'设置我的QQ在线状态',
 	'qq_dialog'		=> 'Start QQ chat',//'发起QQ聊天',
 

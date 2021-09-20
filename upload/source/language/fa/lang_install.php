@@ -310,6 +310,12 @@ $lang = array(
 
 </div>',
 
+	'php8_tips' => 'Hello, the current product does not support PHP 8 installation, please downgrade to at least PHP 7.4 and try again!',
+	'no_utf8_tips' => 'Hello, the version you are using is a localized encoding version such as GBK / BIG-5. This version is no longer the main push version. If you plan to build a new site [strongly] it is recommended that you use the latest official UTF-8 Version installation.',
+	'no_latest_tips' => 'Hello, you are using an older version, which may have bugs and security risks. If there are no special circumstances, it is recommended that you use the latest official UTF-8 version to install.',
+	'unstable_tips' => 'Hello, the version you are using is an unofficial version, and there may be unknown bugs or defects. If you plan to build a website or buy a plug-in, it is recommended that you use the latest official UTF-8 version to install.',
+	'next_tips' => '\r\nClick [OK] to jump to the latest official UTF-8 version download page, click [Cancel] to continue the installation (not recommended)',
+
 	'uc_installed'		=> 'You have installed the UCenter. If you need to re-install, delete the data/install.lock file',//'您已经安装过 UCenter，如果需要重新安装，请删除 data/install.lock 文件',
 	'i_agree'		=> 'با کلیه بندهای قوانین موافقم',//'我已仔细阅读，并同意上述条款中的所有内容',
 	'supportted'		=> 'Supported',//'支持',

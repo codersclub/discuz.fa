@@ -1546,7 +1546,7 @@ $lang = array (
 	'save_to_album'				=> 'ذخیره در آلبوم',//'保存到相册',
 	'usergroup_expired'			=> 'Your current user group has expired, Please choose the renew for continue or switch to other user group',//'您当前的用户组已经到期，请选择继续续费还是要切换到其他用户组',
 	'freeze_pw_tips'	=> 'Your current account has been frozen, please change your password to unlock it',//'您当前的帐号已经被冻结，请修改密码解除冻结状态',
-	'freeze_email_tips'	=> 'Your current account has been frozen. You must verify your mailbox before you can unfreeze it. <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">Resend verification email</a>',//'您当前的帐号已经被冻结，必须验证邮箱后才能解除冻结状态 <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">重新接收验证邮件</a>',
+	'freeze_email_tips'	=> 'Your current account has been frozen, you must click the link below to re-receive the verification email to verify the email to release the freeze status',
 	'freeze_admincp_tips' => 'Your current account has been frozen, you must fill in the appeal reasons on this page, and your account will be unfrozen after the reviewing at the management center',//'您当前的帐号已经被冻结，必须在本页面填写申诉理由，并经管理中心审核通过后才能解除冻结状态',
 	'freeze_reason'		=> 'Freeze reason',//'申诉理由',
 	'freeze_reason_comment' => 'If you are unable to verify the E-mail, Please fill in the complaint reason',//'如果您无法通过邮箱验证，请填写申诉理由',
