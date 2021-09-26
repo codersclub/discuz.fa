@@ -310,6 +310,7 @@ $lang = array(
 
 </div>',
 
+	'php_version_too_low' => 'Your PHP version is too low, please upgrade to at least PHP '.$env_items['php']['r'].' and try again!',
 	'php8_tips' => 'Hello, the current product does not support PHP 8 installation, please downgrade to at least PHP 7.4 and try again!',
 	'no_utf8_tips' => 'Hello, the version you are using is a localized encoding version such as GBK / BIG-5. This version is no longer the main push version. If you plan to build a new site [strongly] it is recommended that you use the latest official UTF-8 Version installation.',
 	'no_latest_tips' => 'Hello, you are using an older version, which may have bugs and security risks. If there are no special circumstances, it is recommended that you use the latest official UTF-8 version to install.',
