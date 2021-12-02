@@ -469,6 +469,7 @@ $lang = array (
 	'uc_database_connect_error'		=> 'Connect to database server failed. Go back to check the settings.',//'连接用户中心数据库服务器失败，请返回检查设置。',
 	'uc_config_write_error'			=> 'UC configuration file write failed. Return to check the settings.',//'配置文件写入失败，请返回检查设置。',
 	'uc_config_appid_error'			=> 'UCenter App ID must be numeric, please check settings',//'UCenter 应用 ID 必须为数字，请检查设置',
+	'uc_config_ip_error'			=> 'UCenter IP address must be a legal IP address, please check the settings',
 	'uc_config_load_data_local_infile_error' => 'The function MySQL LOAD DATA LOCAL IN FILE is enabled at the server. To avoid possible security threats, it is not allowed to edit the UCenter database server address online. If you need to modify it, please edit the UC_DBHOST constant in config/config_ucenter.php',
 	'setting_ipaccess_invalid'		=> 'Operation Error! You must allow your own IP to access the site. Please return to modify.',                  //'操作错误！您必须将自己的 IP 加入到允许访问站点的 IP 列表中，请返回修改。',
 	'setting_adminipaccess_invalid'		=> 'Operation Error! You must allow your own IP to access the site backend. Please go back and edit.',//'操作错误！您必须将自己的 IP 加入到允许访问后台的 IP 列表中，请返回修改。',
