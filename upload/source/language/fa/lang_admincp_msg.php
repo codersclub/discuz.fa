@@ -346,6 +346,7 @@ $lang = array (
 	'members_edit_credits_failure'		=> 'Optimized user Will not be able to edit points ',//'已优化的用户将不能编辑积分 ',
 	'members_edit_credits_succeed'		=> 'The user points successful edited.',//'用户积分成功编辑。',
 	'members_edit_medals_succeed'		=> 'User Medal was successfully edited.',//'用户勋章成功编辑。',
+	'members_edit_lock'			=> 'You cannot lock the user directly, please <a href="{ADMINSCRIPT}?action=members&operation=search&uid={uid}&submit=yes&frames=yes" target="_blank">Edit</a> to remove the "{grouptitle}" identity',
 	'members_edit_illegal'			=> 'You can not directly prohibit the user, Please <a href="{ADMINSCRIPT}?action=members&operation=search&uid={uid}&submit=yes&frames=yes" target="_blank">Edit</a> Remove the "{grouptitle}" Identity',//'您不能直接禁止该用户，请<a href="{ADMINSCRIPT}?action=members&operation=search&uid={uid}&submit=yes&frames=yes" target="_blank">编辑</a>去掉其“{grouptitle}”身份',
 	'members_edit_illegal_portal'		=> 'You can not directly prevent the user, please <a href="{ADMINSCRIPT}?action=portalpermission&uid={uid}" target="_blank">Check its related portal permissions</a> and clear',//'您不能直接禁止该用户，请<a href="{ADMINSCRIPT}?action=portalpermission&uid={uid}" target="_blank">查询其门户相关权限</a>并清除',
 	'members_edit_reason_invalid'		=> 'You have not entered the reasons for this change',//'您没有输入执行此变更的理由',
