@@ -350,6 +350,11 @@ var lng = {
 	'can_not_save_attach'	: 'نمیتواند پیوست را ذخیره کند',//'附件文件无法保存',
 	'invalid_file'		: ' فایل با خطا آپلود شد',//'没有合法的文件被上传',
 	'illegal_operation'	: 'عملیات همراه با خطا',//'非法操作',
+	'illegal_attach_name'	: 'Cannot submit because the file name contains sensitive words',//'因文件名包含敏感词而无法提交',
+	'illegal_attach_resolution'	: 'Cannot upload attachments with high resolution because of server limit',//'服务器限制无法上传分辨率过高的附件',
+
+
+
 	'today_upload_large'	: 'Today you can not upload so much attachments',//'今日您已无法上传那么大的附件',
 	'enter_content'		: 'عنوان یا محتوا وارد کنید',//'请完成标题或内容栏',
 	'select_category'	: 'انتخاب بخش مربوطه برای موضوع',//'请选择主题对应的分类',

@@ -9,6 +9,10 @@
  *	Translated to Persian by Discuz.ir and Valery Votintsev
  */
 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 $lang = array (
 	'no_simplemobiletype'		=> 'نسخه استاندارد',//'标准版',
 	'nomobiletype'			=> 'نسخه رایانه',//'电脑版',
@@ -18,7 +22,7 @@ $lang = array (
 	'my_posts'			=> 'ارسالات من',//'我的帖子',
 	'new_pm'			=> 'پیام خصوصی جدید',//'新短消息',
 	'waptitle'			=> 'تلفن همراه',//'手机版',
-	'misc_mobile_title' => 'نسخه موبایل',//'手机版',
+	'misc_mobile_title'		=> 'نسخه موبایل',//'手机版',
 	'login_mobile'			=> 'اکنون وارد شوید - {$_G[setting][bbname]} بوسیله موبایل',//'现在就登录 - {$_G[setting][bbname]} 手机版',
 	'login_mobile_join'		=> 'حال ، با استفاده از تلفن همراه وارد شوید',//'立即使用手机访问，获得极速移动体验',
 	'mobile_favorite'		=> 'افزودن مورد علاقه سریع',//'快速收藏',
@@ -152,6 +156,8 @@ $lang = array (
 	'uploadstatusmsg9'		=> 'هیچ پرونده معتبری بارگذاری نشده است',//'没有合法的文件被上传',
 	'uploadstatusmsg10'		=> 'عملیات غیرقانونی',//'非法操作',
 	'uploadstatusmsg11'		=> 'امروز نمی توانید آنقدر پیوست ها را بارگذاری کنید',//'今日您已无法上传那么大的附件',
+	'uploadstatusmsg12'		=> 'Cannot submit because the file name contains sensitive words',//'因文件名包含敏感词而无法提交',
+	'uploadstatusmsg13'		=> 'Cannot upload attachment because of server limit of high resolution',//'服务器限制无法上传分辨率过高的附件',
 	'postreplyneedmod'		=> 'ارسالات این انجمن غیر فعال است و فقط توسط یک مدیر نمیاش داده میشوند',//'本版回帖需要审核，您的帖子将在通过审核后显示',
 	'replylist'			=> 'لیست پاسخ ها',//'回复列表',
 	'last_thread'			=> 'موضوع قبلی',//'上一个主题',

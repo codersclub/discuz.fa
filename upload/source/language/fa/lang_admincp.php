@@ -2342,7 +2342,7 @@ $lang = array
 	'setting_attach_basic_multi'		=> 'Bulk upload',//'批量上传',
 	'setting_attach_basic_simple'		=> 'General upload',//'普通上传',
 	'setting_attach_basic_allowattachurl'		=> 'Enable attachment URL for media player',//'附件 URL 地址、媒体附件播放',
-	'setting_attach_basic_allowattachurl_comment'	=> 'After opening the attachment URL address, the address of the uploaded attachment can be quoted in any post using the tag "attach://aid", and supports direct playback of media attachments. This setting needs to be set in <a href="'.ADMINSCRIPT.'?action=usergroups">User Group</a>. The user group must be allowed to use multimedia codes in the post, and ensure that the local file reading mode configured by config_global.php is 1 or 4 before it takes effect',
+	'setting_attach_basic_allowattachurl_comment'	=> 'After opening the attachment URL address, the address of the uploaded attachment can be quoted in any post using the tag "attach://aid.ext", and supports direct playback of media attachments. This setting needs to be set in <a href="'.ADMINSCRIPT.'?action=usergroups">User Group</a>. The user group must be allowed to use multimedia codes in the post, and ensure that the local file reading mode configured by config_global.php is 1 or 4 before it takes effect',
 	'setting_attach_basic_swfupload_comment'	=> 'Bulk upload mechanism to upload using Flash, can be used to upload multiple attachments, show upload progress in run time.',//'批量上传采用 Flash 机制上传，可一次上传多个附件，上传时还会有进度显示',
 
 	'setting_attach_forumattach'			=> 'Forum attachments',//'论坛附件',
