@@ -79,4 +79,7 @@ $lang = array(
 	'pm_send_floodctrl_error'	=> 'Sorry, you try to send messages too fast, please return',
 	
 	'file_check_failed'		=> 'Checked file does not exist, can not check',
+	'replacemykey_succeed'		=> 'The key is updated successfully, please update the cache and check the status of the application below',
+	'replacemykey_false'		=> 'The key update failed, please check whether the file is writable or the database is normal, if necessary, please reconfigure the UC_KEY of each application to ensure normal work',
+	'replacemykey_no_confirm'	=> 'Please confirm the risk prompt before proceeding',
 );

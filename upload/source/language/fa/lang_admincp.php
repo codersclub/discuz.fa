@@ -506,6 +506,11 @@ $lang = array
 	'nav_hookcheck_verify'		=> 'Start check',//'开始校验',
 	'nav_hookcheck_completed'	=> 'Hook checking completed',//'校验结果',
 
+	'nav_replacekey'		=> 'Update KEY',
+	'nav_replacekey_confirm'	=> 'Confirm start',
+	'nav_replacekey_verify'		=> 'Start updating',
+	'nav_replacekey_completed'	=> 'Update is finished',
+
 	'nav_updatecache'		=> 'به روزرسانی کش',//'更新缓存',
 	'nav_updatecache_confirm'	=> 'اطمینان از به روزرسانی کش',//'确认开始',
 	'nav_updatecache_verify'	=> 'شروع به روزرسانی',//'开始更新',
@@ -6020,6 +6025,10 @@ $lang = array
 	'hookcheck_discuzhook'		=> 'Original Hook',//'源文件嵌入点',
 	'hookcheck_delhook'		=> 'Lost Hook',//'丢失的嵌入点',
 
+	'replacekey_tips'		=> '<li>You should consider key update here when the site is compromised to avoid hackers gaining site control via a known AUTHKEY.</li><li><font color="blue">A few plugins will use the site key to save data. When the key is reset, the relevant data will be lost and cannot be recovered. Please pay attention and make sure that the database is updated before updating. Backup of site files works.</font></li>',
+	'replacekey_tips_step1'		=> 'Before the operation, it is recommended that you choose low-peak operation or temporarily close the linked website, and do a good job of data and file backup, click the button below to start the replacement',
+	'replacekey_tips_step2'		=> 'Key updating is in progress, please wait...',
+
 	'imagepreview_imagesize_source'	=> 'سایز اصلی تصویر',//'原图片大小',
 	'imagepreview_imagesize_target'	=> 'Processed Image Size',//'处理后图片大小',
 
@@ -6097,7 +6106,7 @@ $lang = array
 	'db_volume'			=> 'Number of volumes',//'卷数',
 	'db_export_tips_nouc'		=> '<li><font color="blue"><b>Your data backup is not included the UCenter data, Will affect your membership data, click <a href="{uc_backup_url}">Here</a> for backup UCenter Data separately.</b></font></li><li>All the Discuz! data backup files may be used in "Data Recovery" Function or Imported to phpMyAdmin.</li>',//'<li><font color="blue"><b>您当前的数据备份不包含 UCenter，会影响到您的会员数据，请点击<a href="{uc_backup_url}">这里</a>单独备份 UCenter 数据</b></font></li><li>数据备份功能根据你的选择备份全部Discuz!数据，导出的数据文件可用“数据恢复”功能或 phpMyAdmin 导入。</li>',
 	'db_export_tips_uc'		=> '<li><font color="blue"><b>Your current data backup does not contain UCenter, it will affect your members data, please click <a href="{uc_backup_url}">Here</a> to backup UCenter data separately.</b></font></li>',//'<li><font color="blue"><b>您当前的数据备份不包含 UCenter，会影响到您的会员数据，请点击<a href="{uc_backup_url}">这里</a>单独备份 UCenter 数据</b></font></li>',
-	'db_export_tips'		=> '<li>Data backup option is for backup all the Forum posts/data. Exported data file can be imported by the "Data recovery" tool or by phpMyAdmin.</li><li>Full backup is not include the template filse and the attachment files. Templates and attachments can be backuped by FTP download the "template/" and "data/attachment/" directories. Discuz! Does not provide a separate backup.</li><li>Standard MySQL Dump is much faster than the Discuz! Sub-volume backup, but requires the server support Shell related rights, and because the compatibility of MySQL itself, usually for backup and recovery server should have the same or similar version number, so it must be carried out smoothly. So MySQL Dump is at risk: If a backup or restore operations is failed and you have no shell access, or the import process failed because of version incompatibility, you will not be able to use MySQL Dump backup for restore from the backup data. Discuz! Sub-volume backup do not have this restriction.</li><li>Data backup option recommended to use only for advanced users and only for special purposes. If you have no a comprehensive and detailed understanding of the database functioning and management, it is recommended to use only the default parameters backup, otherwise the backup data errors will result in serious problems.</li><li>To ensure the integrity of backup data, a hexadecimal way may be used, but in this case the backup files will occupy more space.</li><li>Compressing the backup files allow you to decrease the backup files size.</li>',//'<li>数据备份功能根据您的选择备份全部版块帖子和设置数据，导出的数据文件可用“数据恢复”功能或 phpMyAdmin 导入。</li><li>全部备份均不包含模板文件和附件文件。模板、附件的备份只需通过 FTP 等下载 template/, data/attachment/ 目录即可，Discuz! 不提供单独备份。</li><li>MySQL Dump 的速度比 Discuz! 分卷备份快很多，但需要服务器支持相关的 Shell 权限，同时由于 MySQL 本身的兼容性问题，通常进行备份和恢复的服务器应当具有相同或相近的版本号才能顺利进行。因此 MySQL Dump 是有风险的：一旦进行备份或恢复操作的服务器其中之一禁止了 Shell，或由于版本兼容性问题导致导入失败，您将无法使用 MySQL Dump 备份或由备份数据恢复；Discuz! 分卷备份没有此限制。</li><li>数据备份选项中的设置，仅供高级用户的特殊用途使用，当您尚未对数据库做全面细致的了解之前，请使用默认参数备份，否则将导致备份数据错误等严重问题。</li><li>十六进制方式可以保证备份数据的完整性，但是备份文件会占用更多的空间。</li><li>压缩备份文件可以让您的备份文件占用更小的空间。</li>',
+	'db_export_tips'		=> '<li><font color="blue"><b>For security reasons, we strongly recommend that you delete the database backup file on the recovery page after downloading the database backup file or set the database backup file to not pass the URL access to keep the site safe.</b></font></li><li>All backups do not include template files and attachment files. For backup of templates and attachments, just download the "template/" and "data/attachment/" directories through FTP, etc. Discuz! does not provide separate backups.</li><li>MySQL Dump is much faster than Discuz! Volume backup, but requires the server to support relevant Shell permissions, and due to the compatibility of MySQL itself, usually the backup and recovery servers should have the same or similar version number to proceed smoothly. Therefore MySQL Dump is risky: once one of the servers performing the backup or restore operation disables the shell, or the import fails due to version compatibility issues, you will not be able to use MySQL Dump to backup or restore from backup data; Discuz! Volumes Backups do not have this limitation.</li><li>The settings in the data backup options are only for the special purpose of advanced users. Before you have a comprehensive and detailed understanding of the database, please use the default parameters to back up, otherwise it will cause serious problems such as backup data errors.</li><li>The hexadecimal format can ensure the integrity of the backup data, but the backup file will take up more space.</li><li>Compressing your backup files allows your backup files to take up less space.</li>',
 	'db_export_type'		=> 'Backup type',//'数据备份类型',
 	'db_export_discuz'		=> 'All the site data',//'站点全部数据',
 	'db_export_discuz_uc'		=> 'Discuz! and UCenter data',//'Discuz! 和 UCenter 数据',
@@ -6126,7 +6135,7 @@ $lang = array
 	'db_import_confirm'		=> 'Imported file data and current Discuz! Version are incompatible and may cause a failure',//'导入和当前 Discuz! 版本不一致的数据极有可能产生无法解决的故障，您确定继续吗？',
 	'db_import_confirm_sql'		=> 'Are you sure you want to import the SQL backup?',//'您确定导入该备份吗？',
 	'db_import_confirm_zip'		=> 'Are you sure you want to unzip the backup?',//'您确定解压该备份吗？',
-	'db_import_tips'		=> '<li>This function will all overwrite the original data while restoring the backup data. Please make sure to close the forum before restoring. You can reopen the forum after the restoration is complete.</li><li>Before restoring data, please find the restore.php file in the utility folder under the Discuz! installation file directory, and then upload the restore.php file to the data directory of the program folder. <b>For the safety of your site, please delete the restore.php file in time after successfully restoring the data.</b></li><li>You can view the detailed information of the site backup files in the data backup record, delete expired backups, and import the required backups.</li>',
+	'db_import_tips'		=> '<li>This function will completely overwrite the original data while restoring the backup data. Please make sure that the forum has been closed before the restoration. After the restoration is completed, the forum can be reopened.</li><li><font color="blue"><b>For security reasons, we strongly recommend that you delete the database backup file on the recovery page after downloading the database backup file or set the database backup file to be inaccessible via URL, to ensure website security.</b></font></li><li>Before restoring data, please find the restore.php file in the utility folder of the Discuz! installation file directory, and then upload the restore.php file to the program folder data directory. <b>For the safety of your site, please be sure to delete the restore.php file in time after successful data recovery.</b></li><li>You can view the detailed information of the site backup files in the data backup record, delete the expired backups, and import the required backups.</li>',
 	'do_import_option'		=> 'Go To restore.php under the utility/ directory and upload files to the data/ directory, and then execute the data recovery in the browser url <a href="{restore_url}" target="_blank">{restore_url}</a>',//'把 utility目录下的restore.php 文件上传到 data 目录下，然后在浏览器中执行 <a href="{restore_url}" target="_blank">{restore_url}</a> 恢复数据',
 	'db_import_from_server'		=> 'From the server (fill in file name or URL)',//'从服务器(填写文件名或 URL)',
 	'db_import_from_local'		=> 'From local file',//'从本地文件',
@@ -6971,6 +6980,7 @@ $lang = array
 	'optimizer_check_unit_optimizer_log'		=> 'Check if the log table can be optimized and cleaned',//'查看是否有需要优化清理的日志表',
 	'optimizer_check_unit_optimizer_seo'		=> 'Check if the SEO settings can be optimized',//'检测SEO优化设置',
 	'optimizer_check_unit_optimizer_dbbackup_clean'	=> 'Check if the backup files are deleted',//'检测是否存在未删除的备份文件',
+	'optimizer_check_unit_optimizer_dbbackup_visit'	=> 'Check whether there is an accessible backup file',
 	'optimizer_check_unit_optimizer_inviteregister'	=> 'Check if a registration invite exists',//'检测允许新用户注册项',
 	'optimizer_check_unit_optimizer_emailregister'	=> 'Check if registered Email exists',//'检测通过邮件发送注册连接项',
 	'optimizer_check_unit_optimizer_pwlength'	=> 'Check for minimum password length',//'检测密码最小长度项',
@@ -6994,8 +7004,10 @@ $lang = array
 	'optimizer_check_unit_optimizer_security_daily'	=> 'Check for Waterproof wall daily optimization task is enabled',//'检测是否开启防水墙每日优化计划任务',
 	'optimizer_check_unit_optimizer_postqqonly'	=> 'Check for the bind QQ account before posting is turned on',//'检测发帖需要绑定QQ号检测是否开启',
 	'optimizer_check_unit_optimizer_aggid'		=> 'Check for bind QQ account is turned on for Admins, Supermoderators & Moderators',//'检测“管理员，超级版主，版主”QQ登录检测是否开启',
-	'optimizer_check_unit_optimizer_dos8p3' => 'Check whether DOS 8.3 file name support is enabled',
-	'optimizer_check_unit_optimizer_httphost' => 'Check whether empty HOST access is enabled',
+	'optimizer_check_unit_optimizer_filesafe'	=> 'Check whether there are upgrade or installation files exists',
+	'optimizer_check_unit_optimizer_remote'		=> 'Check whether remote calls are enabled',
+	'optimizer_check_unit_optimizer_dos8p3'		=> 'Check whether DOS 8.3 file name support is enabled',
+	'optimizer_check_unit_optimizer_httphost'	=> 'Check whether empty HOST access is enabled',
 
 	'domain_topic'				=> 'مقاله ها',//'专题',
 	'domain_home'				=> 'پروفایل شخصی',//'个人空间',

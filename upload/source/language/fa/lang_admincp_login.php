@@ -34,6 +34,7 @@ $lang = array
 	'login_tips'		=> 'یک سکوی وب سایت حرفه ای مبتنی بر جامعه است که توسط <a href="http://cloud.tencent.com" target="_blank"> Tencent Cloud </a> راه اندازی شده است تا به وب سایت کمک کند تا خدمات یک مرحله ای را انجام دهد.',
 	'login_nosecques'	=> 'می توانید از ورود ایمن استفاده کنید. لطفاً سؤال امنیتی خود را تنظیم کرده و سپس به مرکز مدیریت مراجعه کنید. می توانید <a href="forum.php؟mod=memcp&action=profile&typeid=1 "> برای تنظیم سوال امنیتی اینجا را کلیک کنید </a>',
 
+	'login_cp_guest'	=> '<b>This request has been denied because you are not logged in.</b><br><br>Please <a href="member.php?mod=logging&action=login">log in</a> and try again',
 	'login_cplock'		=> 'کنترل پنل شما بسته شده است!<br>لطفا <b>{ltime}</b>دقیقه بعد مراجعه کنید.',//'您的管理面板已经锁定! <br>请在<b> {ltime} </b>秒以后重新访问管理中心',
 	'login_user_lock'	=> 'از آنجا که گذرواژه شما بارها اشتباه شد ، درخواست ورود به سیستم رد شد. لطفاً بعد از 15 دقیقه دوباره امتحان کنید',
 	'login_cp_noaccess'	=> '<b> مرکز مدیریت (یا این عملیات) هنوز برای شما باز نشده است. </ b> <br> <br> عملیات فعلی شما ضبط شده است ، اقدامات غیرقانونی را امتحان نکنید.',

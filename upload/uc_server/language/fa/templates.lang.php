@@ -23,7 +23,7 @@ $lang = array(
 	'shortcut_tips'		=> 'Click to Edit and Submit to Save',
 	'welcome'		=> 'Welcome',
 	'edit'			=> 'Edit',
-	'plugin'		=> 'Check files',//'Plugins',
+	'plugin'		=> 'Plugin Center',
 	'to'			=> ' to ',
 	'menu'			=> 'Menu',
 
@@ -167,6 +167,7 @@ $lang = array(
 	'app_ip_comment'	=> 'Leave blank in common case. If your application is unable to connect the UCenter, you can try to set the application IP.',
 	'app_key'		=> 'Connect Key',
 	'app_key_comment'	=> 'Only allows to use english letters and numbers, 64 characters limited. You must set the key in application same as this value, otherwise the application will not be able to connect to UCenter.',
+	'app_key_generate'	=> 'Generate secure communication key',
 	'app_login'		=> 'Login all Application at the same time?',
 	'app_login_comment'	=> 'Open this function, when you login other applications, you will login this application at same time.',
 	'app_charset'		=> 'Charset',
@@ -196,7 +197,7 @@ $lang = array(
 	'app_api_filename_comment'	=> 'Application API Filename, not contain the Path, default is uc.php',
 	'app_code'			=> 'Application UCenter Configuration Information',
 	'app_code_comment'		=> 'If you lost your application UCenter Configuration Information, you can copy the code below to application Configuration file',
-	'app_not_add_tips' => 'Possible reasons why the application cannot be added through the URL: 1. The switch to add the application through the URL is turned off; 2. The wrong password of the UCenter founder is entered multiple times',
+	'app_not_add_tips'		=> 'Possible reasons why the application cannot be added through the URL: 1. The switch to add the application through the URL is turned off; 2. The wrong password of the UCenter founder is entered multiple times',
 
 	'tag_tips'		=> 'Set the current application to obtain other applications as well as tag data on the proportion of the expansion of the data template. Template: "&#123;xxx&#125;" express the index of tag, representing the corresponding data',
 	'tag_global_template'	=> 'Global Template',
@@ -309,8 +310,8 @@ $lang = array(
 	'setting_chatpmmemberlimit_comment'	=> 'Limit the number of PM recipients that the user can send group chat short messages within 24 hours. We recommend to use a value in range of 30 - 100. Se to 0 for no restrictions. Used for limit the quantities of possible spam through the server',
 	'setting_pmfloodctrl'			=> 'PM Flood Prevention',
 	'setting_pmfloodctrl_comment'		=> 'Interval between two PM, in seconds, 0 for unlimited, this is to prevent the Ads robots',
-	'setting_addappbyurl' => 'Enable adding apps via URL',
-	'setting_addappbyurl_comment' => 'Whether to enable the function of adding an application through a URL, it is recommended to enable it only when you need to add an application through a URL',
+	'setting_addappbyurl'			=> 'Enable adding apps via URL',
+	'setting_addappbyurl_comment'		=> 'Whether to enable the function of adding an application through a URL, it is recommended to enable it only when you need to add an application through a URL',
 
 	'setting_user_failedtime'		=> 'Allows times of login failures',
 	'setting_user_failedtime_comment'	=> 'If the number of login failures exceeds this setting, the user will not be able to log in within 15 minutes. Set to 0 use default value. Set to -1 for not limit the number of login failures (unsafe).',
@@ -415,6 +416,7 @@ $lang = array(
 	'db_start_export_dumpfile'	=> 'Starting the data backup, please wait and not close you browser...',
 	'db_list_tips'			=> 'You can click "Detail" to restore the database',
 	'db_import_tips'		=> 'Select the applications that you want to restore, then click "submit" to start',
+	'db_security_tips'		=> 'For security reasons, we strongly recommend that you delete the database backup file on the recovery page after downloading the database backup file or set the database backup file to be inaccessible through URL to ensure website security.',
 	'dumpfile_exists'		=> 'File exists',
 
 	'message_title'		=> 'Tips',
@@ -457,7 +459,7 @@ $lang = array(
 	'home_member_count'		=> 'Members',
 	'home_app_count'		=> 'Applications',
 	'home_env'			=> 'System Environment',
-	'home_envstatus' => 'Operating environment detection',
+	'home_envstatus'		=> 'Operating environment detection',
 	'home_team'			=> 'UCenter Development Team',
 
 	'admin_add_succeed'		=> '$addname successfully added as Admininistrator',
@@ -491,6 +493,7 @@ $lang = array(
 	'oldpw'				=> 'Old Password',
 	'newpw'				=> 'New Password',
 	'repeatpw'			=> 'Repeat Password',
+	'reconfkey'			=> 'Reset KEY',
 	'admin_list'			=> 'Admin List',
 	'confirm_delete'		=> 'Confirm to delete?',
 	'profile'			=> 'Profile',
@@ -508,10 +511,10 @@ $lang = array(
 	'app_allowips'			=> 'IP allowed to access',
 	'app_allowips_comment'		=> 'Leave blank in common case. If you set this, all others IPs will not have an access to this application',//vot
 
-	'envstatus_result' => 'Test results',
-	'envstatus_ver_too_low' => 'In your current system environment $envstatus[req] version ($envstatus[now_ver]) is too low, The program can not work as expected. It is strongly recommend to upgrade to $envstatus[sug_ver] version. The minimal required version for the program normal operation is $envstatus[req_ver].',
-	'envstatus_not_found' => 'Module $envstatus[req] is not installed or not enabled in your current system environment. The program can not work as expected. It is strongly recommend to install or enable this module to meet the minimum requirements for the normal program operation.',
-	'envstatus_ok' => 'Your current system environment is suitable for the current UCenter version $envstatus[version].',
+	'envstatus_result'		=> 'Test results',
+	'envstatus_ver_too_low'		=> 'In your current system environment $envstatus[req] version ($envstatus[now_ver]) is too low, The program can not work as expected. It is strongly recommend to upgrade to $envstatus[sug_ver] version. The minimal required version for the program normal operation is $envstatus[req_ver].',
+	'envstatus_not_found'		=> 'Module $envstatus[req] is not installed or not enabled in your current system environment. The program can not work as expected. It is strongly recommend to install or enable this module to meet the minimum requirements for the normal program operation.',
+	'envstatus_ok'			=> 'Your current system environment is suitable for the current UCenter version $envstatus[version].',
 
 //Added by Valery Votintsev, codersclub.org
 	'view_ml_new_version'		=> 'View Latest ML Version',
