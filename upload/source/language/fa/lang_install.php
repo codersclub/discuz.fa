@@ -85,7 +85,7 @@ $lang = array(
 
 	'ext_info_succ'		=> 'با موفقیت نصب شد',//'安装成功。',
 	'install_submit'	=> 'تایید',//'提交',
-	'install_locked'	=> 'Installation is locked.<br><br>If you sure you want to re-install, go to the server and delete the file<br />'.str_replace(ROOT_PATH, '', $lockfile),//'安装锁定，已经安装过了，如果您确定要重新安装，请到服务器上删除<br /> '.str_replace(ROOT_PATH, '', $lockfile),
+	'install_locked'	=> 'Installation is locked.<br><br>If you sure you want to re-install, go to the server and delete the file<br />'.str_replace(ROOT_PATH, '', $lockfile),//'安装锁定，已经安装过了，如果您确定要重新安装，请到服务器上删除<br />'.str_replace(ROOT_PATH, '', $lockfile),
 	'error_quit_msg'	=> 'You must solve the above problems, before the installation can continue.',//'您必须解决以上问题，安装才可以继续',
 
 	'step_app_reg_title'	=> 'Setting environment',//'设置运行环境',
@@ -289,7 +289,7 @@ $lang = array(
 <h3>III. Limited Warranty and Disclaimer</h3>
 <ol>
    <li>This software and the accompanying documents are provided without any explicit or implicit compensation or guarantee.</li>
-   <li>Users use this software voluntarily, you must understand the risks of using this software. Before purchasing product technical services, we do not promise to provide any form of technical support, use guarantees, nor assume any responsibility for using this software. And the related responsibility for the problem. </ li>
+   <li>Users use this software voluntarily, you must understand the risks of using this software. Before purchasing product technical services, we do not promise to provide any form of technical support, use guarantees, nor assume any responsibility for using this software. And the related responsibility for the problem.</li>
    <li>Hong Sing does not assume responsibility for articles or information on websites or forums built using this software, and you are solely responsible for it.</li>
    <li>Hong Sing cannot fully monitor the applications uploaded to the application center by third parties, so it does not guarantee the legality, security, integrity, authenticity or quality of the application; when you download the application from the application center, Agree to judge and bear all risks independently, without relying on Hong Sing. However, in any case, Hong Sing has the right to stop the application center service and take corresponding actions according to law, including but not limited to uninstalling related applications, suspending all or part of the service, keeping relevant records, and reporting to relevant authorities. As a result, Hong Sing will not bear any direct, indirect or joint liability for the losses that may be caused to you and third parties.</li>
    <li>Hong Sing does not guarantee the timeliness, security, and accuracy of the software and services provided by Hong Sing. The software is caused by force majeure factors and factors beyond Hong Sing\’s control (including hacking attacks, power outages, etc.). If the use or service is suspended or terminated, and you cause losses, you agree to waive all rights to pursue Hong Sing\'s liability.</li>

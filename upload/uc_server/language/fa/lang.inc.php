@@ -77,7 +77,7 @@ $lang = array(
 	'step_ext_info_desc'		=> 'Click here to Login',
 
 	'ext_info_succ'			=> 'Installed Successfully',
-	'install_locked'		=> 'Installation is Locked due to previous installation, if you want to install again, please delete <br /> '.str_replace(ROOT_PATH, '', $lockfile),
+	'install_locked'		=> 'Installation is Locked due to previous installation, if you want to install again, please delete<br />'.str_replace(ROOT_PATH, '', $lockfile),
 	'error_quit_msg'		=> 'You must solve the problem above',
 
 	'step_app_reg_title'		=> 'Setup Environment',
@@ -166,7 +166,7 @@ $lang = array(
 
 <p> this License applies and only applies to UCenter 1.x version, Hong Sing Imagination (Beijing) Technology Co., Ltd. has the power of final interpretation of the licensing agreement.</p>
 
-<h3> I. license agreement right </h3>
+<h3> I. license agreement right</h3>
 <ol>
 <li> you can fully comply with the end user license agreement, based on the software used in this non-commercial use, without having to pay for software copyright licensing fees.</li>
 <li> agreement you can within the constraints and limitations UCenter modify the source code (if provided) or interface styles to suit your site requirements.</li>
@@ -174,7 +174,7 @@ $lang = array(
 <li> a commercial license, you can use this software for commercial applications, while according to the type of license purchased to determine the period of technical support, technical support, technical support form and content, from the moment of purchase, within the period of technical support have a way to get through the specified designated areas of technical support services. Business authorized users have the power to reflect and comment, relevant comments will be a primary consideration, but not necessarily be accepted promise or guarantee.</li>
 </ol>
 
-<h3> II. agreement constraints and limitations </h3>
+<h3> II. agreement constraints and limitations</h3>
 <ol>
 <li> business license has not been before, may not use this software for commercial purposes (including but not limited to business sites, business operations, for commercial purpose or profit web site). Purchase of commercial license, please visit http://www.discuz.com reference instructions, call 8610-51657885 for more details.</li>
 <li> may not associated with the software or business license for rental, sale, mortgage or grant sub-licenses.</li>
@@ -183,7 +183,7 @@ $lang = array(
 <li> If you failed to comply with the terms of this Agreement, your authorization will be terminated by the license rights will be recovered, and bear the corresponding legal responsibility.</li>
 </ol>
 
-<h3> III. Limited Warranty and Disclaimer </h3>
+<h3> III. Limited Warranty and Disclaimer</h3>
 <ol>
 <li> the software and the accompanying documents as not to provide any express or implied, or guarantee in the form of compensation provided.</li>
 <li> user voluntary use of this software, you must understand the risks of using this software, technical services in the not to buy products, we do not promise to provide any form of technical support, use the warrant or assume any use of this software issues related to liability arising.</li>

@@ -80,7 +80,7 @@ $lang = array
 	'post_trade_quality_new'	=> 'جدید',//'全新',
 	'post_trade_quality_secondhand'	=> 'دست دوم',//'二手',
 
-	'trade_unstart'			=> '<font color="gray">برای پردازش صبر کنید  </font>',//'<font color="gray">未生效的交易</font>',
+	'trade_unstart'			=> '<font color="gray">برای پردازش صبر کنید</font>',//'<font color="gray">未生效的交易</font>',
 	'trade_waitbuyerpay'		=> 'برای  پرداخت صبر کنید',//'等待买家付已款',
 	'trade_waitsellerconfirm'	=> 'برای تایید سفارش فروشنده صبر کنید',//'交易已创建，等待卖家确认',
 	'trade_sysconfirmpay'		=> 'برای تایید پرداخت فروشنده صبر کنید',//'确认买家付款中，暂勿发货',

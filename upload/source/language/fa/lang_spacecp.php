@@ -55,7 +55,7 @@ $lang = array(
 	'photo_comment'		=> '<a href="\\2" target="_blank">\\1 نظر برای تصویر شما</a>',//'<a href="\\2" target="_blank">\\1 评论了你的照片</a>',
 	'blog_comment'		=> '<a href="\\2" target="_blank">\\1  نظر برای بلاگ شما</a>',//'<a href="\\2" target="_blank">\\1 评论了你的日志</a>',
 	'poll_comment'		=> '<a href="\\2" target="_blank">\\1  نظر برای نظر سنجی شما</a>',//'<a href="\\2" target="_blank">\\1 评论了你的投票</a>',
-	'share_comment'		=> '<a href="\\2" target="_blank">\\1  نظر برای به اشتراک گذاری شما </a>',//'<a href="\\2" target="_blank">\\1 评论了你的分享</a>',
+	'share_comment'		=> '<a href="\\2" target="_blank">\\1  نظر برای به اشتراک گذاری شما</a>',//'<a href="\\2" target="_blank">\\1 评论了你的分享</a>',
 	'friend_pm'		=> '<a href="\\2" target="_blank">\\1 پیام ارسال شده به شما</a>',//'<a href="\\2" target="_blank">\\1 给你发私信了</a>',
 	'poke_subject'		=> '<a href="\\2" target="_blank">\\1  پیام تبریک به شما</a>',//'<a href="\\2" target="_blank">\\1 向你打招呼</a>',
 	'mtag_reply'		=> '<a href="\\2" target="_blank">\\1 پاسخ به تاپیک گروهی شما</a>',//'<a href="\\2" target="_blank">\\1 回复了你的话题</a>',
@@ -164,7 +164,7 @@ $lang = array(
 
 
 
-	'apply_mtag_manager'	=> 'Want to be a moderator of the group <a href="\\1" target="_blank">\\2</a>. The reason:\\3 <br><a href="\\1" target="_blank">(click here to manage)</a>',//'想申请成为 <a href="\\1" target="_blank">\\2</a> 的群主，理由如下:\\3。<a href="\\1" target="_blank">(点击这里进入管理)</a>',
+	'apply_mtag_manager'	=> 'Want to be a moderator of the group <a href="\\1" target="_blank">\\2</a>. The reason:\\3<br><a href="\\1" target="_blank">(click here to manage)</a>',//'想申请成为 <a href="\\1" target="_blank">\\2</a> 的群主，理由如下:\\3。<a href="\\1" target="_blank">(点击这里进入管理)</a>',
 
 
 	'magicunit'		=> 'ones',//'个',

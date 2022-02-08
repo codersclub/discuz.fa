@@ -18,7 +18,7 @@ $lang = array
 	'jack_expiration'	=> 'Duration',//'时长',
 	'jack_expiration_comment'	=> 'Set the thread can be long from the top, default is 1 hour',//'设置主题可以被顶起多长时间，默认 1 小时',
 	'jack_forum'		=> 'Allow use of jack for the Forum',//'允许使用本道具的版块',
-	'jack_info'		=> '<p class="mtn xw0 mbn">Top the specified thread for <span class="xi1 xw1 xs2">{expiration}</span> hours.</p><p class="mtn xw0 mbn">You now have <span class="xi1 xw1 xs2">{magicnum}</span> jacks can be used.</p>',//'<p class="mtn xw0 mbn">顶起指定的主题<span class="xi1 xw1 xs2"> {expiration} </span> 小时。</p> <p class="mtn xw0 mbn">你现在有<span class="xi1 xw1 xs2"> {magicnum} </span>个千斤顶可以使用。</p>',
+	'jack_info'		=> '<p class="mtn xw0 mbn">Top the specified thread for <span class="xi1 xw1 xs2">{expiration}</span> hours.</p><p class="mtn xw0 mbn">You now have <span class="xi1 xw1 xs2">{magicnum}</span> jacks can be used.</p>',//'<p class="mtn xw0 mbn">顶起指定的主题<span class="xi1 xw1 xs2"> {expiration}</span> 小时。</p> <p class="mtn xw0 mbn">你现在有<span class="xi1 xw1 xs2"> {magicnum}</span>个千斤顶可以使用。</p>',
 	'jack_num'		=> 'Use this number:',//'本次使用数量:',
 	'jack_num_not_enough'	=> 'Insufficient number or do not fill in the number of props to use.',//'道具数量不足或没有填写使用数量。',
 	'jack_info_nonexistence'	=> 'Please specify the thread for top',//'请指定要顶起的主题',

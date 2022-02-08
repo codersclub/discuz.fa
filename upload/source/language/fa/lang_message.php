@@ -435,7 +435,7 @@ $lang = array (
 	'magics_drop_succeed'		=> 'You dropped {num} {magicname}',//'你丢弃了 {num} 张{magicname}',
 
 	'medal_apply_invalid'		=> 'Sorry, this medal can not be applied.',//'对不起此勋章不可申请，请返回。',
-	'medal_permforum_nopermission'	=> 'You do not meet the conditions to receive the Medal</p></div><div><p><b>The conditions required: </b><br />&nbsp;&nbsp;&nbsp;{formulamessage}<br /><b>Your information: </b>{usermsg} ',//'您没有达到领取该勋章的条件</p></div><div><p><b>所需条件: </b><br />&nbsp;&nbsp;&nbsp;{formulamessage}<br /><b>您的信息: </b>{usermsg} ',
+	'medal_permforum_nopermission'	=> 'You do not meet the conditions to receive the Medal</p></div><div><p><b>The conditions required:</b><br />&nbsp;&nbsp;&nbsp;{formulamessage}<br /><b>Your information:</b>{usermsg} ',//'您没有达到领取该勋章的条件</p></div><div><p><b>所需条件:</b><br />&nbsp;&nbsp;&nbsp;{formulamessage}<br /><b>您的信息:</b>{usermsg} ',
 	'medal_not_get_credit'		=> 'Sorry, your {credit} is not enough, unable to purchase this medal',//'抱歉，您的{credit}不足，无法购买此勋章',
 	'medal_get_succeed'		=> 'Congratulations, you get {medalname}',//'恭喜您获得{medalname}',
 	'medal_apply_succeed'		=> 'Apply medal {medalname} successfully, Please wait for administrator approval.',//'勋章{medalname}申请成功,请等待管理员审核。',
@@ -468,7 +468,7 @@ $lang = array (
 	'lostpasswd_email_not_exist'	=> 'متاسفانه این ایمیل در دیتابیس ما وجود ندارد و بنابراین نمیتوانید از آن برای بازیابی رمز عبور استفاده کنید.',//'抱歉，使用此 Email 的用户不存在，不能使用取回密码功能',
 	'lostpasswd_many_users_use_email'	=> 'متاسفانه بیش از یک کاربر از این ایمیل استفاده میکنند لطفا برای بازیابی رمز عبور نام کاربری مورد نظر را وارد کنید.',//'抱歉，存在多个使用此 Email 的用户，请填写您需要找回密码的用户名',
 	'getpasswd_account_invalid'	=> 'مدیر کل سایت و مدیر ارشد نمیتوانند از سیستم بازیابی رمز عبور استفاده کند.',//'管理员和超级版主不能使用取回密码功能，请返回。',
-	'getpasswd_send_succeed'	=> 'ایمیل برای شما ارسال شد, <br />لطفا حداکثر تا سه روز آینده رمز خود را تغییر دهید.',//'取回密码的方法已经通过 Email 发送到您的信箱中，<br />请在 3 天之内修改您的密码。',
+	'getpasswd_send_succeed'	=> 'ایمیل برای شما ارسال شد,<br />لطفا حداکثر تا سه روز آینده رمز خود را تغییر دهید.',//'取回密码的方法已经通过 Email 发送到您的信箱中，<br />请在 3 天之内修改您的密码。',
 	'getpasswd_has_send'	=> 'You have already sent the password retrieval email, if you have not received it, please wait {interval} seconds before retrying to send the password retrieval email',
 
 	'submit_verify_succeed'		=> 'Audit request to the successful, Will now return to the Control Panel home page.',//'审核请求提交成功，现在将返回控制面板首页。',
@@ -956,7 +956,7 @@ $lang = array (
 
 	'forum_permforum_nomedal'		=> 'You need to own the medal below to access this forum<br /><br />{forum_permforum_nomedal}',//'您需要拥有以下勋章才可访问这个版块<br /><br />{forum_permforum_nomedal}',
 	'forum_permforum_disallow'		=> 'این انجمن فقط برای کاربران ویژه است.',//'本版块只有特定用户可以访问。',
-	'forum_permforum_nopermission'		=> 'You need to reach the conditions below to access this forum</p></div><div><p><b>Condition: </b><br />&nbsp;&nbsp;&nbsp;{formulamessage}<br /><b>Your Information: </b>{usermsg} ',//'您需要满足以下条件才可访问这个版块</p></div><div><p><b>访问条件: </b><br />&nbsp;&nbsp;&nbsp;{formulamessage}<br /><b>您的信息: </b>{usermsg} ',
+	'forum_permforum_nopermission'		=> 'You need to reach the conditions below to access this forum</p></div><div><p><b>Condition:</b><br />&nbsp;&nbsp;&nbsp;{formulamessage}<br /><b>Your Information:</b>{usermsg} ',//'您需要满足以下条件才可访问这个版块</p></div><div><p><b>访问条件:</b><br />&nbsp;&nbsp;&nbsp;{formulamessage}<br /><b>您的信息:</b>{usermsg} ',
 	'forum_permforum_nopermission_custommsg'	=> '</p></div><div><p>{formulamessage} ',//'</p></div><div><p>{formulamessage} ',
 	'viewperm_none_nopermission'		=> 'متاسفانه شما اجازه مشاهده این انجمن را ندارید لطفا <a href="home.php?mod=spacecp&ac=credit&op=usergroup" target="_blank">click here to view details</a></p></div><div>',//'对不起，您无权访问该版块，详细请<a href="home.php?mod=spacecp&ac=credit&op=usergroup" target="_blank">点击这里查看</a></p></div><div>',
 	'viewperm_upgrade_nopermission'		=> 'متاسفانه برای مشاهده این انجمن باید حساب کاربری خود را ارتقا دهید لطفا <a href="home.php?mod=spacecp&ac=credit&op=usergroup" target="_blank">برای مشاهده جزئیات اینجا کلیک کنید.</a></p></div><div><p><b>Allowed user groups:</b><br />&nbsp;&nbsp;&nbsp; {permgroups}',//'对不起，您需要升级您所在的用户组后才能访问该版块，详细请<a href="home.php?mod=spacecp&ac=credit&op=usergroup" target="_blank">点击这里查看</a></p></div><div><p><b>有权访问的用户组为:</b><br />&nbsp;&nbsp;&nbsp; {permgroups}',
@@ -1053,7 +1053,7 @@ $lang = array (
 	'task_waiting_rt'		=> 'You do not start task, still leaving time {t}, please hurry!',//'您还没有开始执行任务，还有{t}时间，赶快哦！',
 	'task_waiting'			=> 'You do not start task, please hurry!',//'您还没有开始执行任务，赶快哦！',
 
-	'board_closed'			=> 'متاسفانه این سایت در حاضر بسته شده است لطفا با <a href="mailto:'.$_G['setting']['adminemail'].'"> مدیر سایت </a> برای جزئیات تماس بگیرید.',//'对不起，本站点暂时关闭，详情请 <a href="mailto:'.$_G['setting']['adminemail'].'">联系管理员</a>。',
+	'board_closed'			=> 'متاسفانه این سایت در حاضر بسته شده است لطفا با <a href="mailto:'.$_G['setting']['adminemail'].'"> مدیر سایت</a> برای جزئیات تماس بگیرید.',//'对不起，本站点暂时关闭，详情请 <a href="mailto:'.$_G['setting']['adminemail'].'">联系管理员</a>。',
 
 	'admin_cpanel_noaccess'		=> 'شما اجازه دسترسی به پنل مدیریت را ندارید لطفا دوباره وارد شوید و امتحان کنید.',//'您无权访问管理面板，请重新登录站点，然后重试',
 	'admin_cpanel_locked'		=> 'متاسفانه شما تعداد زیادی رمز ورود به پنل ادمین را اشتباه وارد کرده اید.پنل مدیریت قفل شد<br />بعد از 30 دقیقه اتوماتیک دوباره باز میشود.',//'对不起，由于您多次输入错误密码，所以管理面板暂时锁定，您现在无法进入管理面板。<br />30 分钟以后，锁定会自动解除',
