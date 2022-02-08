@@ -39,6 +39,7 @@ $lang = array(
 	'db_import_file_illegal'	=> 'The Data file is not exists: The host is not allowed to upload file or the file is too large.',
 	'db_import_multivol_redirect'	=> 'Volume Data #$volume was imported to the database successfully, the program will import other volumes automatically.',
 	'db_back_api_url_invalid'	=> 'Unable to connect this application backup port, please copy the file under Ucenter ROOT "api/dbbak.php" to this application "API" folder',
+	'db_back_dos8p3_failed'		=> 'The server has enabled DOS 8.3 file name support, in order to avoid the possible risk of database blasting, online database backup is not allowed',
 	'delete_dumpfile_success'	=> 'Bakup file Deleted successfully',
 	'delete_dumpfile_redirect'	=> 'The backup file # of $appname deleted successfully, the program will delete other application backup files automatically.',
 	'dbback_error_code_1'		=> 'Unable to create folder',
@@ -79,7 +80,7 @@ $lang = array(
 	'pm_send_floodctrl_error'	=> 'Sorry, you try to send messages too fast, please return',
 	
 	'file_check_failed'		=> 'Checked file does not exist, can not check',
-	'replacemykey_succeed'		=> 'The key is updated successfully, please update the cache and check the status of the application below',
-	'replacemykey_false'		=> 'The key update failed, please check whether the file is writable or the database is normal, if necessary, please reconfigure the UC_KEY of each application to ensure normal work',
+	'replacemykey_succeed'		=> 'The key update is successful, please update the cache and check the status of each subordinate application',
+	'replacemykey_false'		=> 'The key update failed, please check whether the file is writable or the database is normal, if necessary, please reconfigure the UC_KEY of each subordinate application to ensure normal work',
 	'replacemykey_no_confirm'	=> 'Please confirm the risk prompt before proceeding',
 );

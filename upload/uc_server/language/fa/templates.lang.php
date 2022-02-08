@@ -416,7 +416,7 @@ $lang = array(
 	'db_start_export_dumpfile'	=> 'Starting the data backup, please wait and not close you browser...',
 	'db_list_tips'			=> 'You can click "Detail" to restore the database',
 	'db_import_tips'		=> 'Select the applications that you want to restore, then click "submit" to start',
-	'db_security_tips'		=> 'For security reasons, we strongly recommend that you delete the database backup file on the recovery page after downloading the database backup file or set the database backup file to be inaccessible through URL to ensure website security.',
+	'db_security_tips'		=> 'For security reasons, we strongly recommend that you download or restore the database backup file after deleting the file or setting the file to be inaccessible via URL.',
 	'dumpfile_exists'		=> 'File exists',
 
 	'message_title'		=> 'Tips',
