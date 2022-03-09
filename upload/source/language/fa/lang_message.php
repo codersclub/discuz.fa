@@ -310,7 +310,8 @@ $lang = array (
 	'attachment_yetpay'		=> 'شما در حال حاضر این فایل پیوست را خریده اید و احتیاجی نیست دوباره بخرید،اکنون دانلود شروع میشود.',//'您已经购买过此附件，无需重复购买，现在将开始附件下载。',
 	'attachment_buyall'		=> 'شما با موفقیت کلیه فایلهای پیوست را خریداری کردید.',//'你已成功购买本贴所有附件。',
 	'attachment_buy'		=> 'خرید فایل پیوست موفقیت آمیز بود اکنون دانلود شروع میشود. "{filename}".',//'您已成功购买本附件，现在将开始下载“{filename}”。',
-	'attachment_mobile_buy'	=> 'Attachment purchased successfully',
+	'attachment_mobile_buy'		=> 'Attachment purchased successfully',
+	'attachment_locked'		=> 'Sorry, you cannot purchase the current attachment because other attachment purchases you initiated are in progress, please try again later',
 	'no_privilege_postimage'	=> 'متاسفانه شما در حال حاضر دسترسی آپلود تصویر را ندارید, <a href="home.php?mod=spacecp&ac=usergroup">برای دیدن دسترسی ها اینجا کلیک کنید</a>',//'抱歉，您目前没有权限上传图片，<a href="home.php?mod=spacecp&ac=usergroup">点击这里查看权限</a>',
 	'no_privilege_postattach'	=> 'متاسفانه شما در حال حاضر دسترسی آپلود فایل پیوست را ندارید, <a href="home.php?mod=spacecp&ac=usergroup">برای دیدن دسترسی ها اینجا کلیک کنید</a>',//'抱歉，您目前没有权限上传附件，<a href="home.php?mod=spacecp&ac=usergroup">点击这里查看权限</a>',
 	'thread_closed'			=> 'این موضوع بسته شده است و قابل نظر گذاری نیست.',//'该帖子已被关闭，不能评论！',
@@ -338,7 +339,7 @@ $lang = array (
 	'thread_rate_duplicate'		=> 'متاسفانه شما نمیتوانید دوبار به یک پست امتیاز دهید.',//'对不起，您不能对同一个帖子重复评分，请返回。',
 	'thread_rate_range_self_invalid'	=> 'Sorry, your {extcreditstitle} is not enough for rate',//'抱歉，您的{extcreditstitle}不足，无法评分',
 	'thread_rate_ctrl'		=> '24 hour rate limit exceeds.',//'24 小时评分数超过限制，请返回修改。',
-	'thread_rate_locked' => 'Sorry, the current rating process is in progress, please try again later',
+	'thread_rate_locked'		=> 'Sorry, the current rating process is in progress, please try again later',
 	'thread_rate_succeed'		=> 'از امتیاز دهی شما متشکریم اکنون به صفحه قبلی انتقال داده میشوید.',//'感谢您的参与，现在将转入评分前页面。',
 	'no_privilege_removerate'	=> 'متاسفانه شما دسترسی لازم برای حذف امتیازات را ندارید.',//'抱歉，您没有权限撤销评分',
 	'thread_rate_removesucceed'	=> 'حذف امتیاز موفقیت آمیز بود اکنون به صفحه قبلی انتقال داده میشوید.',//'评分已成功撤销，现在将转入评分前页面。',
@@ -469,7 +470,7 @@ $lang = array (
 	'lostpasswd_many_users_use_email'	=> 'متاسفانه بیش از یک کاربر از این ایمیل استفاده میکنند لطفا برای بازیابی رمز عبور نام کاربری مورد نظر را وارد کنید.',//'抱歉，存在多个使用此 Email 的用户，请填写您需要找回密码的用户名',
 	'getpasswd_account_invalid'	=> 'مدیر کل سایت و مدیر ارشد نمیتوانند از سیستم بازیابی رمز عبور استفاده کند.',//'管理员和超级版主不能使用取回密码功能，请返回。',
 	'getpasswd_send_succeed'	=> 'ایمیل برای شما ارسال شد,<br />لطفا حداکثر تا سه روز آینده رمز خود را تغییر دهید.',//'取回密码的方法已经通过 Email 发送到您的信箱中，<br />请在 3 天之内修改您的密码。',
-	'getpasswd_has_send'	=> 'You have already sent the password retrieval email, if you have not received it, please wait {interval} seconds before retrying to send the password retrieval email',
+	'getpasswd_has_send'		=> 'You have already sent the password retrieval email, if you have not received it, please wait {interval} seconds before retrying to send the password retrieval email',
 
 	'submit_verify_succeed'		=> 'Audit request to the successful, Will now return to the Control Panel home page.',//'审核请求提交成功，现在将返回控制面板首页。',
 
