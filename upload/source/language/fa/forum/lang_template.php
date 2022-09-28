@@ -162,6 +162,7 @@ $lang = array (
 	'collection_cloud_search'	=> 'The collection have no content, you can click <a href="forum.php?mod=collection&action=view&ctid={$ctid}&op=related" class="xi2">Search related topics</a> to find relevant content.',//'淘专辑还没有内容，您可以点击 <a href="forum.php?mod=collection&action=view&ctid={$ctid}&op=related" class="xi2">搜索相关主题</a> 找到相关内容。',
 	'collection_creator'		=> 'مجموعه ساخته شده توسط:',//'专辑创建人：',
 	'collection_delete_confirm'	=> 'شما مطمئن هستید که میخواهید این را <strong>حذف</strong> کنید ؟',//'确定要 <strong>删除</strong> 吗?',
+	'collection_delete_worker'	=> 'Are you sure you want to <strong>delete this co-worker</strong>?',//'确定要 <strong>删除这名共同维护者</strong> 吗?',
 	'collection_exit_team'		=> 'خروج از تیم',//'退出维护',
 	'collection_exit_team_confirm'	=> 'آیا شما مطئن هستید که میخواهید تیم مجموعه را ترک کنید ؟',//'真的要退出维护淘专辑?',
 	'collection_invite_team'	=> 'دعوت به تیم',//'邀请维护',
