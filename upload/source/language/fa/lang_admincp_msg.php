@@ -186,7 +186,7 @@ $lang = array (
 	'imagepreview_errorcode_-3'	=> 'System settings are incorrect, can not handle image',//'系统设置错误，无法处理图片',
 	'imagepreview_errorcode_-4'	=> 'Server is missing the required image processing functions, can not handle image',//'服务器缺少处理图片所需的功能，无法处理图片',
 	'watermarkpreview_error'	=> 'Watermark is not enabled, can not preview',//'水印功能未启用，无法预览',
-	'robots_output'			=> 'Please download this file and upload it to the root directory of your site <a href="http://'.$_SERVER['HTTP_HOST'].'/robots.txt" target="_blank">http://'.$_SERVER['HTTP_HOST'].'/robots.txt</a>',//'请下载此文件，并上传至您站点的根目录下 <a href="http://'.$_SERVER['HTTP_HOST'].'/robots.txt" target="_blank">http://'.$_SERVER['HTTP_HOST'].'/robots.txt</a> 位置处。',
+	'robots_output'			=> 'Please download this file <a href="{siteurl}robots.txt" target="_blank">{siteurl}robots.txt</a> and upload it to the root directory of your site. If this file is already existing, please merge it with the suggested content by yourself.',
 
 	'cloudaddons_validator_error'		=> 'Validation failed, You can not download this application',//'校验失败，您无法下载此应用',
 	'cloudaddons_download_write_error'	=> 'File can not be downloaded, make sure the "data/download/" directory is writable',//'文件无法下载，请确认 "data/download/" 目录是否可写',
